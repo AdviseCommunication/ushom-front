@@ -1,0 +1,31 @@
+@layer utilities {
+    @variants responsive {
+        .scroll-snap-x {
+            scroll-snap-type: x mandatory;
+        }
+
+        .scroll-snap-y {
+            scroll-snap-type: y mandatory;
+        }
+
+        .scroll-snap-x-proximity {
+            scroll-snap-type: x proximity;
+        }
+
+        .scroll-snap-y-proximity {
+            scroll-snap-type: y proximity;
+        }
+
+        .scroll-snap-start {
+            scroll-snap-align: start;
+        }
+
+        .scroll-snap-center {
+            scroll-snap-align: center;
+        }
+
+        .scroll-snap-end {
+            scroll-snap-align: end;
+        }
+    }
+}

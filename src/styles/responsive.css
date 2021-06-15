@@ -1,0 +1,29 @@
+@layer components {
+    html {
+        font-size: 80%;
+    }
+
+    @screen md {
+        html {
+            font-size: 87.5%;
+        }
+    }
+
+    @screen lg {
+        html {
+            font-size: 100%;
+        }
+    }
+
+    @screen wide-sm {
+        html {
+            font-size: 87.5%;
+        }
+    }
+
+    @screen wide-xs {
+        html {
+            font-size: 80%;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@layer utilities {
+    @variants responsive {
+        @variants hover, focus {
+            .underline-primary {
+                text-decoration: underline;
+                text-decoration-color: theme('colors.primary');
+            }
+
+            .underline-secondary {
+                text-decoration: underline;
+                text-decoration-color: theme('colors.secondary');
+            }
+
+            .underline-white {
+                text-decoration: underline;
+                text-decoration-color: theme('colors.white');
+            }
+
+            .underline-primary-2 {
+                @apply underline-primary;
+                text-decoration-thickness: theme('borderWidth.2');
+            }
+
+            .underline-secondary-2 {
+                @apply underline-secondary;
+                text-decoration-thickness: theme('borderWidth.2');
+            }
+
+            .underline-white-2 {
+                @apply underline-white;
+                text-decoration-thickness: theme('borderWidth.2');
+            }
+
+            .underline-primary-4 {
+                @apply underline-primary;
+                text-decoration-thickness: theme('borderWidth.4');
+            }
+
+            .underline-secondary-4 {
+                @apply underline-secondary;
+                text-decoration-thickness: theme('borderWidth.4');
+            }
+
+            .underline-white-4 {
+                @apply underline-white;
+                text-decoration-thickness: theme('borderWidth.4');
+            }
+
+            .underline-offset-1 {
+                text-underline-offset: theme('spacing.1');
+            }
+
+            .underline-offset-2 {
+                text-underline-offset: theme('spacing.2');
+            }
+
+            .underline-offset-3 {
+                text-underline-offset: theme('spacing.3');
+            }
+
+            .underline-offset-4 {
+                text-underline-offset: theme('spacing.4');
+            }
+        }
+    }
+}

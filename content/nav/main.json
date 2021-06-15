@@ -1,0 +1,15 @@
+[
+  {
+    "label": "Home",
+    "url": "/",
+    "blank": false,
+    "icon": ""
+  },
+  {
+    "label": "News",
+    "url": "/news",
+    "blank": false,
+    "icon": ""
+  }
+]
+

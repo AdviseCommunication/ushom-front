@@ -1,0 +1,15 @@
+[
+  {
+    "label": "Facebook",
+    "url": "https://www.facebook.com/",
+    "icon": "/static/images/facebook.svg",
+    "target_blank": true
+  },
+  {
+    "label": "Twitter",
+    "url": "https://twitter.com/",
+    "icon": "/static/images/twitter.svg",
+    "target_blank": true
+  }
+]
+

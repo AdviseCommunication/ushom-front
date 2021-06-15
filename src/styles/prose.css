@@ -1,0 +1,41 @@
+@layer components {
+    .prose {
+
+        & > p {
+            @apply leading-relaxed;
+        }
+
+        & > * + * {
+            @apply mt-4;
+        }
+
+        & > * + h2 {
+            @apply mt-16;
+        }
+
+        & > * + h3 {
+            @apply mt-12;
+        }
+
+        & h2 {
+            @apply text-4xl leading-tighter font-bold;
+        }
+
+        & h3 {
+            @apply text-2xl leading-tighter font-bold;
+        }
+
+        & a:not([class]) {
+            @apply text-primary font-bold;
+
+            &:hover {
+                @apply underline;
+            }
+        }
+
+        & ul {
+            list-style-type: disc;
+            @apply pl-6;
+        }
+    }
+}
