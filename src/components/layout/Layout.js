@@ -13,7 +13,7 @@ const Layout = (props) => {
         <CookieConsentProvider>
             <Head {...seo} />
             <Loader />
-            <div className="relative text-black bg-white font-normal antialiased scroll-smooth">
+            <div className={"relative font-sans text-black bg-white font-light antialiased scroll-smooth"}>
                 <Header />
                 <main className={["leading-relaxed"].join(' ')}>
                     {props.children}

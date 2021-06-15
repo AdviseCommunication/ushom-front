@@ -1,8 +1,11 @@
+import data from "../../../content/main.json"
+
 import Container from "../ui/Container"
 import PrimaryNav from "./nav/PrimaryNav"
 import Link from "next/link"
-import Logo from '../../images/logo.svg'
 import {useEffect, useState} from "react"
+
+import Logo from '../../images/logo.svg'
 
 const Header = () => {
     const [sticked, setSticked] = useState(false)
@@ -17,22 +20,33 @@ const Header = () => {
     })
 
     return (
-        <header className={[
-                    "sticky top-0 z-10 transition-all duration-150 ease-in",
-                    (sticked > 0 ? "bg-white shadow" : null),
-                ].join(' ')}
-                data-sticked={sticked > 0 ? true : null}
+        <header
+            className={[
+                "sticky top-0 z-10 transition-all duration-150 ease-in",
+                (sticked > 0 ? "bg-white shadow" : null),
+            ].join(' ')}
         >
-            <Container css={[
-                "flex items-center justify-between transition-all duration-150 ease-in",
-                (sticked > 0 ? "py-4" : "py-8")
-            ].join(' ')}>
+            <div className={"h-10 w-full bg-primary"} />
+            <Container
+                css={[
+                    "flex items-center justify-between transition-all duration-150 ease-in",
+                    (sticked > 0 ? "py-4" : "py-6")
+                ].join(' ')}
+            >
                 <Link href={"/"}>
-                    <a className={"block relative z-10"} title={""}>
+                    <a className={"flex items-center space-x-2 leading-none relative z-10"}>
                         <Logo className={[
                             "w-auto hover:opacity-75",
-                            (sticked > 0 ? "h-12" : "h-20"),
+                            (sticked > 0 ? "h-12" : "h-14"),
                         ].join(' ')} />
+                        <span className={"flex flex-col uppercase w-32"}>
+                            <span className={"font-normal text-2xl tracking-tighter leading-none -ml-px"}>{data.app.siteName}</span>
+                            {data.app?.description &&
+                                <span className={"text-xs leading-none pl-px"}>
+                                    {data.app.description}
+                                </span>
+                            }
+                        </span>
                     </a>
                 </Link>
                 <PrimaryNav sticked={sticked > 0} />

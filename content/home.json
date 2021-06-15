@@ -1,0 +1,10 @@
+{
+    "banner": {
+        "title": "Union Sociale pour l'Habitat Outre-Mer",
+        "tags": "Innover, Valoriser, Soutenir, Partager",
+        "img": {
+            "src": "/static/images/banner.jpg",
+            "alt": ""
+        }
+    }
+}

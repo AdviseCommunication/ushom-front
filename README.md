@@ -28,6 +28,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on Netlify
 
-Coming soon.
-
-(v0.2.0)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a57795ac-d29b-4de4-89ff-40bbb319c15e/deploy-status)](https://app.netlify.com/sites/ushom/deploys)

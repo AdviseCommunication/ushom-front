@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import Link from "next/link"
 
-const baseClasses = "group inline-flex items-center space-x-2 uppercase py-2 px-4 transition-all duration-300 ease-in hover:space-x-3 focus:ring-2"
+const baseClasses = "group inline-flex items-center space-x-2 uppercase py-1 px-4 transition-all duration-300 ease-in hover:space-x-3 focus:ring-2"
 
 const sizeMap = [
     'text-sm font-bold leading-none',
@@ -10,11 +10,10 @@ const sizeMap = [
 ]
 
 const colorMap = {
-    primary: 'text-white bg-primary hover:bg-secondary focus:ring-secondary',
-    secondary: 'text-white bg-secondary hover:text-primary focus:ring-primary',
-    white: 'text-primary bg-white hover:bg-secondary focus:ring-secondary',
-    gray: 'text-primary bg-gray hover:bg-secondary focus:ring-secondary',
-    wide: 'text-primary bg-white hover:text-secondary focus:ring-secondary',
+    primary: 'text-white bg-primary hover:bg-black focus:ring-black',
+    white: 'text-primary bg-white hover:text-white hover:bg-primary focus:ring-primary',
+    gray: 'text-primary bg-gray hover:bg-primary hover:text-white focus:ring-primary',
+    wide: 'text-primary bg-transparent border-2 hover:bg-primary hover:text-white focus:ring-black',
 }
 
 const Button = (props) => {

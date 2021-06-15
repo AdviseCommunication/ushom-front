@@ -2,18 +2,14 @@ The humans.txt file explains the team and technology behind this site.
 
 #TEAM ----------------------------------------
 
-This website was hand-crafted by Advise Communication, for Agence Tactile.
+This website was hand-crafted by Advise Communication.
 
-xxx xxx
-UI design, Product design
-https://www.xxx.com/
-
-xxx xxx
-Content, Copywriting, Information architecture
-https://www.xxx.com/
+Nicolas Devillers
+Content, Copywriting
+https://www.advise.fr/
 
 Nazmi Aydoğdu
-Web development, Frontend development
+Web development, Frontend development, Information architecture
 https://www.advise.fr/
 
 #TECHNOLOGY ----------------------------------
@@ -27,8 +23,8 @@ https://nextjs.org/
 Tailwind CSS
 https://tailwindcss.com/
 
-React Spring
-https://www.react-spring.io/
+Framer Motion
+https://www.framer.com/motion/
 
 Forestry
 https://forestry.io/

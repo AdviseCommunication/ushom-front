@@ -6,9 +6,9 @@
                 text-decoration-color: theme('colors.primary');
             }
 
-            .underline-secondary {
+            .underline-black {
                 text-decoration: underline;
-                text-decoration-color: theme('colors.secondary');
+                text-decoration-color: theme('colors.black');
             }
 
             .underline-white {
@@ -21,8 +21,8 @@
                 text-decoration-thickness: theme('borderWidth.2');
             }
 
-            .underline-secondary-2 {
-                @apply underline-secondary;
+            .underline-black-2 {
+                @apply underline-black;
                 text-decoration-thickness: theme('borderWidth.2');
             }
 
@@ -36,8 +36,8 @@
                 text-decoration-thickness: theme('borderWidth.4');
             }
 
-            .underline-secondary-4 {
-                @apply underline-secondary;
+            .underline-black-4 {
+                @apply underline-black;
                 text-decoration-thickness: theme('borderWidth.4');
             }
 

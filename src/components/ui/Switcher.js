@@ -5,7 +5,7 @@ const Switcher = (props) => {
     return (
         <button
             className={[
-                "flex p-1 rounded-full w-10 h-6 focus:outline-none focus:ring-2 focus:ring-secondary",
+                "flex p-1 rounded-full w-10 h-6 focus:outline-none focus:ring-2 focus:ring-black",
                 props.value ? "bg-primary justify-end" : "bg-gray"
             ].join(' ')}
             type={"button"}

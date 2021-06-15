@@ -17,7 +17,7 @@ const ScrollToTop = (props) => {
         <ArrowTop
             onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}
             className={[
-                "transform transition-all duration-150 ease-in cursor-pointer w-12 h-12 p-1 border-2 text-primary hover:bg-secondary",
+                "transform transition-all duration-150 ease-in cursor-pointer w-12 h-12 p-1 border-2 text-primary hover:text-black",
                 (props.fixed ? "bottom-4 fixed" : "top-0 absolute"),
                 (isTop < 200 ? "opacity-0 translate-y-4" : null)
             ].join(' ')}

@@ -24,12 +24,12 @@ module.exports = {
       current: 'currentColor',
       white: '#FFFFFF',
       gray: '#e5e7f3',
-      primary: '#001489',
-      secondary: '#89E35B',
+      primary: '#50BFCA',
+      black: '#000000',
     },
     fontFamily: {
       sans: [
-        'Gilroy',
+        'Poppins',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',

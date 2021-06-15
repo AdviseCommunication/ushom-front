@@ -1,21 +1,21 @@
 {
     "app": {
-        "description": "A simple Next.js starter",
-        "siteName": "Next JS",
+        "description": "Union Sociale pour l'Habitat Outre-Mer",
+        "siteName": "USHOM",
         "gaId": "X-XXX",
         "banner": "/static/images/banner.jpg"
     },
     "consent": {
-        "accept": "Accept all",
-        "content": "By continuing your navigation, you accept the deposit of third-party cookies intended to offer you sharing buttons, platform content feedback social.",
-        "decline": "Decline all",
-        "manage": "Manage",
-        "more": "Read more",
+        "accept": "Tout accepter",
+        "content": "En poursuivant votre navigation, vous acceptez le dépôt de cookies tiers destinés à vous proposer des boutons de partage, des remontées de contenus de plateformes sociales.",
+        "decline": "Tout refuser",
+        "manage": "Gérer",
+        "more": "En savoir plus",
         "customize": {
-            "menuTitle": "Cookie settings",
-            "title": "Manage your settings",
-            "content": "Manage your cookie deposit settings.",
-            "validate": "Validate"
+            "menuTitle": "Cookies",
+            "title": "Gestion de vos préférences sur les cookies",
+            "content": "Vous pouvez gérer individuellement vos préférences sur les cookies selon le service.",
+            "validate": "Valider"
         },
         "services": [
             {
@@ -24,23 +24,23 @@
             }
         ]
     },
-    "followTitle": "Follow us",
+    "followTitle": "Nous suivre",
     "fourZeroFour": {
         "title": "404",
-        "content": "This page could not be found.",
-        "cta": "Back to the home page",
-        "metaTitle": "404 / Page not found"
+        "content": "Cette page n'existe pas.",
+        "cta": "Retour vers l'accueil",
+        "metaTitle": "404 / Page introuvable"
     },
     "menu": {
-        "closeLabel": "Close menu",
-        "openLabel": "Open menu"
+        "closeLabel": "Fermer le menu",
+        "openLabel": "Ouvrir le menu"
     },
     "post": {
-        "nextPost": "Next post",
-        "previousPost": "Previous post"
+        "nextPost": "Article suivant",
+        "previousPost": "Article précédent"
     },
     "switcher": {
-        "label": "Validate"
+        "label": "Valider"
     },
-    "viewMore": "Read more"
+    "viewMore": "Lire plus"
 }

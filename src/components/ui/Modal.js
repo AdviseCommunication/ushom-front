@@ -4,8 +4,7 @@ import PropTypes from "prop-types"
 import Close from "../../images/close.svg"
 
 const colorMap = {
-    primary: 'text-primary hover:text-secondary',
-    secondary: 'text-secondary hover:text-primary',
+    primary: 'text-primary hover:text-black',
     white: 'text-white',
 }
 
@@ -16,7 +15,7 @@ export const CloseModal = (props) => {
         <button
             className={[
                 "absolute z-10 p-1 transform transition right-6 top-6",
-                "hover:scale-95 focus:ring-2 focus:ring-secondary",
+                "hover:scale-95 focus:ring-2 focus:ring-black",
             ].join(' ')}
             onClick={props.clickHandler}
             type={"button"}

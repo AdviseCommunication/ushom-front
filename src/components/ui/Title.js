@@ -6,7 +6,7 @@ const Title = ({ ...props }) => {
 
     const sizeMap = [
         'text-8xl leading-none tracking-tighter',
-        'text-5xl leading-tighter font-bold tracking-tight',
+        'text-5xl leading-tighter font-bold',
         'text-4xl leading-tighter font-bold',
         'text-3xl leading-tight font-bold',
         'text-xl'
@@ -16,7 +16,6 @@ const Title = ({ ...props }) => {
     const colorMap = {
         white: 'text-white',
         primary: 'text-primary',
-        secondary: 'text-secondary',
         gray: 'text-gray',
         black: 'text-black',
     }

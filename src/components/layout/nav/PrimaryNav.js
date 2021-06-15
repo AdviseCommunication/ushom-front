@@ -5,24 +5,25 @@ import {useState} from "react"
 import NavItem from "./NavItem"
 import BarIcon from '../../../images/menu.svg'
 import CloseIcon from '../../../images/close.svg'
+import {LinkButton} from "../../ui/Button";
 
 const PrimaryNav = (props) => {
     const [navbarOpen, setNavbarOpen] = useState(false)
     const MenuIcon = navbarOpen ? CloseIcon : BarIcon
 
     return (
-        <nav className={["text-right text-md"].join(' ')}>
-            <button className={"block ml-auto group lg:hidden relative z-50 focus:outline-none"}
+        <nav className={["flex items-center text-center text-md"].join(' ')}>
+            <button className={"block ml-auto mr-6 group xl:hidden relative z-50 focus:outline-none"}
                     onClick={() => setNavbarOpen(!navbarOpen)}
             >
-                <MenuIcon className={"w-8 h-8 text-primary group-hover:text-secondary"} />
+                <MenuIcon className={"w-8 h-8 text-black group-hover:text-primary"} />
                 <span className={"sr-only"}>
                     {navbarOpen ? text.menu?.closeLabel : text.menu?.openLabel}
                 </span>
             </button>
             <ul className={[
-                    "space-y-10 lg:flex flex-col lg:space-y-0 lg:flex-row lg:space-x-4 xl:space-x-6",
-                    (navbarOpen ? "fixed sm:min-w-120 pt-32 top-0 right-0 pl-24 h-screen pr-8 flex flex-col justify-center overflow-y-auto bg-white shadow-xl" : "hidden"),
+                    "space-y-10 flex-col xl:flex xl:space-y-0 xl:flex-row xl:space-x-4 xl:mr-4 2xl:mr-8",
+                    (navbarOpen ? "fixed w-full inset-0 h-screen py-32 px-8 flex flex-col justify-center overflow-y-auto bg-white shadow-xl" : "hidden"),
                 ].join(' ')}
             >
                 {navData.map((el,i) => (
@@ -30,17 +31,19 @@ const PrimaryNav = (props) => {
                              href={el.url}
                              target={el.blank}
                              css={[
-                                 "block font-medium uppercase text-primary",
-                                 "underline-offset-1 hover:underline-offset-2 hover:underline-secondary-2",
-                                 "transition-all duration-150 ease-in hover:text-secondary",
+                                 "block font-medium text-black tracking-tight",
+                                 "transition-all duration-150 ease-in hover:text-primary",
                                  (navbarOpen ? "text-4xl" : null),
                              ].join(' ')}
                     >
-                        {/* TODO : If icon display only icon and make label sr-only */}
                         {el.label}
                     </NavItem>
                 ))}
             </ul>
+            <LinkButton href={"/"} theme={"wide"}>
+                <svg className={"w-6 -my-1 -mx-2 fill-current 2xl:hidden"} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.732-13.678-5.082 0-8.465 4.949-3.732 13.678 1.598 2.945-1.725 3.641-5.09 4.418-2.979.688-3.178 2.143-3.178 4.663l.005 1.241h1.995c0-3.134-.125-3.55 1.838-4.003 2.851-.657 5.543-1.278 6.525-3.456.359-.795.592-2.103-.338-3.815-2.058-3.799-2.578-7.089-1.423-9.026 1.354-2.275 5.426-2.264 6.767-.034 1.15 1.911.639 5.219-1.403 9.076-.91 1.719-.671 3.023-.31 3.814.99 2.167 3.707 2.794 6.584 3.458 1.879.436 1.76.882 1.76 3.986h1.995l.005-1.241c0-2.52-.199-3.975-3.178-4.663z"/></svg>
+                <span className={"sr-only 2xl:not-sr-only"}>Espace Membres</span>
+            </LinkButton>
         </nav>
     )
 }

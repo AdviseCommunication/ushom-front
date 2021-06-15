@@ -4,8 +4,8 @@ import NavItem from "../layout/nav/NavItem"
 import PropTypes from "prop-types"
 
 const colorMap = {
-    primary: 'bg-white hover:bg-secondary',
-    secondary: 'bg-primary hover:bg-secondary',
+    primary: 'bg-primary hover:bg-black',
+    white: 'bg-white hover:bg-black',
 }
 
 const FollowUs = (props) => {
@@ -29,7 +29,7 @@ const FollowUs = (props) => {
                             {el.icon &&
                                 <picture className={[
                                         "flex items-center p-1 justify-center",
-                                        (props.theme === 'secondary' ? 'filter-white' : 'filter-primary'),
+                                        (props.theme === 'primary' ? 'filter-white' : 'filter-primary'),
                                         props.iconSize
                                     ].join(' ')}
                                 >
