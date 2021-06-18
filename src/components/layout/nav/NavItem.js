@@ -24,7 +24,7 @@ NavItem.defaultProps = {
     css: ``,
     href: ``,
     parentCss: ``,
-    blank: ``,
+    blank: false,
 }
 
 NavItem.propTypes = {
