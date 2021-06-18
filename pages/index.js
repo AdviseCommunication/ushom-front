@@ -4,15 +4,33 @@ import Layout from "../src/components/layout/Layout"
 import Container from "../src/components/ui/Container"
 import {getLatestPosts} from "../src/api/post"
 import Banner from "../src/components/ui/Banner"
+import WidgetText from "../src/components/ui/widgets/WidgetText"
+import LandlordsMap from "../src/components/widgets/LandlordsMap"
+import Features from "../src/components/widgets/Features"
+import FadeIn from "../src/components/ui/animations/FadeIn"
+import Territories from "../src/components/widgets/Territories"
+
+import WorldMap from "../src/images/world-map.svg"
 
 const Home = ({posts}) => {
 
     return (
         <Layout>
             <Banner {...data.banner} />
-            <Container css={"flex flex-col space-y-8 md:space-y-0 md:flex-row md:items-center md:justify-between"}>
-
-            </Container>
+            <WidgetText {...data.about} bg={"light"}>
+                <FadeIn css={"w-full md:w-1/2 flex-shrink-0"} delay={0.5}>
+                    <LandlordsMap />
+                </FadeIn>
+            </WidgetText>
+            <Features />
+            <figure className={"bg-primary"}>
+                <Container reduce noPadding>
+                    <FadeIn>
+                        <WorldMap />
+                    </FadeIn>
+                </Container>
+            </figure>
+            <Territories {...data.territories} />
         </Layout>
     )
 }

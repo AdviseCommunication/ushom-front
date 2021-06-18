@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Contact",
+    "url": "/",
+    "blank": false
+  },
+  {
+    "label": "Mentions légales",
+    "url": "/mentions-legales",
+    "blank": false
+  },
+  {
+    "label": "Politique de confidentialité",
+    "url": "/politique-confidentialite",
+    "blank": false
+  }
+]
+

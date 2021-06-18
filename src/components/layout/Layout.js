@@ -13,9 +13,9 @@ const Layout = (props) => {
         <CookieConsentProvider>
             <Head {...seo} />
             <Loader />
-            <div className={"relative font-sans text-black bg-white font-light antialiased scroll-smooth"}>
+            <div className={"relative font-sans text-black bg-white font-light antialiased scroll-smooth min-h-screen flex flex-col"}>
                 <Header />
-                <main className={["leading-relaxed"].join(' ')}>
+                <main className={["leading-relaxed flex-grow"].join(' ')}>
                     {props.children}
                 </main>
                 <Footer />

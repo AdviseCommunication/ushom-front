@@ -7,7 +7,7 @@ const Container = (props) => (
             "w-full mx-auto",
             props.css,
             !props.noPadding ? "px-8" : null,
-            props.reduce ? "max-w-screen-xl" : "max-w-screen-2xl",
+            props.reduce ? "max-w-screen-lg" : "max-w-screen-2xl",
         ].join(' ')}
         style={props.style}
     >

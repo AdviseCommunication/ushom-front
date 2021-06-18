@@ -24,7 +24,7 @@ const Card = (props) => {
                 </div>
             </div>
             <div className={["-mb-16 transform translate-y-2", props.buttonCss].join(' ')}>
-                <LinkButton theme={buttonColor} size={2} href={props.data.url}>
+                <LinkButton theme={buttonColor} size={2} href={props.data.href}>
                     {props.data.label}
                 </LinkButton>
             </div>

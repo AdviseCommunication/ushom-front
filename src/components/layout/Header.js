@@ -22,23 +22,20 @@ const Header = () => {
     return (
         <header
             className={[
-                "sticky top-0 z-10 transition-all duration-150 ease-in",
-                (sticked > 0 ? "bg-white shadow" : null),
+                "sticky -top-9 z-10 bg-white transition-all duration-150 ease-in",
+                (sticked > 0 ? "shadow-large" : null),
             ].join(' ')}
         >
             <div className={"h-10 w-full bg-primary"} />
             <Container
                 css={[
-                    "flex items-center justify-between transition-all duration-150 ease-in",
-                    (sticked > 0 ? "py-4" : "py-6")
+                    "flex items-center justify-between transition-all duration-75 ease-in",
+                    (sticked > 0 ? "py-2" : "py-6")
                 ].join(' ')}
             >
                 <Link href={"/"}>
                     <a className={"flex items-center space-x-2 leading-none relative z-10"}>
-                        <Logo className={[
-                            "w-auto hover:opacity-75",
-                            (sticked > 0 ? "h-12" : "h-14"),
-                        ].join(' ')} />
+                        <Logo className={"w-auto h-12 hover:opacity-75"} />
                         <span className={"flex flex-col uppercase w-32"}>
                             <span className={"font-normal text-2xl tracking-tighter leading-none -ml-px"}>{data.app.siteName}</span>
                             {data.app?.description &&

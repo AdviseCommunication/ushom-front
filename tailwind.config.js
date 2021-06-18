@@ -23,7 +23,8 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       white: '#FFFFFF',
-      gray: '#e5e7f3',
+      gray: '#f2f2f2',
+      light: '#f7f7f7',
       primary: '#50BFCA',
       black: '#000000',
     },
@@ -55,6 +56,9 @@ module.exports = {
     extend: {
       spacing: {
         128: '32rem',
+      },
+      boxShadow: {
+        'large': '0 25px 25px -20px rgba(0, 0, 0, 0.1), 0 1px 25px 0 rgba(0, 0, 0, 0.05)',
       },
       fontSize: {
         '10xl': ['10rem', { lineHeight: '1' }],

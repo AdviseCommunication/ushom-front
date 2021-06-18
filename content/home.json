@@ -1,10 +1,42 @@
 {
     "banner": {
         "title": "Union Sociale pour l'Habitat Outre-Mer",
-        "tags": "Innover, Valoriser, Soutenir, Partager",
         "img": {
             "src": "/static/images/banner.jpg",
             "alt": ""
         }
+    },
+    "about": {
+        "title": "L'Union Sociale pour l'Habitat Outre-mer",
+        "content": "<p><strong>Est une association...</strong></p><p>Portée par la confiance...</p>",
+        "cta": {
+            "url": "/qui-sommes-nous",
+            "children": "En savoir plus",
+            "blank": false,
+            "theme": "wide"
+        }
+    },
+    "features": {
+        "title": "En 2020, le logement social en Outre-mer c'est :",
+        "items": [
+            {
+                "content": "22 organismes Hlm répartis sur un parc global de plus de 160 300 de logements sociaux.",
+                "icon": "/static/images/086-home.svg",
+                "source": ""
+            },
+            {
+                "content": "80 % d’ultramarin éligible à un logement social pour 15 % de bénéficiaires.",
+                "icon": "/static/images/020-users.svg",
+                "source": "(source: Rapport de la cour des comptes, sept. 2020)"
+            },
+            {
+                "content": "20 000 emplois qui bénéficient de l’économie du logement social en Outre-mer.",
+                "icon": "/static/images/016-presentation.svg",
+                "source": ""
+            }
+        ]
+    },
+    "territories": {
+        "title": "Et aussi des rencontres régulières au plus près des territoires"
     }
 }

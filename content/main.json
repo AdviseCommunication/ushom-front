@@ -1,4 +1,8 @@
 {
+    "address": {
+        "street": "11 rue de Cronstadt",
+        "city": "75015, Paris"
+    },
     "app": {
         "description": "Union Sociale pour l'Habitat Outre-Mer",
         "siteName": "USHOM",
@@ -12,7 +16,7 @@
         "manage": "Gérer",
         "more": "En savoir plus",
         "customize": {
-            "menuTitle": "Cookies",
+            "menuTitle": "Gestion des cookies",
             "title": "Gestion de vos préférences sur les cookies",
             "content": "Vous pouvez gérer individuellement vos préférences sur les cookies selon le service.",
             "validate": "Valider"
