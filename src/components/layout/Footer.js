@@ -2,6 +2,7 @@ import data from "../../../content/main.json"
 
 import Container from "../ui/Container"
 import FooterNav from "./nav/FooterNav"
+import Link from "next/link"
 
 const Footer = (props) => (
     <footer className={["relative py-8 bg-primary space-y-8 text-white", props.css].join(' ')}>
@@ -15,8 +16,12 @@ const Footer = (props) => (
             </div>
             <FooterNav />
         </Container>
-        <Container css={"text-center text-sm md:text-xs font-medium"}>
-            {`© ${new Date().getFullYear()} ${data.app.description}`}
+        <Container css={"text-center text-sm md:text-xs"}>
+            {`© ${new Date().getFullYear()}`}
+            {" "}
+            <Link href={"/"}>
+                <a className={"font-medium hover:underline"}>{data.app.description}</a>
+            </Link>
         </Container>
     </footer>
 )
