@@ -9,6 +9,8 @@ sections:
   label: Pages
   create: documents
   match: "**/*"
+  templates:
+  - page
 - type: heading
   label: Divers
 - type: document
