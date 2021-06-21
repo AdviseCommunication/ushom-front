@@ -3,6 +3,9 @@ label: Page
 hide_body: false
 display_field: title
 fields:
+- type: text
+  name: title
+  label: Titre
 - type: datetime
   name: date
   label: Date de publication
@@ -11,9 +14,6 @@ fields:
     required: true
     date_format: DD/MM/YYYY
     export_format: yyyy-MM-dd'T'HH:mm
-- type: text
-  name: title
-  label: Titre
 - type: text
   name: description
   label: Extrait
