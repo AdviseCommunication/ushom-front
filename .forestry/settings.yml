@@ -14,11 +14,9 @@ sections:
 - type: document
   path: content/home
   label: Accueil
-  match: "**/*"
 - type: document
   path: content/main
   label: Global
-  match: "**/*"
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
