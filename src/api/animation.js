@@ -16,7 +16,7 @@ export const staggerChildrenVariants = {
 export const staggerBigChildrenVariants = {
     visible: {
         transition: {
-            staggerChildren: 0.5,
+            staggerChildren: 0.25,
             delayChildren: 1
         }
     },

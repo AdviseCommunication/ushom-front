@@ -57,6 +57,10 @@ module.exports = {
       spacing: {
         128: '32rem',
       },
+      borderWidth: {
+        3: '3px',
+        6: '6px',
+      },
       boxShadow: {
         'large': '0 25px 25px -20px rgba(0, 0, 0, 0.1), 0 1px 25px 0 rgba(0, 0, 0, 0.05)',
       },

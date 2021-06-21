@@ -10,7 +10,7 @@
         "title": "L'Union Sociale pour l'Habitat Outre-mer",
         "content": "<p><strong>Est une association...</strong></p><p>Portée par la confiance...</p>",
         "cta": {
-            "url": "/qui-sommes-nous",
+            "href": "/qui-sommes-nous",
             "children": "En savoir plus",
             "blank": false,
             "theme": "wide"

@@ -1,7 +1,6 @@
 import data from "../content/home.json"
 
 import Layout from "../src/components/layout/Layout"
-import Container from "../src/components/ui/Container"
 import {getLatestPosts} from "../src/api/post"
 import Banner from "../src/components/ui/Banner"
 import WidgetText from "../src/components/ui/widgets/WidgetText"
@@ -9,8 +8,9 @@ import LandlordsMap from "../src/components/widgets/LandlordsMap"
 import Features from "../src/components/widgets/Features"
 import FadeIn from "../src/components/ui/animations/FadeIn"
 import Territories from "../src/components/widgets/Territories"
-
-import WorldMap from "../src/images/world-map.svg"
+import WorldMap from "../src/components/widgets/WorldMap"
+import ActivityReport from "../src/components/widgets/ActivityReport"
+import Act from "../src/components/widgets/Act"
 
 const Home = ({posts}) => {
 
@@ -23,13 +23,9 @@ const Home = ({posts}) => {
                 </FadeIn>
             </WidgetText>
             <Features />
-            <figure className={"bg-primary"}>
-                <Container reduce noPadding>
-                    <FadeIn>
-                        <WorldMap />
-                    </FadeIn>
-                </Container>
-            </figure>
+            <WorldMap />
+            <ActivityReport />
+            <Act />
             <Territories {...data.territories} />
         </Layout>
     )

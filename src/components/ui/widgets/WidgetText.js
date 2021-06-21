@@ -1,6 +1,6 @@
 import Title from "../Title"
 import Parser from "html-react-parser"
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 import {computeBgColor} from "../../../utils/theme"
 import Container from "../Container"
 import {LinkButton} from "../Button"
@@ -20,14 +20,14 @@ const WidgetText = props => {
                         </SlideDown>
                     }
                     {props.content &&
-                        <FadeIn delay={1.5}>
+                        <FadeIn delay={1.25}>
                             <div className={"prose"}>
                                 {Parser(props.content)}
                             </div>
                         </FadeIn>
                     }
                     {props.cta &&
-                        <SlideDown delay={2}>
+                        <SlideDown delay={1.5}>
                             <LinkButton {...props.cta} />
                         </SlideDown>
                     }
