@@ -15,7 +15,7 @@ fields:
     date_format: DD/MM/YYYY
     export_format: yyyy-MM-dd'T'HH:mm
     time_format: HH:mm
-    display_utc: true
+    display_utc: false
 - type: text
   name: description
   label: Extrait
