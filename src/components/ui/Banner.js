@@ -28,7 +28,12 @@ const Banner = props => {
             }
             <Container css={"relative"}>
                 <SlideRight from={80} delay={0.5}>
-                    <Title level={1} size={1} css={"py-48 md:py-64 max-w-xl"} color={"white"}>
+                    <Title
+                        level={1}
+                        size={1}
+                        css={[(props.img?.src ? "py-48 md:py-64 max-w-xl" : "py-24 max-w-2xl")].join(' ')}
+                        color={"white"}
+                    >
                         {props.title}
                     </Title>
                 </SlideRight>
