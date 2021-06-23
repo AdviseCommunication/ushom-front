@@ -30,9 +30,14 @@ fields:
     name: content
     label: Contenu
   - name: cta
-    type: include
+    type: field_group
     config: {}
-    template: cta
+    fields:
+    - name: cta
+      type: include
+      config: {}
+      template: cta
+      label: CTA
     label: CTA
   - type: field_group
     name: cta___
