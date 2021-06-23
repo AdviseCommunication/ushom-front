@@ -1,4 +1,17 @@
 ---
 label: CTA
 hide_body: true
-fields: []
+fields:
+- name: href
+  type: text
+  config:
+    required: false
+  label: URL
+- name: children
+  type: text
+  config:
+    required: false
+  label: Texte
+- name: blank
+  type: boolean
+  label: Nouvel onglet ?
