@@ -39,22 +39,6 @@ fields:
       template: cta
       label: CTA
     label: CTA
-  - type: field_group
-    name: cta___
-    label: CTA
-    fields:
-    - type: text
-      name: href
-      label: URL
-    - type: text
-      name: children
-      label: Texte
-    - type: boolean
-      name: blank
-      label: Nouvel onglet ?
-    - type: text
-      name: theme
-      label: Thème
 - type: field_group
   name: features
   label: Mise en avant
