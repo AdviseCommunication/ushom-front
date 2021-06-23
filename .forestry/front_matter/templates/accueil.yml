@@ -29,8 +29,13 @@ fields:
   - type: text
     name: content
     label: Contenu
+  - name: cta
+    type: include
+    config: {}
+    template: cta
+    label: CTA
   - type: field_group
-    name: cta
+    name: cta___
     label: CTA
     fields:
     - type: text
