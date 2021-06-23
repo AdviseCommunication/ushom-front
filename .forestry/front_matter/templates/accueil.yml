@@ -4,71 +4,71 @@ hide_body: true
 fields:
 - type: field_group
   name: banner
-  label: banner
+  label: Bannière
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: field_group
     name: img
-    label: img
+    label: Image
     fields:
     - type: file
       name: src
-      label: src
+      label: URL
     - type: text
       name: alt
-      label: alt
+      label: Texte alternatif
 - type: field_group
   name: about
-  label: about
+  label: A propos
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: text
     name: content
-    label: content
+    label: Contenu
   - type: field_group
     name: cta
-    label: cta
+    label: CTA
     fields:
     - type: text
       name: href
-      label: href
+      label: URL
     - type: text
       name: children
-      label: children
+      label: Texte
     - type: boolean
       name: blank
-      label: blank
+      label: Nouvel onglet ?
     - type: text
       name: theme
-      label: theme
+      label: Thème
 - type: field_group
   name: features
-  label: features
+  label: Mise en avant
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: field_group_list
     name: items
-    label: items
+    label: Items
     fields:
     - type: text
       name: content
-      label: content
+      label: Contenu
     - type: file
       name: icon
-      label: icon
+      label: Icône
     - type: text
       name: source
-      label: source
+      label: Source
 - type: field_group
   name: territories
-  label: territories
+  label: Territoires
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
