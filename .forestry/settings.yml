@@ -14,10 +14,10 @@ sections:
 - type: heading
   label: Divers
 - type: document
-  path: content/home
+  path: content/home.json
   label: Accueil
 - type: document
-  path: content/main
+  path: content/main.json
   label: Global
 upload_dir: static/uploads
 public_path: "/static/uploads"
