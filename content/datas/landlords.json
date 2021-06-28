@@ -36,8 +36,8 @@
           "content": "",
           "map": "/static/images/maps/st-martin.svg",
           "gps": {
-            "x": null,
-            "y": null
+            "x": 0,
+            "y": 0
           }
         }
       ]
