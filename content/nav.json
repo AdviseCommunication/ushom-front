@@ -1,14 +1,62 @@
 {
   "main": {
     "items": [
-        {
-            "label": "Qui sommes-nous ?",
-            "url": "/qui-sommes-nous",
-            "blank": false,
-            "items": [
+      {
+          "label": "Qui sommes-nous ?",
+          "url": "/qui-sommes-nous",
+          "blank": false,
+          "items": [
 
-            ]
-        }
+          ]
+      },
+      {
+        "label": "Habiter en Outre-Mer",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Nos missions",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Nos évènements",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Dossiers thématiques",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Archives",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Contact",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      }
     ]
   },
   "footer": {
