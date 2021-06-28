@@ -3,6 +3,7 @@ import Image from "next/image"
 import Container from "./Container"
 import Rolling from "../../images/rolling.svg"
 import SlideRight from "./animations/SlideRight"
+import {LinkButton} from "./Button";
 
 const Banner = props => {
 
@@ -30,7 +31,7 @@ const Banner = props => {
                 <SlideRight from={80} delay={0.5}>
                     <Title
                         level={1}
-                        size={1}
+                        size={(props.img?.src ? 1 : 2)}
                         css={[(props.img?.src ? "py-48 md:py-64 max-w-xl" : "py-24 max-w-2xl")].join(' ')}
                         color={"white"}
                     >
@@ -39,9 +40,9 @@ const Banner = props => {
                 </SlideRight>
                 {props.tags &&
                     <ul className={"flex items-center justify-center space-x-16 pb-8 text-2xl text-white uppercase font-medium xl:text-3xl xl:space-x-24 xl:tracking-tight"}>
-                        {props.tags.split(',').map((el,i) => (
+                        {props.tags.map((el,i) => (
                             <li key={i}>
-                                {el}
+                                <LinkButton {...el} />
                             </li>
                         ))}
                     </ul>
