@@ -2,23 +2,26 @@
 label: Menu multi-niveau
 hide_body: true
 fields:
-- name: elements
-  type: field_group
-  config: {}
+- name: items
+  type: field_group_list
   fields:
-  - name: items
-    type: field_group_list
-    fields:
-    - name: item
-      type: include
-      config: {}
-      template: item-menu
-      label: Item
+  - name: label
+    type: text
     config:
-      min: 
-      max: 
-      labelField: label
-    label: Items
-  label: Éléments
+      required: false
+    label: Titre
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: blank
+    type: boolean
+    label: Nouvel onglet ?
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Items
 pages:
 - content/nav/main-navigation.json
