@@ -33,10 +33,20 @@ fields:
       fields:
       - type: number
         name: x
-        label: x
+        default: 0
+        config:
+          min: 0
+          max: 100
+          step: 1
+        label: Axe horizontal
       - type: number
         name: y
-        label: y
+        default: 0
+        config:
+          min: 0
+          max: 100
+          step: 1
+        label: Axe vertical
       description: En %, relative à la carte du monde.
 pages:
 - content/datas/landlords.json
