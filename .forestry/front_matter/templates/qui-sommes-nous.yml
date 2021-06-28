@@ -4,14 +4,20 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: field_group
   name: intro
-  label: intro
+  label: Intro
   fields:
   - type: text
     name: title
-    label: title
-  - type: text
-    name: content
-    label: content
+    label: Titre
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Contenu
