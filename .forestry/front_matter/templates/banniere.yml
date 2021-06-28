@@ -1,4 +1,42 @@
 ---
 label: Bannière
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
+- name: img
+  type: field_group
+  config: {}
+  fields:
+  - name: src
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: alt
+    type: text
+    config:
+      required: false
+    label: Texte alternatif
+  label: Visuel
+- name: nav
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Libellé
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sections
