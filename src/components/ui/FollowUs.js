@@ -1,5 +1,6 @@
-import data from '../../../content/nav/social.json'
+import data from '../../../content/nav.json'
 import text from '../../../content/main.json'
+
 import NavItem from "../layout/nav/NavItem"
 import PropTypes from "prop-types"
 
@@ -20,14 +21,16 @@ const FollowUs = (props) => {
             }
             <li>
                 <ul className={["flex items-center space-x-4", props.css].join(' ')}>
-                    {data.map((el,i) => (
-                        <NavItem key={i}
-                                 href={el.url}
-                                 target={el.target_blank}
-                                 css={["block p-1 transition-all duration-150 ease-in", computeColor].join(' ')}
+                    {data.social?.items?.map((el,i) => (
+                        <NavItem
+                            key={i}
+                            href={el.url}
+                            blank={el.blank}
+                            css={["block p-1 transition-all duration-150 ease-in", computeColor].join(' ')}
                         >
                             {el.icon &&
-                                <picture className={[
+                                <picture
+                                    className={[
                                         "flex items-center p-1 justify-center",
                                         (props.theme === 'primary' ? 'filter-white' : 'filter-primary'),
                                         props.iconSize
