@@ -16,6 +16,13 @@ fields:
   name: intro
   label: Intro
   fields:
+  - name: id
+    type: text
+    config:
+      required: false
+    label: Identifiant
+    description: A renseigner (et doit correspondre à une occurrence) si l'élément
+      doit apparaitre dans la navigation
   - type: text
     name: title
     label: Titre
@@ -32,6 +39,13 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: id
+    type: text
+    config:
+      required: false
+    description: A renseigner (et doit correspondre à une occurrence) si l'élément
+      doit apparaitre dans la navigation
+    label: Identifiant
   - name: title
     type: text
     config:
