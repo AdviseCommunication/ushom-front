@@ -1,4 +1,31 @@
 ---
 label: Item menu
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: Libellé
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  default: "/"
+- name: blank
+  type: boolean
+  label: Nouvel onglet ?
+- name: items
+  type: field_group_list
+  fields:
+  - name: item
+    type: include
+    config: {}
+    template: item-menu
+    label: Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Enfants
