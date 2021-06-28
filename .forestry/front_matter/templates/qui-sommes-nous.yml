@@ -53,3 +53,5 @@ fields:
       labelField: 
     label: Items
   label: Missions
+pages:
+- content/about.json

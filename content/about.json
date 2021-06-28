@@ -1,7 +1,16 @@
 {
-    "title": "Qui sommes-nous ?",
-    "intro": {
-        "title": "L'Union Sociale pour l'Habitat Outre-mer",
-        "content": "<p><strong>Fondée en 1998...</strong></p><p>Elle maîtrise...</p>"
-    }
+  "title": "Qui sommes-nous ?",
+  "intro": {
+    "title": "L'Union Sociale pour l'Habitat Outre-mer",
+    "content": "<p><strong>Fondée en 1998...</strong></p><p>Elle maîtrise...</p>"
+  },
+  "missions": {
+    "title": "Nos missions",
+    "sub": "L'USHOM a deux missions principales",
+    "items": [
+      {
+        "content": "<p><strong>La sensibilisation...</strong></p><p>Quelques exemples :</p><ul><li><p><strong>Participation active</strong> aux travaux</p></li><li><p><strong>Contribution aux travaux</strong></p></li></ul>"
+      }
+    ]
+  }
 }
