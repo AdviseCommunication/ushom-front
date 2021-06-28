@@ -15,5 +15,3 @@ fields:
     max: 
     labelField: label
   label: Items
-pages:
-- content/nav/main.json
