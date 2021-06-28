@@ -2,6 +2,11 @@
 label: Qui sommes-nous
 hide_body: true
 fields:
+- name: banner
+  type: include
+  config: {}
+  template: banniere
+  label: Bannière
 - type: text
   name: title
   label: Titre
