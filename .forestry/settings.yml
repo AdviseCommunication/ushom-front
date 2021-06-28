@@ -11,6 +11,10 @@ sections:
   match: "**/*"
   templates:
   - page
+- type: document
+  path: content/datas/landlords.json
+  label: Territoires
+  match: "**/*"
 - type: heading
   label: Divers
 - type: document
