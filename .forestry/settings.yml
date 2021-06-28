@@ -29,6 +29,10 @@ sections:
   label: Organigramme
   match: "**/*"
 - type: document
+  path: content/datas/interlocutors.json
+  label: Interlocuteurs
+  match: "**/*"
+- type: document
   path: content/main.json
   label: Paramètres
 upload_dir: public/static/uploads
