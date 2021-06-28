@@ -25,6 +25,10 @@ sections:
   path: content/datas/landlords.json
   label: Territoires
 - type: document
+  path: content/datas/organizational.json
+  label: Organigramme
+  match: "**/*"
+- type: document
   path: content/main.json
   label: Paramètres
 upload_dir: public/static/uploads
