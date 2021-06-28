@@ -32,7 +32,7 @@ sections:
   label: Interlocuteurs
 - type: document
   path: content/nav.json
-  label: Menu principal
+  label: Menus
 - type: document
   path: content/main.json
   label: Paramètres
