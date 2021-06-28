@@ -11,7 +11,7 @@ const WidgetText = props => {
 
     return (
         <article className={[props.css, props.padding, computeBgColor(props.bg)].join(' ')}>
-            <Container css={"flex flex-col items-center space-y-8 md:space-y-0 md:flex-row md:space-x-8"}>
+            <Container css={"flex flex-col items-center space-y-12 md:space-y-0 md:flex-row md:space-x-8"}>
                 {props.children}
                 <div className={"w-full space-y-8 flex-grow"}>
                     {props.title &&

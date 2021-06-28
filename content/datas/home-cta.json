@@ -1,0 +1,29 @@
+{
+    "title": "Organiser des temps d’échanges pour réunir l’ensemble des acteurs locaux",
+    "items": [
+        {
+            "img": {
+                "src": "/static/uploads/joakim-honkasalo-durc25gdovk-unsplash.jpg",
+                "alt": ""
+            },
+            "cta": {
+                "href": "/",
+                "children": "Colloque annuel",
+                "blank": false,
+                "theme": "wide"
+            }
+        },
+        {
+            "img": {
+                "src": "/static/uploads/christina-wocintechchat-com-faefwcdokig-unsplash.jpg",
+                "alt": ""
+            },
+            "cta": {
+                "href": "/",
+                "children": "Dîners-Débats",
+                "blank": false,
+                "theme": "wide"
+            }
+        }
+    ]
+}

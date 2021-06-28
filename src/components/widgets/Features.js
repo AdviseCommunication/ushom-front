@@ -33,7 +33,7 @@ const Features = props => {
                         <motion.li
                             variants={staggeredChildrenVariants}
                             key={i}
-                            className={"flex-1 flex flex-col items-center space-y-4 shadow-large p-8 xl:space-y-6 xl:p-12"}
+                            className={"flex-1 flex flex-col items-center space-y-4 shadow-large p-6 xl:px-12"}
                         >
                             <picture>
                                 <img className={"h-24"} src={el.icon} alt={""} loading={"lazy"} height={60}/>
@@ -41,7 +41,7 @@ const Features = props => {
                             <div className={"leading-snug xl:text-lg xl:leading-snug"}>
                                 {Parser(el.content)}
                                 {el.source &&
-                                <em className={"block mt-1 text-black opacity-50 text-sm md:text-xs xl:text-sm xl:-mx-4"}>{el.source}</em>}
+                                <em className={"block mt-1 text-black opacity-50 text-sm md:text-xs 2xl:text-sm -mx-3 xl:-mx-6"}>{el.source}</em>}
                             </div>
                         </motion.li>
                     ))}

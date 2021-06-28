@@ -11,6 +11,7 @@ import Territories from "../src/components/widgets/Territories"
 import WorldMap from "../src/components/widgets/WorldMap"
 import ActivityReport from "../src/components/widgets/ActivityReport"
 import Act from "../src/components/widgets/Act"
+import HomeCta from "../src/components/widgets/HomeCta"
 
 const Home = ({posts}) => {
 
@@ -26,6 +27,7 @@ const Home = ({posts}) => {
             <WorldMap />
             <ActivityReport />
             <Act />
+            <HomeCta />
             <Territories {...data.territories} />
         </Layout>
     )

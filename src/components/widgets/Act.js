@@ -21,10 +21,10 @@ const Act = props => {
         <aside className={[props.css, props.padding, computeBgColor(props.bg)].join(' ')}>
             <Container css={"space-y-16"}>
                 <SlideDown>
-                    <Title>{Parser(data.title)}</Title>
+                    <Title css={"text-center"}>{Parser(data.title)}</Title>
                 </SlideDown>
                 <motion.ul
-                    className={"flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-8"}
+                    className={"flex flex-col space-y-6 md:grid md:grid-cols-2 md:space-y-0 md:gap-6 2xl:grid-cols-4"}
                     animate={inView ? "visible" : "hidden"}
                     variants={staggerBigChildrenVariants}
                     ref={ref}
@@ -33,14 +33,14 @@ const Act = props => {
                         <motion.li
                             variants={staggeredChildrenVariants}
                             key={i}
-                            className={"flex-1 flex flex-col items-center space-y-4 shadow-large p-8 xl:space-y-6"}
+                            className={"flex-1 flex flex-col items-center space-y-4 shadow-large p-6"}
                         >
                             <span className={"font-bold text-primary w-full"}>{el.title}</span>
-                            <div className={"w-full flex flex-col md:flex-row"}>
-                                <picture className={"w-24 md:pr-8 md:flex-shrink-0 lg:pr-10 lg:w-24"}>
+                            <div className={"w-full flex flex-col space-y-4 sm:space-y-0 sm:flex-row"}>
+                                <picture className={"w-24 sm:pr-6 sm:flex-shrink-0 2xl:pr-1 2xl:w-16"}>
                                     <img className={"w-full"} src={el.icon} alt={""} loading={"lazy"} height={60}/>
                                 </picture>
-                                <ul className={"w-full list-disc flex-grow space-y-1 leading-tighter text-sm"}>
+                                <ul className={"w-full list-disc pl-5 flex-grow space-y-1 2xl:leading-tighter 2xl:text-sm 2xl:pl-8"}>
                                     {el.list.map((ll,lx) => (
                                         <li key={lx}>{Parser(ll.title)}</li>
                                     ))}
