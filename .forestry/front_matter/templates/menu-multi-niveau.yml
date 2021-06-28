@@ -1,4 +1,9 @@
 ---
 label: Menu multi-niveau
 hide_body: true
-fields: []
+fields:
+- name: multilevel_menu
+  type: include
+  config: {}
+  template: menu-multi-niveau
+  label: Menu multi-niveau
