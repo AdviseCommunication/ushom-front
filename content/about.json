@@ -19,5 +19,18 @@
         "content": "<p><strong>L'accompagnement du déploiement...</strong></p>"
       }
     ]
+  },
+  "banner": {
+    "title": "Qui sommes-nous ?",
+    "img": {
+      "src": "",
+      "alt": ""
+    },
+    "nav": [
+      {
+        "label": "L'USHOM",
+        "url": "/#ushom"
+      }
+    ]
   }
 }
