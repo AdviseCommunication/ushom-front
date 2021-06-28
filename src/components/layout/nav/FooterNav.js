@@ -1,4 +1,4 @@
-import data from '../../../../content/nav/footer.json'
+import data from '../../../../content/nav.json'
 import mainData from "../../../../content/main.json"
 
 import NavItem from "./NavItem"
@@ -11,7 +11,7 @@ const FooterNav = () => {
     return (
         <nav className={"w-full text-center md:text-left lg:w-auto"}>
             <ul className={"flex flex-col md:flex-row md:flex-wrap -mx-2 lg:flex-nowrap lg:space-x-8 xl:space-x-16 2xl:space-x-24"}>
-                {data.map((el, i) => (
+                {data.footer?.items?.map((el, i) => (
                     <NavItem
                         key={i}
                         href={el.url}

@@ -38,7 +38,8 @@
     "menu": {
         "closeLabel": "Fermer le menu",
         "openLabel": "Ouvrir le menu",
-        "bannerNavTitle": "Ouvrir le menu des sections"
+        "bannerNavTitle": "Ouvrir le menu des sections",
+        "memberArea": "Espace Membres"
     },
     "post": {
         "nextPost": "Article suivant",

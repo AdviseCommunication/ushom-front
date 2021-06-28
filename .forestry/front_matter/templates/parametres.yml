@@ -105,6 +105,9 @@ fields:
   - type: text
     name: bannerNavTitle
     label: bannerNavTitle
+  - type: text
+    name: memberArea
+    label: memberArea
 - type: field_group
   name: post
   label: Articles
