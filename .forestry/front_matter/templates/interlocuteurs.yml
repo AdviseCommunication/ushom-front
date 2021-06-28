@@ -1,4 +1,35 @@
 ---
 label: Interlocuteurs
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
+- name: zone
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: items
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Titre
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Items
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Type
