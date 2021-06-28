@@ -4,30 +4,32 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: field_group_list
   name: items
-  label: items
+  label: Zones
   fields:
   - type: text
     name: name
-    label: name
+    label: Nom de la zone
   - type: field_group_list
     name: items
-    label: items
+    label: Territoires
     fields:
     - type: text
       name: name
-      label: name
+      label: Nom du territoire
     - type: text
       name: content
-      label: content
+      label: Bailleurs
+      description: 'Séparez par des virgules.<br><em>Exemple : SPHLM, SEMSAMAR, SIMKO,
+        SIGUY</em>'
     - type: file
       name: map
-      label: map
+      label: Carte SVG
     - type: field_group
       name: gps
-      label: gps
+      label: Coordonnées
       fields:
       - type: number
         name: x
@@ -35,3 +37,4 @@ fields:
       - type: number
         name: y
         label: y
+      description: En %, relative à la carte du monde.
