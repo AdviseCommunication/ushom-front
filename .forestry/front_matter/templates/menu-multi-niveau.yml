@@ -2,8 +2,16 @@
 label: Menu multi-niveau
 hide_body: true
 fields:
-- name: multilevel_menu
-  type: include
-  config: {}
-  template: menu-multi-niveau
-  label: Menu multi-niveau
+- name: items
+  type: field_group_list
+  fields:
+  - name: item
+    type: include
+    config: {}
+    template: item-menu
+    label: Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Items
