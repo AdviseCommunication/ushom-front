@@ -2,18 +2,10 @@
 label: Menu multi-niveau
 hide_body: true
 fields:
-- name: items
-  type: field_group_list
-  fields:
-  - name: item
-    type: include
-    config: {}
-    template: item-menu
-    label: Item
-  config:
-    min: 
-    max: 
-    labelField: label
-  label: Items
+- name: item
+  type: include
+  config: {}
+  template: item-menu
+  label: Item
 pages:
 - content/nav/main-navigation.json
