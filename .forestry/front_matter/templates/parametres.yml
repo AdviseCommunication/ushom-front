@@ -1,0 +1,124 @@
+---
+label: Paramètres
+hide_body: true
+fields:
+- type: field_group
+  name: address
+  label: address
+  fields:
+  - type: text
+    name: street
+    label: street
+  - type: text
+    name: city
+    label: city
+- type: field_group
+  name: app
+  label: app
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: siteName
+    label: siteName
+  - type: text
+    name: gaId
+    label: gaId
+  - type: file
+    name: banner
+    label: banner
+- type: field_group
+  name: consent
+  label: consent
+  fields:
+  - type: text
+    name: accept
+    label: accept
+  - type: textarea
+    name: content
+    label: content
+  - type: text
+    name: decline
+    label: decline
+  - type: text
+    name: manage
+    label: manage
+  - type: text
+    name: more
+    label: more
+  - type: field_group
+    name: customize
+    label: customize
+    fields:
+    - type: text
+      name: menuTitle
+      label: menuTitle
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: content
+      label: content
+    - type: text
+      name: validate
+      label: validate
+  - type: field_group_list
+    name: services
+    label: services
+    fields:
+    - type: text
+      name: id
+      label: id
+    - type: text
+      name: label
+      label: label
+- type: text
+  name: followTitle
+  label: followTitle
+- type: field_group
+  name: fourZeroFour
+  label: fourZeroFour
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: cta
+    label: cta
+  - type: text
+    name: metaTitle
+    label: metaTitle
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: text
+    name: closeLabel
+    label: closeLabel
+  - type: text
+    name: openLabel
+    label: openLabel
+- type: field_group
+  name: post
+  label: post
+  fields:
+  - type: text
+    name: nextPost
+    label: nextPost
+  - type: text
+    name: previousPost
+    label: previousPost
+- type: field_group
+  name: switcher
+  label: switcher
+  fields:
+  - type: text
+    name: label
+    label: label
+- type: text
+  name: viewMore
+  label: viewMore
