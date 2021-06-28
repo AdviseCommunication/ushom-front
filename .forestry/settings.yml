@@ -31,7 +31,7 @@ sections:
   path: content/datas/interlocutors.json
   label: Interlocuteurs
 - type: document
-  path: content/nav/main.json
+  path: content/nav/main-navigation.json
   label: Menu principal
 - type: document
   path: content/main.json
