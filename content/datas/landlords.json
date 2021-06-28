@@ -1,92 +1,92 @@
 {
-    "title": "Les bailleurs sociaux présents sur les territoires ultramarins",
-    "items": [
+  "title": "Les bailleurs sociaux présents sur les territoires ultramarins",
+  "items": [
+    {
+      "name": "Bassin Atlantique",
+      "items": [
         {
-            "name": "Bassin Atlantique",
-            "items": [
-                {
-                    "name": "Guyane",
-                    "content": "SPHLM, SEMSAMAR, SIMKO, SIGUY",
-                    "map": "/static/images/maps/guyane.svg",
-                    "gps": {
-                        "x": 34,
-                        "y": 57
-                    }
-                },
-                {
-                    "name": "Guadeloupe",
-                    "content": "SEMAG, SIG, SIKOA, SEMSAMAR, SPHLM",
-                    "map": "/static/images/maps/guadeloupe.svg",
-                    "gps": {
-                        "x": 30,
-                        "y": 47
-                    }
-                },
-                {
-                    "name": "Martinique",
-                    "content": "SMHLM, SIMAR, OAZANAM, SEMSAMAR",
-                    "map": "/static/images/maps/martinique.svg",
-                    "gps": {
-                        "x": 31,
-                        "y": 52
-                    }
-                },
-                {
-                    "name": "Saint-Martin",
-                    "content": "",
-                    "map": "/static/images/maps/st-martin.svg",
-                    "gps": {
-                        "x": 0,
-                        "y": 0
-                    }
-                }
-            ]
+          "name": "Guyane",
+          "content": "SPHLM, SEMSAMAR, SIMKO, SIGUY",
+          "map": "/static/images/maps/guyane.svg",
+          "gps": {
+            "x": 34,
+            "y": 57
+          }
         },
         {
-            "name": "Bassin Océan Indien",
-            "items": [
-                {
-                    "name": "Mayotte",
-                    "content": "SIM",
-                    "map": "/static/images/maps/mayotte.svg",
-                    "gps": {
-                        "x": 59,
-                        "y": 62
-                    }
-                },
-                {
-                    "name": "La Réunion",
-                    "content": "SIDR, SEMADER, SEDRE, SODIAC, SODEGIS, SEMAC, SHLMR",
-                    "map": "/static/images/maps/reunion.svg",
-                    "gps": {
-                        "x": 62,
-                        "y": 66
-                    }
-                }
-            ]
+          "name": "Guadeloupe",
+          "content": "SEMAG, SIG, SIKOA, SEMSAMAR, SPHLM",
+          "map": "/static/images/maps/guadeloupe.svg",
+          "gps": {
+            "x": 30,
+            "y": 47
+          }
         },
         {
-            "name": "Bassin Pacifique",
-            "items": [
-                {
-                    "name": "Nouvelle-Calédonie",
-                    "content": "SIC, FSH, SEMAGGLO",
-                    "map": "/static/images/maps/nouvelle-caledonie.svg",
-                    "gps": {
-                        "x": 90,
-                        "y": 68
-                    }
-                },
-                {
-                    "name": "Polynésie Française",
-                    "content": "OPH",
-                    "map": "/static/images/maps/polynesie.svg",
-                    "gps": {
-                        "x": 8,
-                        "y": 66
-                    }
-                }
-            ]
+          "name": "Martinique",
+          "content": "SMHLM, SIMAR, OAZANAM, SEMSAMAR",
+          "map": "/static/images/maps/martinique.svg",
+          "gps": {
+            "x": 31,
+            "y": 52
+          }
+        },
+        {
+          "name": "Saint-Martin",
+          "content": "",
+          "map": "/static/images/maps/st-martin.svg",
+          "gps": {
+            "x": null,
+            "y": null
+          }
         }
-    ]
+      ]
+    },
+    {
+      "name": "Bassin Océan Indien",
+      "items": [
+        {
+          "name": "Mayotte",
+          "content": "SIM",
+          "map": "/static/images/maps/mayotte.svg",
+          "gps": {
+            "x": 59,
+            "y": 62
+          }
+        },
+        {
+          "name": "La Réunion",
+          "content": "SIDR, SEMADER, SEDRE, SODIAC, SODEGIS, SEMAC, SHLMR",
+          "map": "/static/images/maps/reunion.svg",
+          "gps": {
+            "x": 62,
+            "y": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bassin Pacifique",
+      "items": [
+        {
+          "name": "Nouvelle-Calédonie",
+          "content": "SIC, FSH, SEMAGGLO",
+          "map": "/static/images/maps/nouvelle-caledonie.svg",
+          "gps": {
+            "x": 90,
+            "y": 68
+          }
+        },
+        {
+          "name": "Polynésie Française",
+          "content": "OPH",
+          "map": "/static/images/maps/polynesie.svg",
+          "gps": {
+            "x": 8,
+            "y": 66
+          }
+        }
+      ]
+    }
+  ]
 }

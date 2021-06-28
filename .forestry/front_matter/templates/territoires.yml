@@ -38,3 +38,5 @@ fields:
         name: y
         label: y
       description: En %, relative à la carte du monde.
+pages:
+- content/datas/landlords.json
