@@ -20,3 +20,5 @@ fields:
       labelField: 
     label: Items
   label: Items
+pages:
+- content/nav/main.json
