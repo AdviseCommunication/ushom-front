@@ -38,6 +38,15 @@ fields:
   - name: items
     type: field_group_list
     fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Titre
+    - name: hide_title
+      type: boolean
+      label: Masquer le titre
+      description: Le titre sera affiché sur le back-office uniquement
     - name: content
       type: textarea
       default: ''
