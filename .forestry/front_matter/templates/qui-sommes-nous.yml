@@ -1,0 +1,17 @@
+---
+label: Qui sommes-nous
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: content
+    label: content
