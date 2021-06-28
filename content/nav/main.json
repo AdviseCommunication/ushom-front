@@ -10,5 +10,38 @@
         ]
       }
     ]
+  },
+  "main": {
+    "items": [
+
+    ]
+  },
+  "footer": {
+    "items": [
+      {
+        "label": "Contact",
+        "url": "/",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "label": "Mentions légales",
+        "url": "/mentions-legales",
+        "blank": false,
+        "items": [
+
+        ]
+      },
+      {
+        "url": "/politique-confidentialite",
+        "label": "Politique de confidentialité",
+        "blank": false,
+        "items": [
+
+        ]
+      }
+    ]
   }
 }
