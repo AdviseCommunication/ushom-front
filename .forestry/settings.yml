@@ -11,9 +11,6 @@ sections:
   match: "**/*"
   templates:
   - page
-- type: document
-  path: content/datas/landlords.json
-  label: Territoires
 - type: heading
   label: Pages spéciales
 - type: document
@@ -24,6 +21,9 @@ sections:
   label: Qui Sommes-Nous
 - type: heading
   label: Autre
+- type: document
+  path: content/datas/landlords.json
+  label: Territoires
 - type: document
   path: content/main.json
   label: Paramètres
