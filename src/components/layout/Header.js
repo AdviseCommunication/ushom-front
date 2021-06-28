@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header
             className={[
-                "sticky -top-9 z-10 bg-white transition-all duration-150 ease-in",
+                "sticky -top-3 xl:-top-9 z-10 bg-white transition-all duration-150 ease-in",
                 (sticked > 0 ? "shadow-large" : null),
             ].join(' ')}
         >

@@ -13,7 +13,7 @@ const Layout = (props) => {
         <CookieConsentProvider>
             <Head {...seo} />
             <Loader />
-            <div className={"relative font-sans text-black bg-white font-light antialiased scroll-smooth min-h-screen flex flex-col"}>
+            <div className={"relative font-sans text-black bg-white font-light antialiased min-h-screen flex flex-col"}>
                 <Header />
                 <main className={["leading-relaxed flex-grow", props.mainCss].join(' ')}>
                     {props.children}

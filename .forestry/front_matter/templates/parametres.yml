@@ -102,6 +102,9 @@ fields:
   - type: text
     name: openLabel
     label: openLabel
+  - type: text
+    name: bannerNavTitle
+    label: bannerNavTitle
 - type: field_group
   name: post
   label: Articles

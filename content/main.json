@@ -37,7 +37,8 @@
     },
     "menu": {
         "closeLabel": "Fermer le menu",
-        "openLabel": "Ouvrir le menu"
+        "openLabel": "Ouvrir le menu",
+        "bannerNavTitle": "Ouvrir le menu des sections"
     },
     "post": {
         "nextPost": "Article suivant",

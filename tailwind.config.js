@@ -136,6 +136,7 @@ module.exports = {
   variants: {
     extend: {
       borderWidth: ['first', 'last'],
+      translate: ['group-hover'],
     }
   },
   plugins: [],
