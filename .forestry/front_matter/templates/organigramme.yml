@@ -30,3 +30,5 @@ fields:
     max: 
     labelField: 
   label: Personnes
+pages:
+- content/datas/organizational.json
