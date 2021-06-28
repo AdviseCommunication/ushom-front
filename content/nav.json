@@ -1,14 +1,14 @@
 {
   "main": {
     "items": [
-        {
-            "label": "Qui sommes-nous ?",
-            "url": "/qui-sommes-nous",
-            "blank": false,
-            "items": [
+      {
+        "label": "Qui sommes-nous ?",
+        "url": "/qui-sommes-nous",
+        "blank": false,
+        "items": [
 
-            ]
-        }
+        ]
+      }
     ]
   },
   "footer": {

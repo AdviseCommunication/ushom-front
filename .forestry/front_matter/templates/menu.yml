@@ -39,4 +39,4 @@ fields:
     label: Items
   label: Menu pied-de-page
 pages:
-- content/nav/main.json
+- content/nav.json
