@@ -33,3 +33,5 @@ fields:
     max: 
     labelField: 
   label: Type
+pages:
+- content/datas/interlocutors.json

@@ -1,1 +1,27 @@
-{}
+{
+  "title": "Nos interlocuteurs privilégiés",
+  "zone": [
+    {
+      "title": "National",
+      "items": [
+        {
+          "title": "Ministère des Outre-Mer"
+        },
+        {
+          "title": "Ministère de la Transition Écologique"
+        }
+      ]
+    },
+    {
+      "title": "Territorial",
+      "items": [
+        {
+          "title": "Les préfectures"
+        },
+        {
+          "title": "Les haut-commissariats"
+        }
+      ]
+    }
+  ]
+}
