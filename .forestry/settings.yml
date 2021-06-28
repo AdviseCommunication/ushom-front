@@ -31,11 +31,11 @@ sections:
   path: content/datas/interlocutors.json
   label: Interlocuteurs
 - type: document
-  path: content/main.json
-  label: Paramètres
-- type: document
   path: content/nav/main.json
   label: Menu principal
+- type: document
+  path: content/main.json
+  label: Paramètres
 upload_dir: public/static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
