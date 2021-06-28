@@ -38,5 +38,28 @@ fields:
       labelField: label
     label: Items
   label: Menu pied-de-page
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: items
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icône
+    - name: item
+      type: include
+      config: {}
+      template: item-menu
+      label: Item
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Items
+  label: Menu social
 pages:
 - content/nav.json
