@@ -3,13 +3,15 @@ label: Qui sommes-nous
 hide_body: true
 fields:
 - name: banner
-  type: include
+  type: field_group
   config: {}
-  template: banniere
+  fields:
+  - name: banner
+    type: include
+    config: {}
+    template: banniere
+    label: Bannière
   label: Bannière
-- type: text
-  name: title
-  label: Titre
 - type: field_group
   name: intro
   label: Intro
