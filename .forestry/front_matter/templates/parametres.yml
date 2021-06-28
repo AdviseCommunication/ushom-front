@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: address
-  label: address
+  label: Adresse
   fields:
   - type: text
     name: street
@@ -14,7 +14,7 @@ fields:
     label: city
 - type: field_group
   name: app
-  label: app
+  label: Informations générales
   fields:
   - type: text
     name: description
@@ -30,7 +30,7 @@ fields:
     label: banner
 - type: field_group
   name: consent
-  label: consent
+  label: RGPD
   fields:
   - type: text
     name: accept
@@ -49,7 +49,7 @@ fields:
     label: more
   - type: field_group
     name: customize
-    label: customize
+    label: Libellés
     fields:
     - type: text
       name: menuTitle
@@ -65,7 +65,7 @@ fields:
       label: validate
   - type: field_group_list
     name: services
-    label: services
+    label: Services
     fields:
     - type: text
       name: id
@@ -75,10 +75,10 @@ fields:
       label: label
 - type: text
   name: followTitle
-  label: followTitle
+  label: Titre bloc social
 - type: field_group
   name: fourZeroFour
-  label: fourZeroFour
+  label: Page 404
   fields:
   - type: text
     name: title
@@ -94,7 +94,7 @@ fields:
     label: metaTitle
 - type: field_group
   name: menu
-  label: menu
+  label: Menu
   fields:
   - type: text
     name: closeLabel
@@ -104,7 +104,7 @@ fields:
     label: openLabel
 - type: field_group
   name: post
-  label: post
+  label: Articles
   fields:
   - type: text
     name: nextPost
@@ -114,11 +114,11 @@ fields:
     label: previousPost
 - type: field_group
   name: switcher
-  label: switcher
+  label: Toggles
   fields:
   - type: text
     name: label
     label: label
 - type: text
   name: viewMore
-  label: viewMore
+  label: Libellé bouton +
