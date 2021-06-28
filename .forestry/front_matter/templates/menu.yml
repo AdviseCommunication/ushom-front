@@ -58,7 +58,7 @@ fields:
     config:
       min: 
       max: 
-      labelField: 
+      labelField: label
     label: Items
   label: Menu social
 pages:

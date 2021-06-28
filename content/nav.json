@@ -2,12 +2,12 @@
   "main": {
     "items": [
       {
-          "label": "Qui sommes-nous ?",
-          "url": "/qui-sommes-nous",
-          "blank": false,
-          "items": [
+        "label": "Qui sommes-nous ?",
+        "url": "/qui-sommes-nous",
+        "blank": false,
+        "items": [
 
-          ]
+        ]
       },
       {
         "label": "Habiter en Outre-Mer",
@@ -81,6 +81,28 @@
         "url": "/politique-confidentialite",
         "label": "Politique de confidentialité",
         "blank": false,
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "social": {
+    "items": [
+      {
+        "icon": "/static/uploads/facebook.svg",
+        "label": "Facebook",
+        "url": "https://www.facebook.com/",
+        "blank": true,
+        "items": [
+
+        ]
+      },
+      {
+        "icon": "/static/uploads/twitter.svg",
+        "label": "Twitter",
+        "url": "https://twitter.com/",
+        "blank": true,
         "items": [
 
         ]
