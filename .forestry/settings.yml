@@ -27,11 +27,9 @@ sections:
 - type: document
   path: content/datas/organizational.json
   label: Organigramme
-  match: "**/*"
 - type: document
   path: content/datas/interlocutors.json
   label: Interlocuteurs
-  match: "**/*"
 - type: document
   path: content/main.json
   label: Paramètres
