@@ -5,16 +5,16 @@ import {LinkButton} from "../src/components/ui/Button"
 import Container from "../src/components/ui/Container"
 
 const FourOhFour = () => (
-    <Layout title={text.fourZeroFour?.metaTitle}>
-        <Container css={"relative pt-48 pb-80 wide:min-h-screen flex justify-center items-center"}>
-            <div className={"flex relative z-30 flex-col lg:items-start pl-16 space-y-4"}>
+    <Layout title={text.fourZeroFour?.metaTitle} mainCss={"flex flex-col justify-center"}>
+        <Container css={"relative py-24"}>
+            <div className={"flex relative z-1 flex-col text-center items-center space-y-4"}>
                 <header>
-                    <h1 className={"text-9xl leading-none -ml-1 tracking-tighter font-bold lg:text-10xl"}>
+                    <h1 className={"text-9xl leading-none -ml-2 tracking-tighter font-bold lg:text-10xl"}>
                         {text.fourZeroFour?.title}
                     </h1>
                     <p className={"text-lg lg:text-xl"}>{text.fourZeroFour?.content}</p>
                 </header>
-                <LinkButton href={"/"}>
+                <LinkButton href={"/"} theme={"wide"}>
                     {text.fourZeroFour?.cta}
                 </LinkButton>
             </div>

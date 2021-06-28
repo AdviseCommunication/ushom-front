@@ -5,8 +5,16 @@ import Title from "../ui/Title"
 import Parser from "html-react-parser"
 import Container from "../ui/Container"
 import {LinkButton} from "../ui/Button"
+import {staggerBigChildrenVariants, staggeredChildrenVariants} from "../../api/animation"
+import {motion} from "framer-motion"
+import {useInView} from "react-intersection-observer"
 
 const HomeCta = () => {
+    const [ref, inView] = useInView({
+        trackVisibility: true,
+        delay: 500,
+        triggerOnce: true,
+    })
 
     return (
         <aside className={"bg-light py-24"}>
@@ -16,9 +24,18 @@ const HomeCta = () => {
                         {Parser(data.title)}
                     </Title>
                 </SlideDown>
-                <ul className={"w-full space-y-8 md:space-y-0 md:flex md:space-x-8 xl:space-x-12"}>
+                <motion.ul
+                    className={"w-full space-y-8 md:space-y-0 md:flex md:space-x-8 xl:space-x-12"}
+                    animate={inView ? "visible" : "hidden"}
+                    variants={staggerBigChildrenVariants}
+                    ref={ref}
+                >
                     {data.items.map((el,i) => (
-                        <li key={i} className={"flex flex-col items-center flex-1"}>
+                        <motion.li
+                            key={i}
+                            className={"flex flex-col items-center flex-1"}
+                            variants={staggeredChildrenVariants}
+                        >
                             {el.img?.src &&
                                 <picture className={"relative block w-full pb-3/4"}>
                                     <img {...el.img} className={"absolute inset-0 h-full w-full object-cover"} />
@@ -27,9 +44,9 @@ const HomeCta = () => {
                             <div className={"bg-white transform -mb-6 -translate-y-1/2 -mb-1/2"}>
                                 <LinkButton {...el.cta} />
                             </div>
-                        </li>
+                        </motion.li>
                     ))}
-                </ul>
+                </motion.ul>
             </Container>
         </aside>
     )

@@ -5,36 +5,37 @@ import {useState} from "react"
 import NavItem from "./NavItem"
 import BarIcon from '../../../images/menu.svg'
 import CloseIcon from '../../../images/close.svg'
-import {LinkButton} from "../../ui/Button";
+import {LinkButton} from "../../ui/Button"
 
 const PrimaryNav = (props) => {
     const [navbarOpen, setNavbarOpen] = useState(false)
     const MenuIcon = navbarOpen ? CloseIcon : BarIcon
 
     return (
-        <nav className={["flex items-center text-center text-md"].join(' ')}>
-            <button className={"block ml-auto mr-6 group xl:hidden relative z-50 focus:outline-none"}
+        <nav className={["flex flex-row-reverse items-center text-center ml-auto xl:flex-row"].join(' ')}>
+            <button className={"block ml-6 group xl:hidden relative z-50 focus:outline-none"}
                     onClick={() => setNavbarOpen(!navbarOpen)}
             >
-                <MenuIcon className={"w-8 h-8 text-black group-hover:text-primary"} />
+                <MenuIcon className={"w-8 h-8 text-primary group-hover:text-primary"} />
                 <span className={"sr-only"}>
                     {navbarOpen ? text.menu?.closeLabel : text.menu?.openLabel}
                 </span>
             </button>
             <ul className={[
-                    "space-y-10 flex-col xl:flex xl:space-y-0 xl:flex-row xl:space-x-4 xl:mr-4 2xl:mr-8",
-                    (navbarOpen ? "fixed w-full inset-0 h-screen py-32 px-8 flex flex-col justify-center overflow-y-auto bg-white shadow-xl" : "hidden"),
+                    "space-y-10 flex-col xl:space-y-0 xl:flex-row xl:space-x-4 xl:mr-4 2xl:mr-8",
+                    (navbarOpen ? "fixed xl:static xl:w-auto xl:h-auto xl:p-0 w-full inset-0 h-screen py-32 px-8 flex justify-center overflow-y-auto bg-white shadow-xl xl:bg-transparent xl:shadow-none" : "hidden xl:flex"),
                 ].join(' ')}
             >
                 {navData.map((el,i) => (
-                    <NavItem key={i}
-                             href={el.url}
-                             target={el.blank}
-                             css={[
-                                 "block font-medium text-black tracking-tight",
-                                 "transition-all duration-150 ease-in hover:text-primary",
-                                 (navbarOpen ? "text-4xl" : null),
-                             ].join(' ')}
+                    <NavItem
+                        key={i}
+                        href={el.url}
+                        target={el.blank}
+                        css={[
+                            "block font-medium text-black tracking-tight",
+                            "transition-all duration-150 ease-in hover:text-primary",
+                            (navbarOpen ? "text-4xl xl:text-base" : null),
+                        ].join(' ')}
                     >
                         {el.label}
                     </NavItem>

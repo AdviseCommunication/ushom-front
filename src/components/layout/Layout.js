@@ -15,7 +15,7 @@ const Layout = (props) => {
             <Loader />
             <div className={"relative font-sans text-black bg-white font-light antialiased scroll-smooth min-h-screen flex flex-col"}>
                 <Header />
-                <main className={["leading-relaxed flex-grow"].join(' ')}>
+                <main className={["leading-relaxed flex-grow", props.mainCss].join(' ')}>
                     {props.children}
                 </main>
                 <Footer />
@@ -27,6 +27,7 @@ const Layout = (props) => {
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
     title: PropTypes.string,
+    mainCss: PropTypes.string,
 }
 
 export default Layout

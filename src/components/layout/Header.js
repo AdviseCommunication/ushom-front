@@ -26,7 +26,7 @@ const Header = () => {
                 (sticked > 0 ? "shadow-large" : null),
             ].join(' ')}
         >
-            <div className={"h-10 w-full bg-primary"} />
+            <div className={"h-4 xl:h-10 w-full bg-primary"} />
             <Container
                 css={[
                     "flex items-center justify-between transition-all duration-75 ease-in",
