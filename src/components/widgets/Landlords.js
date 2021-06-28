@@ -41,7 +41,7 @@ const Landlords = props => {
     })
 
     return (
-        <aside className={"py-24"}>
+        <aside id={"landlords"} className={"py-24"}>
             <Container css={"space-y-16"}>
                 <SlideDown>
                     <Title css={"text-center"}>{Parser(data.title)}</Title>

@@ -1,5 +1,21 @@
 {
-  "title": "Qui sommes-nous ?",
+  "banner": {
+    "title": "Qui sommes-nous ?",
+    "img": {
+      "src": "",
+      "alt": ""
+    },
+    "nav": [
+      {
+        "label": "L'USHOM",
+        "url": "#ushom"
+      },
+      {
+        "label": "Nos Missions",
+        "url": "#missions"
+      }
+    ]
+  },
   "intro": {
     "title": "L'Union Sociale pour l'Habitat Outre-mer",
     "content": "<p><strong>Fondée en 1998...</strong></p><p>Elle maîtrise...</p>",
@@ -21,22 +37,5 @@
       }
     ],
     "id": "missions"
-  },
-  "banner": {
-    "title": "Qui sommes-nous ?",
-    "img": {
-      "src": "",
-      "alt": ""
-    },
-    "nav": [
-      {
-        "label": "L'USHOM",
-        "url": "#ushom"
-      },
-      {
-        "label": "Nos Missions",
-        "url": "#missions"
-      }
-    ]
   }
 }

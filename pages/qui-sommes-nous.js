@@ -12,7 +12,7 @@ const QuiSommesNous = () => {
 
     return (
         <Layout>
-            <Banner title={data.title} />
+            <Banner {...data.banner} />
             <WidgetText {...data.intro} />
             <Missions />
             <Organizational />

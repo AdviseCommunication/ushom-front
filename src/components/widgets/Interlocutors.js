@@ -8,7 +8,7 @@ import Parser from "html-react-parser"
 const Interlocutors = props => {
 
     return (
-        <article className={"py-24 bg-light"}>
+        <article id={"interlocutors"} className={"py-24 bg-light"}>
             <Container css={"space-y-16"}>
                 <SlideDown>
                     <Title css={"text-center"}>{Parser(data.title)}</Title>

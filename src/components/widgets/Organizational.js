@@ -8,7 +8,7 @@ import Parser from "html-react-parser"
 const Organizational = () => {
 
     return (
-        <aside className={"py-24"}>
+        <aside id={"organizational"} className={"py-24"}>
             <Container css={"space-y-16"}>
                 <SlideDown>
                     <Title>{Parser(data.title)}</Title>

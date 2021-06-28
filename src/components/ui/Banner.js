@@ -3,7 +3,7 @@ import Image from "next/image"
 import Container from "./Container"
 import Rolling from "../../images/rolling.svg"
 import SlideRight from "./animations/SlideRight"
-import {LinkButton} from "./Button";
+import {LinkButton} from "./Button"
 
 const Banner = props => {
 
@@ -38,11 +38,11 @@ const Banner = props => {
                         {props.title}
                     </Title>
                 </SlideRight>
-                {props.tags &&
+                {props.nav &&
                     <ul className={"flex items-center justify-center space-x-16 pb-8 text-2xl text-white uppercase font-medium xl:text-3xl xl:space-x-24 xl:tracking-tight"}>
-                        {props.tags.map((el,i) => (
+                        {props.nav.map((el,i) => (
                             <li key={i}>
-                                <LinkButton {...el} />
+                                <LinkButton children={el.label} href={el.url} />
                             </li>
                         ))}
                     </ul>
