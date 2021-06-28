@@ -35,12 +35,17 @@ const Territories = props => {
                             >
                                 <div className={["flex flex-col p-8 w-full", computeBgColor('light')].join(' ')}>
                                     <picture className={"relative pb-full"}>
-                                        <img className={"absolute inset-0 h-full w-full"} src={els.map} alt={""}
-                                             loading={"lazy"}/>
+                                        <img
+                                            className={"absolute inset-0 h-full w-full"}
+                                            src={els.map}
+                                            alt={""}
+                                            loading={"lazy"}
+                                        />
                                     </picture>
                                 </div>
                                 <span
-                                    className={"flex-grow flex items-center justify-center py-4 px-1 text-black leading-snug text-sm 2xl:text-base 2xl:leading-snug"}>
+                                    className={"flex-grow flex items-center justify-center py-4 px-1 text-black leading-snug text-sm 2xl:text-base 2xl:leading-snug"}
+                                >
                                 {els.name}
                             </span>
                             </motion.li>

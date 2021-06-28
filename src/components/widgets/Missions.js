@@ -20,9 +20,9 @@ const Missions = props => {
             <Container css={"relative space-y-8"}>
                 <SlideDown>
                     <Title>{Parser(data.title)}</Title>
-                    <p className={"text-primary font-medium"}>{Parser(data.sub)}</p>
+                    <p className={"text-primary text-lg font-bold"}>{Parser(data.sub)}</p>
                 </SlideDown>
-                <ul className={"flex flex-col space-y-8 md:space-y-0 md:space-x-8 md:flex-row"}>
+                <ul className={"flex flex-col space-y-8 md:space-y-0 md:space-x-8 lg:space-x-16 md:flex-row"}>
                     {data.items.map((el,i) => (
                         <li key={i} className={"md:flex-1 bg-white shadow-large p-8 prose"}>
                             {Parser(el.content)}
