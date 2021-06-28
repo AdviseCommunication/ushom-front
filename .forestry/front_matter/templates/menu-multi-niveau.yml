@@ -23,5 +23,10 @@ fields:
     max: 
     labelField: 
   label: Items
+- name: test
+  type: text
+  config:
+    required: false
+  label: Test
 pages:
 - content/nav/main-navigation.json
