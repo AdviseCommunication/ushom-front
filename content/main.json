@@ -51,5 +51,8 @@
   "threads": {
     "title": "Dossiers thématiques"
   },
-  "viewMore": "Lire plus"
+  "viewMore": "Lire plus",
+  "habitat": {
+    "title": "Habiter en Outre-Mer"
+  }
 }
