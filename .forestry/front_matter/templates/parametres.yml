@@ -39,6 +39,16 @@ fields:
   - type: text
     name: previousPost
     label: previousPost
+- name: habitat
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  label: Habitat
 - type: field_group
   name: threads
   label: Dossiers
