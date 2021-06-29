@@ -37,5 +37,13 @@
             list-style-type: disc;
             @apply pl-6;
         }
+
+        &.ul-sep-strong > ul {
+            @apply mt-1;
+
+            & + p > strong {
+                @apply mt-8 block;
+            }
+        }
     }
 }

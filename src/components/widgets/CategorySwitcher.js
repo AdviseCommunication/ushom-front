@@ -1,21 +1,22 @@
 import Container from "../ui/Container"
 
 const CategorySwitcher = props => {
-
+    console.log(props.current)
     return (
         <nav className={"relative py-24 bg-light"}>
             <picture>
                 <img className={"absolute inset-0 h-full w-full object-cover object-center"} src={"/static/images/pattern.svg"} alt={""} loading={"lazy"} />
             </picture>
             <Container css={"relative"}>
-                <ul className={"flex flex-col md:flex-row justify-center items-center"}>
-                    {props.cats?.map((el,i) => (
+                <ul className={"flex flex-col space-y-4 md:space-y-0 md:space-x-8 md:flex-row justify-center items-center"}>
+                    {props.cats.map((el,i) => (
                         <li key={i}>
                             <button
                                 type={"button"}
-                                onClick={props.clickHandler(i)}
+                                onClick={() => props.clickHandler(i)}
                                 className={[
-                                    "group flex items-center space-x-4 text-xl font-bold bg-white shadow-large p-6 hover:text-primary transform transition hover:-translate-y-px",
+                                    "group flex items-center space-x-4 text-xl font-bold bg-white shadow-large p-6 ring-primary",
+                                    "hover:text-primary transform transition hover:-translate-y-px focus:outline-none focus:ring-2",
                                     (props.current === i ? "text-primary" : null),
                                 ].join(' ')}
                             >
