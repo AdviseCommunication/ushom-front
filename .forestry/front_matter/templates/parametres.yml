@@ -3,31 +3,49 @@ label: Paramètres
 hide_body: true
 fields:
 - type: field_group
-  name: address
-  label: Adresse
-  fields:
-  - type: text
-    name: street
-    label: street
-  - type: text
-    name: city
-    label: city
-- type: field_group
   name: app
   label: Informations générales
   fields:
   - type: text
     name: description
-    label: description
+    label: Description
+    description: Slogan, description courte du site
   - type: text
     name: siteName
-    label: siteName
+    label: Titre du site
   - type: text
     name: gaId
-    label: gaId
+    label: ID Google Tag Manager
   - type: file
     name: banner
-    label: banner
+    label: Image par défaut
+- type: field_group
+  name: address
+  label: Adresse
+  fields:
+  - type: text
+    name: street
+    label: Rue
+  - type: text
+    name: city
+    label: CP Ville
+- type: field_group
+  name: post
+  label: Articles
+  fields:
+  - type: text
+    name: nextPost
+    label: nextPost
+  - type: text
+    name: previousPost
+    label: previousPost
+- type: field_group
+  name: threads
+  label: Dossiers
+  fields:
+  - type: text
+    name: title
+    label: Titre
 - type: field_group
   name: consent
   label: RGPD
@@ -73,25 +91,6 @@ fields:
     - type: text
       name: label
       label: label
-- type: text
-  name: followTitle
-  label: Titre bloc social
-- type: field_group
-  name: fourZeroFour
-  label: Page 404
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: content
-    label: content
-  - type: text
-    name: cta
-    label: cta
-  - type: text
-    name: metaTitle
-    label: metaTitle
 - type: field_group
   name: menu
   label: Menu
@@ -109,15 +108,21 @@ fields:
     name: memberArea
     label: memberArea
 - type: field_group
-  name: post
-  label: Articles
+  name: fourZeroFour
+  label: Page 404
   fields:
   - type: text
-    name: nextPost
-    label: nextPost
+    name: title
+    label: title
   - type: text
-    name: previousPost
-    label: previousPost
+    name: content
+    label: content
+  - type: text
+    name: cta
+    label: cta
+  - type: text
+    name: metaTitle
+    label: metaTitle
 - type: field_group
   name: switcher
   label: Toggles
@@ -125,13 +130,9 @@ fields:
   - type: text
     name: label
     label: label
-- type: field_group
-  name: threads
-  label: Dossiers
-  fields:
-  - type: text
-    name: title
-    label: Titre
+- type: text
+  name: followTitle
+  label: Titre bloc social
 - type: text
   name: viewMore
   label: Libellé bouton +
