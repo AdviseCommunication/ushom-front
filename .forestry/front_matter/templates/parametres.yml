@@ -48,6 +48,11 @@ fields:
     config:
       required: false
     label: Titre
+  - name: presentationTitle
+    type: text
+    config:
+      required: false
+    label: Titre présentation
   - name: presentation
     type: field_group
     config: {}
@@ -88,6 +93,11 @@ fields:
       label: Loyer moyen
       default: Loyer moyen au m²
     label: Libellés présentation
+  - name: bailleursTitle
+    type: text
+    config:
+      required: false
+    label: Titre bailleurs
   - name: bailleurs
     type: field_group
     config: {}
