@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: content/threads
-  label: Dossiers thématiques
+  label: Dossiers
   create: documents
   match: "**/*"
 - type: directory
