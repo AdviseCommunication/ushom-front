@@ -48,5 +48,8 @@
     "switcher": {
         "label": "Valider"
     },
+    "threads": {
+        "title": "Dossiers thématiques"
+    },
     "viewMore": "Lire plus"
 }

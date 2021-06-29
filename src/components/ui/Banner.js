@@ -42,17 +42,19 @@ const Banner = props => {
                             children={Parser(props.title)}
                         />
                     </SlideRight>
-                    <button
-                        type={"button"}
-                        onClick={() => setIsOpen(!isOpen)}
-                        className={"p-2 text-white ring-2 ring-white hover:text-primary hover:bg-white focus:outline-none focus:ring-4 lg:hidden"}
-                    >
-                        <span className={"sr-only"}>{data.menu?.bannerNavTitle}</span>
-                        <svg className={"fill-current"} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path className={isOpen ? "hidden" : null} d="M12 18c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3z"/>
-                            <path className={!isOpen ? "hidden" : null} d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
-                        </svg>
-                    </button>
+                    {props.nav &&
+                        <button
+                            type={"button"}
+                            onClick={() => setIsOpen(!isOpen)}
+                            className={"p-2 text-white ring-2 ring-white hover:text-primary hover:bg-white focus:outline-none focus:ring-4 lg:hidden"}
+                        >
+                            <span className={"sr-only"}>{data.menu?.bannerNavTitle}</span>
+                            <svg className={"fill-current"} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path className={isOpen ? "hidden" : null} d="M12 18c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3zm0-9c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3z"/>
+                                <path className={!isOpen ? "hidden" : null} d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
+                            </svg>
+                        </button>
+                    }
                 </div>
                 {props.nav &&
                     <ul className={[

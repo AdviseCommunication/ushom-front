@@ -4,9 +4,11 @@ import matter from "gray-matter"
 
 const pagesDirectory = join(process.cwd(), 'content/pages')
 const postsDirectory = join(process.cwd(), 'content/news')
+const threadsDirectory = join(process.cwd(), 'content/threads')
 const directories = {
     'page': pagesDirectory,
     'post': postsDirectory,
+    'thread': threadsDirectory,
 }
 
 export function getContentBySlug(type, slug, fields = []) {
