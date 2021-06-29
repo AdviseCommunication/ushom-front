@@ -2,25 +2,27 @@
 label: Dossier
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: textarea
   name: preview
-  label: preview
+  label: Description
 - type: boolean
   name: private
-  label: private
+  label: Rendre privé
+- type: datetime
+  name: date
+  label: Date de publication
 - type: field_group
   name: seo
-  label: seo
+  label: SEO
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
+    description: Balise méta Title
   - type: text
     name: description
-    label: description
+    label: Description
+    description: Balise méta description
