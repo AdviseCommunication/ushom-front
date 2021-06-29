@@ -39,13 +39,13 @@ fields:
     name: description
     label: Description
     description: Balise méta description
-- name: date
-  type: datetime
+- type: datetime
+  name: date
   label: Date de publication
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
   default: now
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    export_format: YYYY-MM-DDTHH:mm
+    time_format: HH:mm
+    display_utc: false

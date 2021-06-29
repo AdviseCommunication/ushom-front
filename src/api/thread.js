@@ -3,7 +3,7 @@ import { join } from 'path'
 import {getContentBySlug} from "./common"
 
 const threadsDirectory = join(process.cwd(), 'content/threads')
-const threadsFields = ['title', 'preview', 'options', 'slug', 'seo', 'banner', 'content']
+const threadsFields = ['title', 'preview', 'options', 'slug', 'seo', 'date', 'banner', 'content']
 
 export function getThreadSlugs() {
     return fs.readdirSync(threadsDirectory)

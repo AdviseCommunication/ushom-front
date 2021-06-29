@@ -20,6 +20,8 @@ export function getContentBySlug(type, slug, fields = []) {
     const { data, content } = matter(fileContents)
     const items = { filename: realSlug }
 
+    console.log(data)
+
     fields.forEach((field) => {
         if (data[field]) {
             items[field] = data[field]

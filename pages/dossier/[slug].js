@@ -30,7 +30,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'thread',
         params.slug,
-        ['title', 'preview', 'slug', 'banner', 'content', 'seo', 'options']
+        ['title', 'preview', 'slug', 'banner', 'date', 'content', 'seo', 'options']
     )
     const content = await markdownToHtml(page.content || '')
 
