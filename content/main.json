@@ -55,24 +55,24 @@
   "habitat": {
     "title": "Habiter en Outre-Mer",
     "presentation": {
-      "_0": "",
-      "_1": "",
-      "_2": "",
-      "_3": "",
-      "_4": "",
-      "_5": ""
+      "_0": "Superficie",
+      "_1": "Nombre d’habitant",
+      "_2": "Nombre de bailleurs sociaux présent sur le territoire",
+      "_3": "Nombre de logement social global",
+      "_4": "Nombre de logement social nécessitant une réhabilitation",
+      "_5": "Loyer moyen au m²"
     },
     "bailleurs": {
-      "_0": "",
-      "_1": "",
-      "_2": "",
-      "_3": "",
-      "_4": "",
-      "_5": "",
-      "_6": "",
-      "_7": "",
-      "_8": "",
-      "_9": ""
+      "_0": "Nombre de résidence au 1er janvier 2021",
+      "_1": "Nombre de logement au 1er janvier 2021",
+      "_2": "Capacité d’accueil maximale au 1er janvier 2021",
+      "_3": "Taux d’occupation du parc social au 1er janvier 2021",
+      "_4": "Nombre de logement construit",
+      "_5": "Nombre de logement PLS construit entre le 1er janvier 2020 et le 1er janvier 2021",
+      "_6": "Nombre de logement LLS construit entre le 1er janvier 2020 et le 1er janvier 2021",
+      "_7": "Nombre de logement LLTS construit entre le 1er janvier 2020 et le 1er janvier 2021",
+      "_8": "Nombre de logement en accession sociale construit entre le 1er janvier 2020 et le 1er janvier 2021",
+      "_9": "Nombre de logement en cours de construction ou planifié pour l’année 2021 (entre le 1er janvier 2021 au 1er janvier 2022)"
     }
   }
 }
