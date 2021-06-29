@@ -4,23 +4,36 @@ hide_body: false
 fields:
 - type: datetime
   name: date
-  label: date
+  label: Date de publication
+  default: now
+  config:
+    date_format: DD/MM/YYYY
+    time_format: HH:mm
+    export_format: YYYY-MM-DDTHH:mm
+    required: true
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: text
   name: preview
-  label: preview
-- type: boolean
-  name: private
-  label: private
+  label: Description courte
+- name: options
+  type: field_group
+  config: {}
+  fields:
+  - name: private
+    type: boolean
+    label: Rendre privé ?
+  label: Options
 - type: field_group
   name: seo
-  label: seo
+  label: SEO
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
+    description: Balise méta Title
   - type: text
     name: description
-    label: description
+    label: Description
+    description: Balise méta description
