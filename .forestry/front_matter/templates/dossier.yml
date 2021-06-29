@@ -16,8 +16,8 @@ fields:
 - name: use_banner
   type: boolean
   label: Image en couverture
-  description: Si l'image est adapté, activez cette option pour utiliser l'image à
-    la une en couverture
+  description: Si l'image à la une est adaptée, activez cette option pour l'utiliser
+    en couverture
 - type: boolean
   name: private
   label: Rendre privé
