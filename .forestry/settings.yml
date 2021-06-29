@@ -9,6 +9,8 @@ sections:
   label: Dossiers
   create: documents
   match: "**/*"
+  templates:
+  - dossier
 - type: directory
   path: content/pages
   label: Pages
