@@ -59,7 +59,7 @@ const Banner = props => {
                     </div>
                     {props.nav &&
                         <ul className={[
-                            "flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center px-1 lg:space-x-8 xl:space-x-16 pt-8",
+                            "flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center px-1 lg:space-x-6 xl:space-x-12 pt-8",
                             (isOpen ? "flex" : "hidden lg:flex"),
                         ].join(' ')}>
                             {props.nav.map((el,i) => (

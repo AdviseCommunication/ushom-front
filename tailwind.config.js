@@ -135,6 +135,7 @@ module.exports = {
   },
   variants: {
     extend: {
+      backgroundColor: ['even', 'odd'],
       borderWidth: ['first', 'last'],
       translate: ['group-hover'],
     }

@@ -13,6 +13,10 @@
         html {
             font-size: 100%;
         }
+
+        [id] {
+            scroll-margin-block-start: 5.75rem;
+        }
     }
 
     @screen wide-sm {
