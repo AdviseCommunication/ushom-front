@@ -18,8 +18,8 @@
         ]
       },
       {
-        "label": "Nos missions",
-        "url": "/",
+        "label": "Nos activités",
+        "url": "/activites",
         "blank": false,
         "items": [
 

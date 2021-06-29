@@ -7,7 +7,7 @@ import Container from "../../src/components/ui/Container"
 import Parser from "html-react-parser"
 import PostNavigation from "../../src/components/ui/PostNavigation"
 
-export default function Post({post}) {
+export default function Activite({post}) {
 
     return (
         <Layout seo={post?.seo}>
