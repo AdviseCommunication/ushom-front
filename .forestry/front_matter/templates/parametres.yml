@@ -48,6 +48,111 @@ fields:
     config:
       required: false
     label: Titre
+  - name: presentation
+    type: field_group
+    config: {}
+    fields:
+    - name: _0
+      type: text
+      config:
+        required: false
+      label: Superficie
+    - name: _1
+      type: text
+      config:
+        required: false
+      label: Nb habitant
+      default: Nombre d’habitant
+    - name: _2
+      type: text
+      config:
+        required: false
+      label: Nb bailleurs présent sur le territoire
+      default: Nombre de bailleurs sociaux présent sur le territoire
+    - name: _3
+      type: text
+      config:
+        required: false
+      label: Nb global
+      default: Nombre de logement social global
+    - name: _4
+      type: text
+      config:
+        required: false
+      label: Nb nécessitant réhabilitation
+      default: Nombre de logement social nécessitant une réhabilitation
+    - name: _5
+      type: text
+      config:
+        required: false
+      label: Loyen moyen
+      default: Loyer moyen au m²
+    label: Libellés présentation
+  - name: bailleurs
+    type: field_group
+    config: {}
+    fields:
+    - name: _0
+      type: text
+      config:
+        required: false
+      label: Nb résidence
+      default: Nombre de résidence
+    - name: _1
+      type: text
+      config:
+        required: false
+      label: Nb logement
+      default: Nombre de logement
+    - name: _2
+      type: text
+      config:
+        required: false
+      label: Capacité max
+      default: Capacité d’accueil maximale
+    - name: _3
+      type: text
+      config:
+        required: false
+      label: Taux d’occupation
+      default: Taux d’occupation du parc social
+    - name: _4
+      type: text
+      config:
+        required: false
+      label: Nb construit
+      default: Nombre de logement construit
+    - name: _5
+      type: text
+      config:
+        required: false
+      label: Nb PLS
+      default: Nombre de logement PLS construit
+    - name: _6
+      type: text
+      config:
+        required: false
+      label: Nb LLS
+      default: Nombre de logement LLS construit
+    - name: _7
+      type: text
+      config:
+        required: false
+      label: Nb LLTS
+      default: Nombre de logement LLTS construit
+    - name: _8
+      type: text
+      config:
+        required: false
+      label: Nb en accession sociale
+      default: Nombre de logement en accession sociale construit
+    - name: _9
+      type: text
+      config:
+        required: false
+      label: Nb en cours ou planifié
+      default: Nombre de logement en cours de construction ou planifié
+    label: Libellés bailleurs
   label: Habitat
 - type: field_group
   name: threads
