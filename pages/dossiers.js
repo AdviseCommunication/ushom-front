@@ -17,7 +17,7 @@ const Dossiers = ({posts}) => {
                     <div className={"flex flex-col space-y-16"}>
                         {posts.map((post, i) => (
                             <article key={i}>
-                                <Link href={`/news/${post.slug}`}>
+                                <Link href={`/dossier/${post.slug}`}>
                                     <a className={"flex flex-col w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
                                         <div className={"space-y-6 p-8 md:p-16"}>
                                             <Title>{post.title}</Title>

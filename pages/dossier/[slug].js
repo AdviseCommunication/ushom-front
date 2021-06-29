@@ -1,3 +1,5 @@
+import text from "../../content/main.json"
+
 import Layout from "../../src/components/layout/Layout"
 import markdownToHtml from "../../src/utils/markdownToHtml"
 import {getContentBySlug} from "../../src/api/common"
@@ -7,14 +9,18 @@ import {getAllThreads} from "../../src/api/thread"
 import Banner from "../../src/components/ui/Banner"
 
 export default function Thread({post}) {
+    const nav = [
+        {
+            label: text.threads.title,
+            url: "/dossier",
+        }
+    ]
 
     return (
         <Layout seo={post?.seo}>
-            <Banner title={post.title} />
-            <Container>
-                <div className={"prose py-8"}>
-                    {Parser(post.content)}
-                </div>
+            <Banner title={post.title} nav={nav} />
+            <Container css={"prose py-24"}>
+                {Parser(post.content)}
             </Container>
         </Layout>
     )
@@ -24,7 +30,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'thread',
         params.slug,
-        ['title', 'slug', 'preview', 'date', 'content', 'seo']
+        ['title', 'preview', 'date', 'slug', 'private', 'banner', 'content', 'seo']
     )
     const content = await markdownToHtml(page.content || '')
 
