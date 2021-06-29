@@ -26,16 +26,6 @@ fields:
     type: boolean
     label: Rendre privé
     description: Activez si vous ne souhaitez pas publier ce dossier.
-  - name: date
-    type: datetime
-    label: Date de publication
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-    default: now
   label: Options
 - type: field_group
   name: seo
@@ -49,3 +39,13 @@ fields:
     name: description
     label: Description
     description: Balise méta description
+- name: date
+  type: datetime
+  label: Date de publication
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
