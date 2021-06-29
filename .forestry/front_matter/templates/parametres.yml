@@ -85,7 +85,7 @@ fields:
       type: text
       config:
         required: false
-      label: Loyen moyen
+      label: Loyer moyen
       default: Loyer moyen au m²
     label: Libellés présentation
   - name: bailleurs
