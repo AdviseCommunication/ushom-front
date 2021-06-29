@@ -125,6 +125,13 @@ fields:
   - type: text
     name: label
     label: label
+- type: field_group
+  name: threads
+  label: Dossiers
+  fields:
+    - type: text
+      name: title
+      label: Titre
 - type: text
   name: viewMore
   label: Libellé bouton +
