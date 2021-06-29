@@ -11,7 +11,8 @@ banner: "/static/uploads/action-coeur-de-ville-logo.jpeg"
 options:
   private: false
   use_banner: false
-  date: 2021-06-29T11:38:01.000+02:00
+  date: '2021-06-29T11:38:01.000+02:00'
+date: 2021-06-29T12:01:43+02:00
 
 ---
 Le programme Action Coeur de Ville est un programme volontariste pour réduire la fracture territoriale, stimuler l’économie et améliorer la qualité de vie par un plan national d’investissements pour faire battre le coeur des villes dont 13 en Outre-mer.
