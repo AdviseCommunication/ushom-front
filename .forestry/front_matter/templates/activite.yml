@@ -21,6 +21,21 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: cat
+    type: select
+    default: ''
+    config:
+      required: true
+      options:
+      - Appui professionnel
+      - Représentation
+      - Projets
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Catégorie
   - name: private
     type: boolean
     label: Rendre privé ?
