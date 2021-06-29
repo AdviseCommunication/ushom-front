@@ -53,4 +53,5 @@ fields:
     label: Description
     description: Balise méta description
 pages:
+- content/news/la-plateforme-collaborative.md
 - content/news/seminaire.md
