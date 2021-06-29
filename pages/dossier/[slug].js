@@ -9,16 +9,18 @@ import {getAllThreads} from "../../src/api/thread"
 import Banner from "../../src/components/ui/Banner"
 
 export default function Thread({post}) {
-    const nav = [
-        {
-            label: text.threads.title,
-            url: "/dossier",
-        }
-    ]
+    const bannerDatas = {
+        nav: [{label: text.threads.title, url: "/dossiers"}],
+        img: {
+            src: post.options?.use_banner ? post.banner : null,
+            alt: "",
+        },
+        mask: post.options?.use_banner,
+    }
 
     return (
         <Layout seo={post?.seo}>
-            <Banner title={post.title} nav={nav} />
+            <Banner title={post.title} {...bannerDatas} />
             <Container css={"prose py-24"}>
                 {Parser(post.content)}
             </Container>

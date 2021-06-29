@@ -6,6 +6,7 @@ import NavItem from "./NavItem"
 import BarIcon from '../../../images/menu.svg'
 import CloseIcon from '../../../images/close.svg'
 import {LinkButton} from "../../ui/Button"
+import {currentUrlStartsWith, isCurrentUrl} from "../../../utils/currentUrl"
 
 const PrimaryNav = (props) => {
     const [navbarOpen, setNavbarOpen] = useState(false)
@@ -32,9 +33,10 @@ const PrimaryNav = (props) => {
                         href={el.url}
                         target={el.blank}
                         css={[
-                            "block font-medium text-black tracking-tight",
+                            "block font-medium tracking-tight",
                             "transition-all duration-150 ease-in hover:text-primary",
                             (navbarOpen ? "text-4xl xl:text-base" : null),
+                            ((isCurrentUrl(el.url) && el.url !== '/') || currentUrlStartsWith(el.url) ? "text-primary" : "text-black"),
                         ].join(' ')}
                     >
                         {el.label}

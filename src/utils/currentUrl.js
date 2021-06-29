@@ -9,3 +9,8 @@ export const isCurrentUrl = (url) => {
 
     return router.asPath === url
 }
+
+export const currentUrlStartsWith = url => {
+    const router = useRouter()
+    return router.asPath.length > 1 && url.length > 1 && router.asPath.startsWith(url.slice(0, -1))
+}
