@@ -8,17 +8,22 @@ fields:
 - type: textarea
   name: preview
   label: Description
+- name: banner
+  type: file
+  config:
+    maxSize: 64
+  label: Image à la une
+- name: use_banner
+  type: boolean
+  label: Image en couverture
+  description: Si l'image est adapté, activez cette option pour utiliser l'image à
+    la une en couverture
 - type: boolean
   name: private
   label: Rendre privé
 - type: datetime
   name: date
   label: Date de publication
-- name: banner
-  type: file
-  config:
-    maxSize: 64
-  label: Image à la une
 - type: field_group
   name: seo
   label: SEO
