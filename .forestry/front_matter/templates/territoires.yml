@@ -30,32 +30,32 @@ fields:
       type: field_group
       config: {}
       fields:
-      - name: _0
+      - name: 0
         type: text
         config:
           required: false
         label: Superficie
-      - name: _1
+      - name: 1
         type: text
         config:
           required: false
         label: Nombre d'habitant
-      - name: _2
+      - name: 2
         type: text
         config:
           required: false
         label: Nombre de bailleurs sociaux présent sur le territoire
-      - name: _3
+      - name: 3
         type: text
         config:
           required: false
         label: Nombre de logement social global
-      - name: _4
+      - name: 4
         type: text
         config:
           required: false
         label: Nombre de logement social nécessitant une réhabilitation
-      - name: _5
+      - name: 5
         type: text
         config:
           required: false
@@ -83,56 +83,56 @@ fields:
         type: field_group
         config: {}
         fields:
-        - name: _0
+        - name: 0
           type: text
           config:
             required: false
           label: Nombre de résidence au 1er janvier 2021
-        - name: _1
+        - name: 1
           type: text
           config:
             required: false
           label: Nombre de logement au 1er janvier 2021
-        - name: _2
+        - name: 2
           type: text
           config:
             required: false
           label: Capacité d’accueil maximale au 1er janvier 2021
-        - name: _3
+        - name: 3
           type: text
           config:
             required: false
           label: Taux d’occupation du parc social au 1er janvier 2021
-        - name: _4
+        - name: 4
           type: text
           config:
             required: false
           label: Nombre de logement construit
-        - name: _5
+        - name: 5
           type: text
           config:
             required: false
           label: Nombre de logement PLS construit entre le 1er janvier 2020 et le
             1er janvier 2021
-        - name: _6
+        - name: 6
           type: text
           config:
             required: false
           label: Nombre de logement LLS construit entre le 1er janvier 2020 et le
             1er janvier 2021
-        - name: _7
+        - name: 7
           type: text
           config:
             required: false
           label: Nombre de logement LLTS construit entre le 1er janvier 2020 et le
             1er janvier 2021
-        - name: _8
+        - name: 8
           type: text
           config:
             required: false
           label: Nombre de logement en accession sociale construit entre le 1er janvier
             2020 et le 1er janvier 2021
-        - name: _9
+        - name: 9
           type: text
           config:
             required: false
