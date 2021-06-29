@@ -129,9 +129,11 @@ fields:
   name: threads
   label: Dossiers
   fields:
-    - type: text
-      name: title
-      label: Titre
+  - type: text
+    name: title
+    label: Titre
 - type: text
   name: viewMore
   label: Libellé bouton +
+pages:
+- content/main.json

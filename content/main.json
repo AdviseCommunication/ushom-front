@@ -1,55 +1,55 @@
 {
-    "address": {
-        "street": "11 rue de Cronstadt",
-        "city": "75015, Paris"
+  "address": {
+    "street": "11 rue de Cronstadt",
+    "city": "75015, Paris"
+  },
+  "app": {
+    "description": "Union Sociale pour l'Habitat Outre-Mer",
+    "siteName": "USHOM",
+    "gaId": "X-XXX",
+    "banner": "/static/images/banner.jpg"
+  },
+  "consent": {
+    "accept": "Tout accepter",
+    "content": "En poursuivant votre navigation, vous acceptez le dépôt de cookies tiers destinés à vous proposer des boutons de partage, des remontées de contenus de plateformes sociales.",
+    "decline": "Tout refuser",
+    "manage": "Gérer",
+    "more": "En savoir plus",
+    "customize": {
+      "menuTitle": "Gestion des cookies",
+      "title": "Gestion de vos préférences sur les cookies",
+      "content": "Vous pouvez gérer individuellement vos préférences sur les cookies selon le service.",
+      "validate": "Valider"
     },
-    "app": {
-        "description": "Union Sociale pour l'Habitat Outre-Mer",
-        "siteName": "USHOM",
-        "gaId": "X-XXX",
-        "banner": "/static/images/banner.jpg"
-    },
-    "consent": {
-        "accept": "Tout accepter",
-        "content": "En poursuivant votre navigation, vous acceptez le dépôt de cookies tiers destinés à vous proposer des boutons de partage, des remontées de contenus de plateformes sociales.",
-        "decline": "Tout refuser",
-        "manage": "Gérer",
-        "more": "En savoir plus",
-        "customize": {
-            "menuTitle": "Gestion des cookies",
-            "title": "Gestion de vos préférences sur les cookies",
-            "content": "Vous pouvez gérer individuellement vos préférences sur les cookies selon le service.",
-            "validate": "Valider"
-        },
-        "services": [
-            {
-                "id": "marketing",
-                "label": "Google Analytics"
-            }
-        ]
-    },
-    "followTitle": "Nous suivre",
-    "fourZeroFour": {
-        "title": "404",
-        "content": "Cette page n'existe pas.",
-        "cta": "Retour vers l'accueil",
-        "metaTitle": "404 / Page introuvable"
-    },
-    "menu": {
-        "closeLabel": "Fermer le menu",
-        "openLabel": "Ouvrir le menu",
-        "bannerNavTitle": "Ouvrir le menu des sections",
-        "memberArea": "Espace Membres"
-    },
-    "post": {
-        "nextPost": "Article suivant",
-        "previousPost": "Article précédent"
-    },
-    "switcher": {
-        "label": "Valider"
-    },
-    "threads": {
-        "title": "Dossiers thématiques"
-    },
-    "viewMore": "Lire plus"
+    "services": [
+      {
+        "id": "marketing",
+        "label": "Google Analytics"
+      }
+    ]
+  },
+  "followTitle": "Nous suivre",
+  "fourZeroFour": {
+    "title": "404",
+    "content": "Cette page n'existe pas.",
+    "cta": "Retour vers l'accueil",
+    "metaTitle": "404 / Page introuvable"
+  },
+  "menu": {
+    "closeLabel": "Fermer le menu",
+    "openLabel": "Ouvrir le menu",
+    "bannerNavTitle": "Ouvrir le menu des sections",
+    "memberArea": "Espace Membres"
+  },
+  "post": {
+    "nextPost": "Article suivant",
+    "previousPost": "Article précédent"
+  },
+  "switcher": {
+    "label": "Valider"
+  },
+  "threads": {
+    "title": "Dossiers thématiques"
+  },
+  "viewMore": "Lire plus"
 }
