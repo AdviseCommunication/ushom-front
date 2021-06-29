@@ -50,6 +50,8 @@ sections:
   label: Activités
   create: documents
   match: "**/*"
+  templates:
+  - activite
 upload_dir: public/static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
