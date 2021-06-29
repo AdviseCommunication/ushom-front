@@ -10,7 +10,7 @@ seo:
 banner: "/static/uploads/action-coeur-de-ville-logo.jpeg"
 options:
   private: false
-  use_banner: true
+  use_banner: false
 date: 2021-06-29T12:01
 
 ---
