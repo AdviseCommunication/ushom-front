@@ -1,4 +1,55 @@
 ---
 label: Contact
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre principal
+- name: form
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: btnLabel
+    type: text
+    config:
+      required: false
+    label: Libellé bouton
+  - name: fields
+    type: field_group_list
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Libéllé
+    - name: type
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - text
+        - email
+        - textarea
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Type de champ
+    - name: fullsize
+      type: boolean
+      label: Pleine largeur
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Champs
+  label: Formulaire
