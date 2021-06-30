@@ -40,6 +40,10 @@ sections:
 - type: document
   path: content/about.json
   label: Qui Sommes-Nous
+- type: document
+  path: content/contact.json
+  label: Contact
+  match: "**/*"
 - type: heading
   label: Données
 - type: document
