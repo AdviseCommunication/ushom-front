@@ -4,36 +4,30 @@ hide_body: true
 fields:
 - type: text
   name: mainTitle
-  label: mainTitle
+  label: Titre principal
 - type: text
   name: title
-  label: title
+  label: Titre secondaire
 - type: text
   name: content
-  label: content
+  label: Contenu
 - type: field_group
   name: img
-  label: img
+  label: Visuel
   fields:
   - type: file
     name: src
-    label: src
+    label: Image
   - type: text
     name: alt
-    label: alt
-- type: field_group
-  name: cta
-  label: cta
+    label: Texte alternatif
+- name: cta
+  type: field_group
+  config: {}
   fields:
-  - type: file
-    name: href
-    label: href
-  - type: text
-    name: children
-    label: children
-  - type: boolean
-    name: blank
-    label: blank
-  - type: text
-    name: theme
-    label: theme
+  - name: cta
+    type: include
+    config: {}
+    template: cta
+    label: CTA
+  label: CTA
