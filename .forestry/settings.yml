@@ -23,6 +23,8 @@ sections:
   label: Évènements
   create: documents
   match: "**/*"
+  templates:
+  - evenement
 - type: directory
   path: content/pages
   label: Pages
