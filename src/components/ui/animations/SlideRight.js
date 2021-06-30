@@ -9,7 +9,7 @@ const SlideRight = (props) => {
         },
         hidden: {
             opacity: 0,
-            x: props.from || 500,
+            x: props.from || 200,
             transition: { delay: props.delay || .5 }
         },
     }

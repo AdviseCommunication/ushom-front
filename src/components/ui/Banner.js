@@ -12,7 +12,7 @@ const Banner = props => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className={["relative w-full bg-primary", (props.img?.src ? "border-b-8 border-primary" : null)].join(' ')}>
+        <div className={["relative w-full overflow-x-hidden bg-primary", (props.img?.src ? "border-b-8 border-primary" : null)].join(' ')}>
             {props.img?.src &&
                 <>
                     <Rolling className={"absolute inset-0 text-white"} />

@@ -12,7 +12,7 @@ const SlideLeft = (props) => {
         },
         hidden: {
             opacity: 0,
-            x: props.from || -500,
+            x: props.from || -200,
             transition: {
                 duration: props.duration || null,
                 delay: props.delay || .5,
