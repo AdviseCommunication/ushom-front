@@ -52,6 +52,16 @@ fields:
     name: description
     label: Description
     description: Balise méta description
+- name: cta
+  type: field_group
+  config: {}
+  fields:
+  - name: cta
+    type: include
+    config: {}
+    template: cta
+    label: CTA
+  label: Appel à l'action
 pages:
 - content/activities/la-plateforme-collaborative.md
 - content/activities/seminaire.md
