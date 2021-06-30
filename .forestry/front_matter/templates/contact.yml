@@ -53,5 +53,15 @@ fields:
       labelField: 
     label: Champs
   label: Formulaire
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: Seo
+  label: SEO
 pages:
 - content/contact.json

@@ -1,0 +1,16 @@
+---
+label: SEO
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
+  description: Balise méta title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Balise méta description
