@@ -8,6 +8,9 @@ import PostNavigation from "../../src/components/ui/PostNavigation"
 import Banner from "../../src/components/ui/Banner"
 
 export default function Activite({post}) {
+    const bannerDatas = {
+        nav: [{label: "", url: "/dossiers"}],
+    }
 
     return (
         <Layout seo={post?.seo}>
@@ -24,7 +27,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'post',
         params.slug,
-        ['title', 'slug', 'preview', 'date', 'content', 'seo']
+        ['title', 'slug', 'preview', 'date', 'content', 'seo'],
     )
     const content = await markdownToHtml(page.content || '')
     const adjacent = getAdjacentElements(params.slug, getAllPosts())

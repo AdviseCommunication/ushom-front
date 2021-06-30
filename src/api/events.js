@@ -18,17 +18,3 @@ export function getAllEvents(fields = eventsFields) {
 
     return filtered
 }
-
-export function getAdjacentEvents(slug) {
-    const all = getAllEvents()
-
-    let prev, next
-    all.find((obj,i) => {
-        next = all[i-1] || null
-        prev = all[i+1] || null
-
-        return obj.filename === slug
-    })
-
-    return {prev: prev, next: next}
-}

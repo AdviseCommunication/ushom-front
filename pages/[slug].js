@@ -4,7 +4,6 @@ import {getAllPages} from "../src/api/page"
 import FourOhFour from "./404"
 import Layout from "../src/components/layout/Layout"
 import {getContentBySlug} from "../src/api/common"
-import PostDate from "../src/components/ui/PostDate"
 import Container from "../src/components/ui/Container"
 import Parser from "html-react-parser"
 import Banner from "../src/components/ui/Banner"
@@ -19,11 +18,8 @@ export default function Page({ page }) {
     return (
         <Layout seo={seo}>
             <Banner title={page.title} />
-            <Container css={"py-24 space-y-4"}>
-                <PostDate data={page.date} />
-                <div className={"prose"}>
-                    {Parser(page.content)}
-                </div>
+            <Container css={"py-24 prose"}>
+                {Parser(page.content)}
             </Container>
         </Layout>
     )

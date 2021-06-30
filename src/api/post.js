@@ -37,17 +37,3 @@ export function getLatestPosts(number = 3) {
 
     return filtered.slice(0,number)
 }
-
-export function getAdjacentPosts(slug) {
-    const all = getAllPosts()
-
-    let prev, next
-    all.find((obj,i) => {
-        next = all[i-1] || null
-        prev = all[i+1] || null
-
-        return obj.filename === slug
-    })
-
-    return {prev: prev, next: next}
-}

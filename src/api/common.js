@@ -1,7 +1,6 @@
 import fs from 'fs'
 import { join } from 'path'
 import matter from "gray-matter"
-import {getAllEvents} from "./events";
 
 const eventsDirectory = join(process.cwd(), 'content/events')
 const pagesDirectory = join(process.cwd(), 'content/pages')

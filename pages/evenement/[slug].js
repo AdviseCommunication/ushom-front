@@ -24,7 +24,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'event',
         params.slug,
-        ['title', 'slug', 'preview', 'date', 'content', 'seo']
+        ['title', 'slug', 'preview', 'date', 'content', 'seo'],
     )
     const content = await markdownToHtml(page.content || '')
     const adjacent = getAdjacentElements(params.slug, getAllEvents())

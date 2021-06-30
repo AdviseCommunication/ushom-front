@@ -57,36 +57,36 @@ fields:
     type: field_group
     config: {}
     fields:
-    - name: 0
+    - name: el0
       type: text
       config:
         required: false
       label: Superficie
-    - name: 1
+    - name: el1
       type: text
       config:
         required: false
       label: Nb habitant
       default: Nombre d’habitant
-    - name: 2
+    - name: el2
       type: text
       config:
         required: false
       label: Nb bailleurs présent sur le territoire
       default: Nombre de bailleurs sociaux présent sur le territoire
-    - name: 3
+    - name: el3
       type: text
       config:
         required: false
       label: Nb global
       default: Nombre de logement social global
-    - name: 4
+    - name: el4
       type: text
       config:
         required: false
       label: Nb nécessitant réhabilitation
       default: Nombre de logement social nécessitant une réhabilitation
-    - name: 5
+    - name: el5
       type: text
       config:
         required: false
@@ -102,61 +102,61 @@ fields:
     type: field_group
     config: {}
     fields:
-    - name: 0
+    - name: el0
       type: text
       config:
         required: false
       label: Nb résidence
       default: Nombre de résidence
-    - name: 1
+    - name: el1
       type: text
       config:
         required: false
       label: Nb logement
       default: Nombre de logement
-    - name: 2
+    - name: el2
       type: text
       config:
         required: false
       label: Capacité max
       default: Capacité d’accueil maximale
-    - name: 3
+    - name: el3
       type: text
       config:
         required: false
       label: Taux d’occupation
       default: Taux d’occupation du parc social
-    - name: 4
+    - name: el4
       type: text
       config:
         required: false
       label: Nb construit
       default: Nombre de logement construit
-    - name: 5
+    - name: el5
       type: text
       config:
         required: false
       label: Nb PLS
       default: Nombre de logement PLS construit
-    - name: 6
+    - name: el6
       type: text
       config:
         required: false
       label: Nb LLS
       default: Nombre de logement LLS construit
-    - name: 7
+    - name: el7
       type: text
       config:
         required: false
       label: Nb LLTS
       default: Nombre de logement LLTS construit
-    - name: 8
+    - name: el8
       type: text
       config:
         required: false
       label: Nb en accession sociale
       default: Nombre de logement en accession sociale construit
-    - name: 9
+    - name: el9
       type: text
       config:
         required: false
