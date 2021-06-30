@@ -44,7 +44,7 @@ fields:
           file: 
           path: 
       label: Type de champ
-    - name: requis
+    - name: required
       type: boolean
       label: Requis
     - name: fullsize
