@@ -31,14 +31,16 @@ const HabiterEnOm = () => {
                             <Title css={"text-center"}>{Parser(el.name)}</Title>
                             <ListBloc
                                guide={text.habitat.presentation}
-                               items={el.presentation}
+                               datas={el.presentation}
                                title={text.habitat.presentationTitle}
                             />
-                            <ListBloc
-                                guide={text.habitat.bailleurs}
-                                items={el.bailleurs}
-                                title={text.habitat.bailleursTitle}
-                            />
+                            {el.bailleurs.map((b,bx) => (
+                                <ListBloc
+                                    key={bx}
+                                    guide={text.habitat.bailleurs}
+                                    {...b}
+                                />
+                            ))}
                         </Container>
                     </article>
                 ))}
