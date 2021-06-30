@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: content/news
+  label: Activités
+  create: documents
+  match: "**/*"
+  templates:
+  - activite
+- type: directory
   path: content/threads
   label: Dossiers
   create: documents
@@ -43,15 +50,6 @@ sections:
 - type: document
   path: content/main.json
   label: Paramètres
-- type: heading
-  label: EN COURS DE DEV...
-- type: directory
-  path: content/news
-  label: Activités
-  create: documents
-  match: "**/*"
-  templates:
-  - activite
 upload_dir: public/static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
