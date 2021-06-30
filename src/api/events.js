@@ -3,7 +3,7 @@ import { join } from 'path'
 import {getContentBySlug} from "./common"
 
 const eventsDirectory = join(process.cwd(), 'content/events')
-const eventsFields = ['title', 'preview', 'date', 'slug', 'options', 'content']
+const eventsFields = ['title', 'date', 'slug', 'options', 'cta', 'content']
 
 export function getEventSlugs() {
     return fs.readdirSync(eventsDirectory)
