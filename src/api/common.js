@@ -4,7 +4,7 @@ import matter from "gray-matter"
 
 const eventsDirectory = join(process.cwd(), 'content/events')
 const pagesDirectory = join(process.cwd(), 'content/pages')
-const postsDirectory = join(process.cwd(), 'content/news')
+const postsDirectory = join(process.cwd(), 'content/activities')
 const threadsDirectory = join(process.cwd(), 'content/threads')
 const directories = {
     'event': eventsDirectory,

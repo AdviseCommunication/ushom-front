@@ -2,7 +2,7 @@ import fs from 'fs'
 import { join } from 'path'
 import {getContentBySlug} from "./common"
 
-const postsDirectory = join(process.cwd(), 'content/news')
+const postsDirectory = join(process.cwd(), 'content/activities')
 const postsFields = ['title', 'preview', 'date', 'slug', 'options', 'content']
 
 export function getPostSlugs() {
