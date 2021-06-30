@@ -42,5 +42,9 @@
   },
   "territories": {
     "title": "Et aussi des rencontres régulières au plus près des territoires"
+  },
+  "seo": {
+    "title": "Union Sociale pour l'Habitat Outre-Mer",
+    "description": "L'USHOM est une association fédérant les organismes de logements sociaux de Mayotte, La Réunion, la Polynésie-Française, la Nouvelle-Calédonie, la Guyane, la Martinique, la Guadeloupe et Saint-Martin."
   }
 }

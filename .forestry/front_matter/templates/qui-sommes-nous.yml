@@ -83,5 +83,15 @@ fields:
       labelField: title
     label: Items
   label: Missions
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  label: SEO
 pages:
 - content/about.json
