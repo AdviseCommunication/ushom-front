@@ -23,9 +23,9 @@ fields:
   fields:
   - name: cat
     type: select
-    default: ''
+    default: Appui professionnel
     config:
-      required: true
+      required: false
       options:
       - Appui professionnel
       - Représentation
