@@ -51,7 +51,7 @@
       },
       {
         "label": "Contact",
-        "url": "/",
+        "url": "/contact",
         "blank": false,
         "items": [
 
@@ -63,7 +63,7 @@
     "items": [
       {
         "label": "Contact",
-        "url": "/",
+        "url": "/contact",
         "blank": false,
         "items": [
 

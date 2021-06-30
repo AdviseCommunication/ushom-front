@@ -8,28 +8,24 @@
         "label": "Nom/Prénom",
         "fullsize": false,
         "type": "text",
-        "requis": true,
         "required": true
       },
       {
         "label": "Adresse mail",
         "fullsize": false,
         "type": "email",
-        "requis": true,
         "required": true
       },
       {
         "label": "Organisme",
         "fullsize": true,
         "type": "text",
-        "requis": false,
         "required": false
       },
       {
         "label": "Votre message",
         "fullsize": true,
         "type": "textarea",
-        "requis": false,
         "required": true
       }
     ]

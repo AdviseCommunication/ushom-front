@@ -11,7 +11,7 @@ import Landlords from "../src/components/widgets/Landlords"
 const QuiSommesNous = () => {
 
     return (
-        <Layout>
+        <Layout seo={data.seo || null}>
             <Banner {...data.banner} />
             <WidgetText {...data.intro} />
             <Missions />

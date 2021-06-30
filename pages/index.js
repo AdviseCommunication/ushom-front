@@ -1,4 +1,5 @@
 import data from "../content/home.json"
+import mainData from "../content/main.json"
 
 import Layout from "../src/components/layout/Layout"
 import {getLatestPosts} from "../src/api/post"
@@ -14,9 +15,13 @@ import Act from "../src/components/widgets/Act"
 import HomeCta from "../src/components/widgets/HomeCta"
 
 const Home = ({posts}) => {
+    const seo = {
+        title: data.seo?.title || mainData.app.siteName,
+        description: data.seo?.description || mainData.app.description,
+    }
 
     return (
-        <Layout>
+        <Layout seo={seo}>
             <Banner {...data.banner} />
             <WidgetText {...data.about} bg={"light"}>
                 <FadeIn css={"w-full md:w-1/2 flex-shrink-0"} delay={0.5}>
