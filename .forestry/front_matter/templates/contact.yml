@@ -53,3 +53,5 @@ fields:
       labelField: 
     label: Champs
   label: Formulaire
+pages:
+- content/contact.json

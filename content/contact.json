@@ -1,1 +1,29 @@
-{}
+{
+  "title": "Contact",
+  "form": {
+    "title": "Contacter l'USHOM",
+    "btnLabel": "Envoyer",
+    "fields": [
+      {
+        "label": "Nom/Prénom",
+        "fullsize": false,
+        "type": "text"
+      },
+      {
+        "label": "Adresse mail",
+        "fullsize": false,
+        "type": "email"
+      },
+      {
+        "label": "Organisme",
+        "fullsize": true,
+        "type": "text"
+      },
+      {
+        "label": "Votre message",
+        "fullsize": true,
+        "type": "textarea"
+      }
+    ]
+  }
+}
