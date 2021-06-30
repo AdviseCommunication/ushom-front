@@ -7,5 +7,11 @@ options:
 seo:
   title: ''
   description: ''
+cta:
+  href: https://plateformecollaborative.ushom.fr
+  children: Découvrir la plateforme collaborative
+  blank: true
+  theme: primary
 
 ---
+Une plateforme à destination...
