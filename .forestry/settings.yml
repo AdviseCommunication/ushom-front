@@ -41,16 +41,22 @@ sections:
   path: content/about.json
   label: Qui Sommes-Nous
 - type: heading
-  label: Autre
+  label: Données
 - type: document
   path: content/datas/landlords.json
   label: Territoires
+- type: document
+  path: content/datas/report.json
+  label: Rapport d'activité
+  match: "**/*"
 - type: document
   path: content/datas/organizational.json
   label: Organigramme
 - type: document
   path: content/datas/interlocutors.json
   label: Interlocuteurs
+- type: heading
+  label: Autre
 - type: document
   path: content/nav.json
   label: Menus
