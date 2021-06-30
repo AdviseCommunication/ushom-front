@@ -19,6 +19,11 @@ sections:
   templates:
   - dossier
 - type: directory
+  path: content/events
+  label: Évènements
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/pages
   label: Pages
   create: documents
