@@ -27,7 +27,7 @@
       },
       {
         "label": "Nos évènements",
-        "url": "/",
+        "url": "/evenements",
         "blank": false,
         "items": [
 

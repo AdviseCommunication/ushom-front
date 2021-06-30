@@ -1,7 +1,7 @@
 import Container from "../ui/Container"
 
 const CategorySwitcher = props => {
-    console.log(props.current)
+
     return (
         <nav className={"relative py-24 bg-light"}>
             <picture>

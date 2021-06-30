@@ -7,14 +7,13 @@ import slugify from "../src/utils/slugify"
 import Container from "../src/components/ui/Container"
 import Title from "../src/components/ui/Title"
 import Parser from "html-react-parser"
-import ListBloc from "../src/components/ui/ListBloc";
+import ListBloc from "../src/components/ui/ListBloc"
 
 const HabiterEnOm = () => {
     const landlords = data.items.map(zone => zone.items.map(land => land))
-        .flat()
-        .sort((a,b) => a.name.localeCompare(b.name))
+                        .flat()
+                        .sort((a,b) => a.name.localeCompare(b.name))
 
-    console.log(landlords)
     const banner = {
         title: text.habitat.title,
         nav: landlords.map(land => {

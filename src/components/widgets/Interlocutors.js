@@ -4,8 +4,16 @@ import Container from "../ui/Container"
 import SlideDown from "../ui/animations/SlideDown"
 import Title from "../ui/Title"
 import Parser from "html-react-parser"
+import {motion} from "framer-motion"
+import {useInView} from "react-intersection-observer"
+import {staggerBigChildrenVariants, staggeredChildrenVariants} from "../../api/animation";
 
 const Interlocutors = props => {
+    const [ref, inView] = useInView({
+        trackVisibility: true,
+        delay: 500,
+        triggerOnce: true,
+    })
 
     return (
         <article id={"interlocutors"} className={"py-24 bg-light"}>
@@ -13,9 +21,18 @@ const Interlocutors = props => {
                 <SlideDown>
                     <Title css={"text-center"}>{Parser(data.title)}</Title>
                 </SlideDown>
-                <ul className={"flex bg-white shadow-large flex-col divide-y divide-black divide-opacity-10 md:flex-row md:divide-y-0 md:divide-x"}>
+                <motion.ul
+                    animate={inView ? "visible" : "hidden"}
+                    variants={staggerBigChildrenVariants}
+                    ref={ref}
+                    className={"flex bg-white shadow-large flex-col divide-y divide-black divide-opacity-10 md:flex-row md:divide-y-0 md:divide-x"}
+                >
                     {data.zone.map((el,i) => (
-                        <li key={i} className={"md:flex-1 p-8 space-y-4 lg:p-12 lg:space-y-8"}>
+                        <motion.li
+                            key={i}
+                            className={"md:flex-1 p-8 space-y-4 lg:p-12 lg:space-y-8"}
+                            variants={staggeredChildrenVariants}
+                        >
                             <strong className={"text-xl underline underline-offset-2"}>{el.title}</strong>
                             <ul className={"space-y-2"}>
                                 {el.items.map((elx,x) => (
@@ -24,9 +41,9 @@ const Interlocutors = props => {
                                     </li>
                                 ))}
                             </ul>
-                        </li>
+                        </motion.li>
                     ))}
-                </ul>
+                </motion.ul>
             </Container>
         </article>
     )
