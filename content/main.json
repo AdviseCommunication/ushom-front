@@ -76,5 +76,11 @@
     },
     "presentationTitle": "Présentation générale de l’habitat sur le territoire",
     "bailleursTitle": "L’action des bailleurs"
+  },
+  "activities": {
+    "title": "Nos activités"
+  },
+  "events": {
+    "title": "Nos évènements"
   }
 }
