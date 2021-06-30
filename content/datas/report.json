@@ -1,15 +1,15 @@
 {
-    "mainTitle": "Rapport d'activité",
-    "title": "Rapport annuel d'activité 2018",
-    "content": "Veuillez trouver ci-joint le rapport d'activité 2018 disponible en téléchargement",
-    "img": {
-        "src": "/static/images/rapport-activite-2018.jpg",
-        "alt": ""
-    },
-    "cta": {
-        "href": "/static/documents/test.pdf",
-        "children": "Télécharger",
-        "blank": true,
-        "theme": "primary"
-    }
+  "mainTitle": "Rapport d'activité",
+  "title": "Rapport annuel d'activité 2018",
+  "content": "Veuillez trouver ci-joint le rapport d'activité 2018 disponible en téléchargement",
+  "img": {
+    "src": "/static/images/rapport-activite-2018.jpg",
+    "alt": ""
+  },
+  "cta": {
+    "href": "/static/documents/test.pdf",
+    "children": "Télécharger",
+    "blank": true,
+    "theme": "primary"
+  }
 }
