@@ -29,16 +29,33 @@ fields:
   - type: text
     name: city
     label: CP Ville
+- name: activities
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre de page
+  label: Activités
 - type: field_group
-  name: post
-  label: Articles
+  name: threads
+  label: Dossiers
   fields:
   - type: text
-    name: nextPost
-    label: nextPost
-  - type: text
-    name: previousPost
-    label: previousPost
+    name: title
+    label: Titre
+- name: events
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre de page
+  label: Évènements
 - name: habitat
   type: field_group
   config: {}
@@ -165,13 +182,6 @@ fields:
     label: Libellés bailleurs
   label: Habitat
 - type: field_group
-  name: threads
-  label: Dossiers
-  fields:
-  - type: text
-    name: title
-    label: Titre
-- type: field_group
   name: consent
   label: RGPD
   fields:
@@ -232,6 +242,16 @@ fields:
   - type: text
     name: memberArea
     label: memberArea
+- type: field_group
+  name: post
+  label: Pagination
+  fields:
+  - type: text
+    name: nextPost
+    label: nextPost
+  - type: text
+    name: previousPost
+    label: previousPost
 - type: field_group
   name: fourZeroFour
   label: Page 404
