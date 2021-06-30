@@ -180,7 +180,7 @@ fields:
       label: Nb en cours ou planifié
       default: Nombre de logement en cours de construction ou planifié
     label: Libellés bailleurs
-  label: Habitat
+  label: Habiter en OM
 - type: field_group
   name: consent
   label: RGPD
