@@ -14,17 +14,20 @@ const PrimaryNav = (props) => {
 
     return (
         <nav className={["flex flex-row-reverse items-center text-center ml-auto xl:flex-row"].join(' ')}>
-            <button className={"block ml-6 group xl:hidden relative z-50 focus:outline-none"}
-                    onClick={() => setNavbarOpen(!navbarOpen)}
+            <button
+                className={"block ml-6 group xl:hidden relative z-50 focus:outline-none"}
+                onClick={() => setNavbarOpen(!navbarOpen)}
             >
                 <MenuIcon className={"w-8 h-8 text-primary group-hover:text-primary"} />
                 <span className={"sr-only"}>
                     {navbarOpen ? text.menu?.closeLabel : text.menu?.openLabel}
                 </span>
             </button>
-            <ul className={[
-                    "space-y-10 flex-col xl:space-y-0 xl:flex-row xl:space-x-4 xl:mr-4 2xl:mr-8",
+            <ul
+                className={[
+                    "space-y-10 flex-col xl:space-y-0 xl:flex-row xl:self-stretch xl:space-x-4 xl:mr-4 2xl:mr-8",
                     (navbarOpen ? "fixed xl:static xl:w-auto xl:h-auto xl:p-0 w-full inset-0 h-screen py-32 px-8 flex justify-center overflow-y-auto bg-white shadow-xl xl:bg-transparent xl:shadow-none" : "hidden xl:flex"),
+                    ((navbarOpen && props.sticked) ? "sm:space-y-6 sm:pb-12 sm:pt-24 sm:bottom-auto sm:h-auto sm:w-auto" : null),
                 ].join(' ')}
             >
                 {navData.main.items?.map((el,i) => (
@@ -33,13 +36,21 @@ const PrimaryNav = (props) => {
                         href={el.url}
                         target={el.blank}
                         css={[
-                            "block font-medium tracking-tight",
+                            "font-medium xl:h-full flex items-center tracking-tight",
                             "transition-all duration-150 ease-in hover:text-primary",
                             (navbarOpen ? "text-4xl xl:text-base" : null),
+                            (navbarOpen && props.sticked ? "sm:text-xl" : null),
                             ((isCurrentUrl(el.url) && el.url !== '/') || currentUrlStartsWith(el.url) ? "text-primary" : "text-black"),
                         ].join(' ')}
+                        parentCss={"relative"}
                     >
                         {el.label}
+                        {(isCurrentUrl(el.url) && el.url !== '/' || currentUrlStartsWith(el.url)) &&
+                            <span className={[
+                                "absolute transition-all w-4 h-4 -left-10 xl:-top-5 bg-primary xl:left-1/2 transform xl:-translate-x-1/2 rotate-45",
+                                (!props.sticked ? "xl:-top-9" : null),
+                            ].join(' ')} />
+                        }
                     </NavItem>
                 ))}
             </ul>

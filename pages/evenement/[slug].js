@@ -1,3 +1,5 @@
+import text from "../../content/main.json"
+
 import Layout from "../../src/components/layout/Layout"
 import markdownToHtml from "../../src/utils/markdownToHtml"
 import Container from "../../src/components/ui/Container"
@@ -8,10 +10,13 @@ import {getAllEvents} from "../../src/api/events"
 import {getAdjacentElements, getContentBySlug} from "../../src/api/common"
 
 export default function Evenement({post}) {
+    const bannerDatas = {
+        nav: [{label: text.events.title, url: "/evenements"}],
+    }
 
     return (
         <Layout seo={post?.seo}>
-            <Banner title={post.title} />
+            <Banner title={post.title} {...bannerDatas} />
             <Container css={"prose py-24"}>
                 {Parser(post.content)}
             </Container>
@@ -24,7 +29,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'event',
         params.slug,
-        ['title', 'slug', 'preview', 'date', 'content', 'seo'],
+        ['title', 'slug', 'options', 'date', 'content', 'seo'],
     )
     const content = await markdownToHtml(page.content || '')
     const adjacent = getAdjacentElements(params.slug, getAllEvents())

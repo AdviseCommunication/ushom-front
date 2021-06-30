@@ -1,7 +1,6 @@
 ---
 date: 2021-06-29T16:57
 title: Séminaire
-preview: ''
 options:
   cat: Appui professionnel
   private: false

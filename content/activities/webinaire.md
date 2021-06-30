@@ -1,13 +1,12 @@
 ---
 date: 2021-02-09T22:22
 title: Webinaire
-preview: ''
-private: false
 seo:
   title: ''
   description: ''
 options:
   cat: Appui professionnel
+  private: false
 
 ---
 **Webinaire du 26 février 2021**

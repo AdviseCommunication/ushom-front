@@ -1,3 +1,5 @@
+import text from "../content/main.json"
+
 import Layout from "../src/components/layout/Layout"
 import Title from "../src/components/ui/Title"
 import Container from "../src/components/ui/Container"
@@ -9,15 +11,15 @@ const Evenements = ({posts}) => {
 
     return (
         <Layout>
-            <Banner title={"Nos évènements"} />
+            <Banner title={text.events.title} />
             <section className={"flex flex-col"}>
-                <h2 className={"sr-only"}>{"Nos évènements"}</h2>
+                <h2 className={"sr-only"}>{text.events.title}</h2>
                 {posts.map((post, i) => (
                     <article key={i} className={"bg-white odd:bg-light py-24"}>
                         <Container css={"space-y-8"}>
                             <Title>{post.title}</Title>
                             <div className={"prose ul-sep-strong"}>
-                                <ReactMarkdown children={post.preview || post.content} />
+                                <ReactMarkdown children={post.content} />
                             </div>
                         </Container>
                     </article>

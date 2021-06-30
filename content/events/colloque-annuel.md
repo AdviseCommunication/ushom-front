@@ -1,7 +1,6 @@
 ---
 date: 2021-06-29T16:57
 title: Colloque annuel
-preview: ''
 options:
   private: false
 seo:

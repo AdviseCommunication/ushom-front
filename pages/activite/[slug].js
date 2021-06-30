@@ -1,3 +1,5 @@
+import text from "../../content/main.json"
+
 import Layout from "../../src/components/layout/Layout"
 import markdownToHtml from "../../src/utils/markdownToHtml"
 import {getAllPosts} from "../../src/api/post"
@@ -9,12 +11,12 @@ import Banner from "../../src/components/ui/Banner"
 
 export default function Activite({post}) {
     const bannerDatas = {
-        nav: [{label: "", url: "/dossiers"}],
+        nav: [{label: text.activities.title, url: "/activites"}],
     }
 
     return (
         <Layout seo={post?.seo}>
-            <Banner title={post.title} />
+            <Banner title={post.title} {...bannerDatas} />
             <Container css={"prose py-24"}>
                 {Parser(post.content)}
             </Container>
@@ -27,7 +29,7 @@ export async function getStaticProps({ params }) {
     const page = getContentBySlug(
         'post',
         params.slug,
-        ['title', 'slug', 'preview', 'date', 'content', 'seo'],
+        ['title', 'slug', 'options', 'date', 'content', 'seo'],
     )
     const content = await markdownToHtml(page.content || '')
     const adjacent = getAdjacentElements(params.slug, getAllPosts())

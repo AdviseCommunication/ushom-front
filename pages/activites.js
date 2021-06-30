@@ -1,3 +1,5 @@
+import text from "../content/main.json"
+
 import Layout from "../src/components/layout/Layout"
 import {getAllPosts, getPostCategories} from "../src/api/post"
 import Title from "../src/components/ui/Title"
@@ -13,16 +15,16 @@ const Activites = ({posts, cats}) => {
 
     return (
         <Layout>
-            <Banner title={"Nos activités"} />
+            <Banner title={text.activities.title} />
             <CategorySwitcher cats={orderedCats} current={current} clickHandler={e => setCurrent(e)} />
             <section className={"flex flex-col"}>
-                <h2 className={"sr-only"}>{"Nos activités"}</h2>
+                <h2 className={"sr-only"}>{text.activities.title}</h2>
                 {posts.map((post, i) => post.options.cat === cats[current] ? (
                     <article key={i} className={"bg-white odd:bg-light py-24"}>
                         <Container css={"space-y-8"}>
                             <Title>{post.title}</Title>
                             <div className={"prose ul-sep-strong"}>
-                                <ReactMarkdown children={post.preview || post.content} />
+                                <ReactMarkdown children={post.content} />
                             </div>
                         </Container>
                     </article>
