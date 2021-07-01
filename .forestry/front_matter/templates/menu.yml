@@ -2,12 +2,6 @@
 label: Menu
 hide_body: true
 fields:
-- name: memberArea
-  type: text
-  config:
-    required: false
-  label: Espace membre
-  description: URL vers l'espace membre
 - name: main
   type: field_group
   config: {}
@@ -67,5 +61,15 @@ fields:
       labelField: label
     label: Items
   label: Menu social
+- name: memberArea
+  type: field_group
+  config: {}
+  fields:
+  - name: cta
+    type: include
+    config: {}
+    template: cta
+    label: CTA
+  label: Espace membre
 pages:
 - content/nav.json
