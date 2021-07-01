@@ -2,14 +2,19 @@
   "title": "Organigramme",
   "items": [
     {
+      "title": "Jean-François Caillé",
+      "jobtitle": "Président de l'USHOM",
+      "photo": "/static/uploads/jf-caille.jpeg"
+    },
+    {
       "title": "Sabrina Mathiot",
       "jobtitle": "Directrice de l'USHOM",
       "photo": "/static/uploads/s-mathiot.jpg"
     },
     {
-      "title": "Jean-François Caillé",
-      "jobtitle": "Président de l'USHOM",
-      "photo": "/static/uploads/jf-caille.jpeg"
+      "title": "Arthur Parent",
+      "jobtitle": "Chef de projet",
+      "photo": "/static/uploads/arthur-parent.jpg"
     }
   ]
 }
