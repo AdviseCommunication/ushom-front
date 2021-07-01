@@ -4,21 +4,21 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
 - type: field_group_list
   name: items
-  label: items
+  label: Blocs
   fields:
   - type: text
     name: title
-    label: title
+    label: Titre
   - type: file
     name: icon
-    label: icon
+    label: Icône
   - type: field_group_list
     name: list
-    label: list
+    label: Actions
     fields:
     - type: text
       name: title
-      label: title
+      label: Texte
