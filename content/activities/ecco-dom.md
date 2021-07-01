@@ -1,12 +1,12 @@
 ---
 date: 2021-07-01T16:37
 options:
-  cat: Appui professionnel
+  cat: Projets
   private: false
 cta:
-  theme: []
+  theme: ''
   href: ''
-  children: ''
+  children: Découvrir le programme
   blank: false
 title: ECCO Dom
 preview: ''
