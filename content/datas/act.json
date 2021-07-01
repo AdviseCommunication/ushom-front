@@ -1,62 +1,62 @@
 {
-    "title": "L'USHOM agit pour ses adhérents et pour le citoyen ultramarin",
-    "items": [
+  "title": "L'USHOM agit pour ses adhérents et pour le citoyen ultramarin",
+  "items": [
+    {
+      "title": "Conseil et suivi",
+      "icon": "/static/images/001-chat.svg",
+      "list": [
         {
-            "title": "Conseil et suivi",
-            "icon": "/static/images/001-chat.svg",
-            "list": [
-                {
-                    "title": "Document stratégique"
-                },
-                {
-                    "title": "Veille législative et réglementaire"
-                },
-                {
-                    "title": "Expertise sur le logement social en Outre-mer"
-                }
-            ]
+          "title": "Document stratégique"
         },
         {
-            "title": "Appui professionnel",
-            "icon": "/static/images/076-megaphone.svg",
-            "list": [
-                {
-                    "title": "Webinaire"
-                },
-                {
-                    "title": "Séminaire"
-                },
-                {
-                    "title": "Journée Pro"
-                }
-            ]
+          "title": "Veille législative et réglementaire"
         },
         {
-            "title": "Représentation",
-            "icon": "/static/images/043-eye.svg",
-            "list": [
-                {
-                    "title": "Groupe de travail en lien avec la thématique du logement social"
-                },
-                {
-                    "title": "En lien continue avec les pouvoirs publics pour partager les préoccupations des acteurs locaux de l’habitat social"
-                }
-            ]
-        },
-        {
-            "title": "Projets",
-            "icon": "/static/images/006-trophy.svg",
-            "list": [
-                {
-                    "title": "Programme ECCO DOM"
-                },
-                {
-                    "title": "MOOC sur la gestion du risque Amiante"
-                },
-                {
-                    "title": "Plateforme Collaborative"
-                }
-            ]
+          "title": "Expertise sur le logement social en Outre-mer"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Appui professionnel",
+      "icon": "/static/images/076-megaphone.svg",
+      "list": [
+        {
+          "title": "Webinaire"
+        },
+        {
+          "title": "Séminaire"
+        },
+        {
+          "title": "Journée Pro"
+        }
+      ]
+    },
+    {
+      "title": "Représentation",
+      "icon": "/static/images/043-eye.svg",
+      "list": [
+        {
+          "title": "Groupe de travail en lien avec la thématique du logement social"
+        },
+        {
+          "title": "En lien continue avec les pouvoirs publics pour partager les préoccupations des acteurs locaux de l’habitat social"
+        }
+      ]
+    },
+    {
+      "title": "Projets",
+      "icon": "/static/images/006-trophy.svg",
+      "list": [
+        {
+          "title": "Programme ECCO DOM"
+        },
+        {
+          "title": "MOOC sur la gestion du risque Amiante"
+        },
+        {
+          "title": "Plateforme Collaborative"
+        }
+      ]
+    }
+  ]
 }

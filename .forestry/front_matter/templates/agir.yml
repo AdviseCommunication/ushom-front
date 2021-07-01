@@ -22,3 +22,5 @@ fields:
     - type: text
       name: title
       label: Texte
+pages:
+- content/datas/act.json
