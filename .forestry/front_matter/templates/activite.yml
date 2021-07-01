@@ -63,6 +63,7 @@ fields:
     label: CTA
   label: Appel à l'action
 pages:
+- content/activities/ecco-dom.md
 - content/activities/journee-professionnelle.md
 - content/activities/la-plateforme-collaborative.md
 - content/activities/mooc-amiante.md
