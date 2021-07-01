@@ -25,7 +25,7 @@ const Evenements = ({posts}) => {
                                     <ReactMarkdown children={post.content} />
                                 </div>
                             </div>
-                            {post.cta &&
+                            {post.cta?.children &&
                                 <div className={"flex-shrink-0 lg:pl-16"}><LinkButton {...post.cta} /></div>
                             }
                         </Container>
