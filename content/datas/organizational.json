@@ -2,6 +2,11 @@
   "title": "Organigramme",
   "items": [
     {
+      "title": "Sabrina Mathiot",
+      "jobtitle": "Directrice de l'USHOM",
+      "photo": "/static/uploads/s-mathiot.jpg"
+    },
+    {
       "title": "Jean-François Caillé",
       "jobtitle": "Président de l'USHOM",
       "photo": "/static/uploads/jf-caille.jpeg"
