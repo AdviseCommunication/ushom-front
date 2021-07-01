@@ -49,12 +49,12 @@ fields:
         type: text
         config:
           required: false
-        label: Nombre de logement social global
+        label: Nombre de logements sociaux
       - name: el4
         type: text
         config:
           required: false
-        label: Nombre de logement social nécessitant une réhabilitation
+        label: Nombre de logements sociaux nécessitant une réhabilitation
       - name: el5
         type: text
         config:
@@ -92,7 +92,7 @@ fields:
           type: text
           config:
             required: false
-          label: Nombre de logement au 1er janvier 2021
+          label: Nombre de logements au 1er janvier 2021
         - name: el2
           type: text
           config:
@@ -107,36 +107,36 @@ fields:
           type: text
           config:
             required: false
-          label: Nombre de logement construit
+          label: Nombre de logements construits
         - name: el5
           type: text
           config:
             required: false
-          label: Nombre de logement PLS construit entre le 1er janvier 2020 et le
+          label: Nombre de logements PLS construits entre le 1er janvier 2020 et le
             1er janvier 2021
         - name: el6
           type: text
           config:
             required: false
-          label: Nombre de logement LLS construit entre le 1er janvier 2020 et le
+          label: Nombre de logements LLS construits entre le 1er janvier 2020 et le
             1er janvier 2021
         - name: el7
           type: text
           config:
             required: false
-          label: Nombre de logement LLTS construit entre le 1er janvier 2020 et le
-            1er janvier 2021
+          label: Nombre de logements LLTS construits entre le 1er janvier 2020 et
+            le 1er janvier 2021
         - name: el8
           type: text
           config:
             required: false
-          label: Nombre de logement en accession sociale construit entre le 1er janvier
-            2020 et le 1er janvier 2021
+          label: Nombre de logements en accession sociale construits entre le 1er
+            janvier 2020 et le 1er janvier 2021
         - name: el9
           type: text
           config:
             required: false
-          label: Nombre de logement en cours de construction ou planifié pour l’année
+          label: Nombre de logements en cours de construction ou planifiés pour l’année
             2021 (entre le 1er janvier 2021 au 1er janvier 2022)
         label: Données
       config:
