@@ -6,7 +6,8 @@ import Container from "../src/components/ui/Container"
 import Banner from "../src/components/ui/Banner"
 import ReactMarkdown from "react-markdown"
 import {getAllEvents} from "../src/api/events"
-import {LinkButton} from "../src/components/ui/Button";
+import {LinkButton} from "../src/components/ui/Button"
+import Parser from "html-react-parser"
 
 const Evenements = ({posts}) => {
 
@@ -19,7 +20,7 @@ const Evenements = ({posts}) => {
                     <article key={i} className={"bg-white odd:bg-light py-24"}>
                         <Container css={"flex flex-col items-center lg:flex-row"}>
                             <div className={"w-full space-y-8"}>
-                                <Title>{post.title}</Title>
+                                <Title>{Parser(post.title)}</Title>
                                 <div className={"prose ul-sep-strong"}>
                                     <ReactMarkdown children={post.content} />
                                 </div>

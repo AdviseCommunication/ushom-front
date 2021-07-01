@@ -21,8 +21,15 @@ export default function Thread({post}) {
     return (
         <Layout seo={post?.seo}>
             <Banner title={post.title} {...bannerDatas} />
-            <Container css={"prose py-24"}>
-                {Parser(post.content)}
+            <Container css={"flex flex-col space-y-16 md:space-y-0 md:flex-row md:items-start md:space-x-16 py-24"}>
+                {(post.banner && !post.options?.use_banner) &&
+                    <picture className={"shadow-large md:w-96 flex-shrink-0 xl:w-1/3"}>
+                        <img className={""} src={post.banner} alt={""} loading={"lazy"} />
+                    </picture>
+                }
+                <div className={"flex-grow prose"}>
+                    {Parser(post.content)}
+                </div>
             </Container>
         </Layout>
     )

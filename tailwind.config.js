@@ -138,6 +138,7 @@ module.exports = {
       backgroundColor: ['even', 'odd'],
       borderWidth: ['first', 'last'],
       translate: ['group-hover'],
+      textColor: ['group-focus', 'even', 'odd'],
     }
   },
   plugins: [],

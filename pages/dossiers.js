@@ -18,8 +18,13 @@ const Dossiers = ({posts}) => {
                         {posts.map((post, i) => (
                             <article key={i}>
                                 <Link href={`/dossier/${post.slug}`}>
-                                    <a className={"flex flex-col w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
-                                        <div className={"space-y-6 p-8 md:p-16"}>
+                                    <a className={"flex flex-col md:flex-row w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
+                                        {post.banner &&
+                                            <picture className={"md:w-96 flex-shrink-0"}>
+                                                <img className={"h-full w-full object-cover"} src={post.banner} alt={""} loading={"lazy"} />
+                                            </picture>
+                                        }
+                                        <div className={"flex-grow space-y-6 p-8 md:p-16"}>
                                             <Title>{post.title}</Title>
                                             <div className={"prose"}>
                                                 {post.preview}
