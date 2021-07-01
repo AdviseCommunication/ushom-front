@@ -87,7 +87,7 @@ fields:
           type: text
           config:
             required: false
-          label: Nombre de résidence au 1er janvier 2021
+          label: Nombre de résidences au 1er janvier 2021
         - name: el1
           type: text
           config:
