@@ -9,14 +9,14 @@
     "sub": "L'USHOM a deux missions principales",
     "items": [
       {
-        "content": "<p><strong>La sensibilisation des pouvoirs publics et des partenaires de l'habitat à la prise en compte des spécificités de nos territoires en matière d'aménagement et d'habitat.</strong></p><p>Quelques exemples :</p><ul><li><p><strong>Participation active</strong> aux travaux d'élaboration des stratégies ultramarines sur le logement social en Outre-mer (conférence consensus logement, PLOM 2, plan de relance...)</p></li><li><p><strong>Contribution aux travaux parlementaires </strong>(projet de loi portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets...).</p></li></ul>",
+        "content": "<p><strong>La sensibilisation des pouvoirs publics et des partenaires de l'habitat à la sensibilisation des spécificités de nos territoires en matière d'aménagement et d'habitat.</strong></p><p>Quelques exemples :</p><ul><li><p><strong>Participation active</strong> aux travaux d'élaboration des stratégies ultramarines sur le logement social en Outre-mer (conférence de consensus sur le logement, PLOM 2, plan de relance...)</p></li><li><p><strong>Contribution aux travaux parlementaires </strong>(projet de loi portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets...).</p></li></ul>",
         "title": "Sensibilisation",
         "hide_title": true
       },
       {
         "title": "Accompagnement",
         "hide_title": true,
-        "content": "<p><strong>L'accompagnement du déploiement des politiques publiques de l'habitat sur les territoires </strong>à travers les actions et les animations professionnelles, l'amélioration des pratiques professionnelles, et la participation à l'innovation et à l'émergence de nouvelles solutions.</p><p>Quelques exemples:</p><ul><li><p><strong>Webinaire </strong>professionnel sur la réforme des attributions du Logement social ;</p></li><li><p><strong>Séminaire</strong> professionnel sur le vieillissement ;</p></li><li><p><strong>Projet de professionnalisation</strong> sur les questions amiante du logement social Outre-mer ;</p></li><li><p><strong>Projet «ECCO DOM»</strong> qui vise la maîtrise des charges Énergétiques, de la Climatisation et du Confort thermique en Outre-mer (ECCO DOM).</p></li></ul>"
+        "content": "<p><strong>L'accompagnement du déploiement des politiques publiques de l'habitat sur les territoires </strong>à travers les actions et les animations professionnelles, l'amélioration des pratiques professionnelles et la participation à l'innovation et à l'émergence de nouvelles solutions.</p><p>Quelques exemples:</p><ul><li><p><strong>Webinaire </strong>professionnel sur la réforme des attributions du Logement social ;</p></li><li><p><strong>Séminaire</strong> professionnel sur le vieillissement ;</p></li><li><p><strong>Projet de professionnalisation</strong> sur les questions amiante du logement social Outre-mer ;</p></li><li><p><strong>Projet «ECCO DOM»</strong> qui vise la maîtrise des charges Énergétiques, de la Climatisation et du Confort thermique en Outre-mer (ECCO DOM).</p></li></ul>"
       }
     ],
     "id": "missions"
