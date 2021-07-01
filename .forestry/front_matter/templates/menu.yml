@@ -2,6 +2,12 @@
 label: Menu
 hide_body: true
 fields:
+- name: memberArea
+  type: text
+  config:
+    required: false
+  label: Espace membre
+  description: URL vers l'espace membre
 - name: main
   type: field_group
   config: {}
