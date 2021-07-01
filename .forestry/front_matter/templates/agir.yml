@@ -1,0 +1,24 @@
+---
+label: Agir
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: items
+  label: items
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: icon
+    label: icon
+  - type: field_group_list
+    name: list
+    label: list
+    fields:
+    - type: text
+      name: title
+      label: title
