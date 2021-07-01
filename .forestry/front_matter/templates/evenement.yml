@@ -35,3 +35,5 @@ fields:
     name: description
     label: Description
     description: Balise méta description
+pages:
+- content/events/test.md
