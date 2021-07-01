@@ -43,7 +43,7 @@ const Contact = () => {
                         })}
                         <footer className={"lg:col-span-2 flex flex-col space-y-4 md:flex-row md:space-y-0 md:justify-between"}>
                             <Button size={0} theme={"secondary"} type={"submit"}>
-                                <span className={"py-2"}>{data.form.btnLabel}</span>
+                                <span className={"w-full text-center py-4 md:py-2"}>{data.form.btnLabel}</span>
                             </Button>
                             {success && (
                                 <div className={"flex items-center justify-center md:pl-4"}>

@@ -110,7 +110,7 @@
     ]
   },
   "memberArea": {
-    "activate": true,
+    "activate": false,
     "href": "/",
     "children": "Espace Membres",
     "blank": true,
