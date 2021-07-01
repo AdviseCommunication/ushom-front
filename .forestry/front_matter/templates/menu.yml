@@ -65,11 +65,18 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: activate
+    type: boolean
+    label: Activer
+    description: Activez pour afficher le lien vers l'espace membre
   - name: cta
     type: include
     config: {}
     template: cta
     label: CTA
+    showOnly:
+      field: activate
+      value: true
   label: Espace membre
 pages:
 - content/nav.json
