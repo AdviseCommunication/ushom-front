@@ -6,6 +6,7 @@ import Container from "../src/components/ui/Container"
 import Link from "next/link"
 import {getAllThreads} from "../src/api/thread"
 import Banner from "../src/components/ui/Banner"
+import Rolling from "../src/images/rolling.svg"
 
 const Dossiers = ({posts}) => {
 
@@ -20,9 +21,12 @@ const Dossiers = ({posts}) => {
                                 <Link href={`/dossier/${post.slug}`}>
                                     <a className={"flex flex-col md:flex-row w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
                                         {post.banner &&
-                                            <picture className={"md:w-96 flex-shrink-0"}>
-                                                <img className={"h-full w-full object-cover"} src={post.banner} alt={""} loading={"lazy"} />
-                                            </picture>
+                                            <div className={"bg-gray relative pb-3/4 md:pb-0 md:w-96 flex-shrink-0"}>
+                                                <Rolling className={"text-white absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"} />
+                                                <picture>
+                                                    <img className={"absolute inset-0 h-full w-full object-cover"} src={post.banner} alt={""} loading={"lazy"} />
+                                                </picture>
+                                            </div>
                                         }
                                         <div className={"flex-grow space-y-6 p-8 md:p-16"}>
                                             <Title>{post.title}</Title>
