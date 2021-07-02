@@ -49,3 +49,5 @@ fields:
     export_format: YYYY-MM-DDTHH:mm
     time_format: HH:mm
     display_utc: false
+pages:
+- content/threads/plan-logement-outre-mer.md
