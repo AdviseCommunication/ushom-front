@@ -46,6 +46,9 @@ const ListBloc = props => {
                                 <span className={"text-2xl"}>
                                     {props.datas[elx[0]] || (!isSpecial && "-")}
                                 </span>
+                                {(x === 1 && props.datas.notes) &&
+                                    <span className={"text-xs"}>{Parser(props.datas.notes)}</span>
+                                }
                                 <span
                                     className={[
                                         "font-medium md:text-sm md:pr-8 lg:pr-16 xl:pr-32",

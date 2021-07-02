@@ -190,7 +190,7 @@
               "title": "SPHLM",
               "logo": "",
               "website": "",
-              "masquer": false,
+              "masquer": true,
               "datas": {
                 "el0": "",
                 "el1": "",
