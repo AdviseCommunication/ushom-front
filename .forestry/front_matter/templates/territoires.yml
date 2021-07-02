@@ -79,6 +79,10 @@ fields:
         config:
           required: false
         label: Site web
+      - name: masquer
+        type: boolean
+        label: Masquer
+        description: Permet de ne pas afficher le bailleur
       - name: datas
         type: field_group
         config: {}
