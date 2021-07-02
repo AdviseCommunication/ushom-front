@@ -15,4 +15,4 @@ cta:
 preview: ''
 
 ---
-Une plateforme à destination des équipes des organismes HLM et EPL des DROM afin de faciliter le partage des savoir-faire, l'échange ou encore la mutualisation des pratiques et des outils pour une montée en compétences des acteurs.
+Une plateforme à destination des équipes des organismes HLM et EPL des DROM afin de faciliter le partage des savoir-faire, l'échange ou encore la mutualisation des pratiques et des outils pour une montée en compétence des acteurs.
