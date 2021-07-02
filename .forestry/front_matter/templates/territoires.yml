@@ -40,6 +40,15 @@ fields:
         config:
           required: false
         label: Nombre d'habitant
+      - name: notes
+        type: textarea
+        default: ''
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: Notes supplémentaires
       - name: el2
         type: text
         config:
