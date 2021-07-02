@@ -15,4 +15,4 @@ seo:
   description: ''
 
 ---
-MOOS sur les risques d'amiante à destination de la maitrise d'ouvrage sociale ultramarine qui donne lieu à l'établissement de l'attestation de formation amiante SS4 validée.
+MOOS sur les risques d'amiante à destination de la maitrise d'ouvrage sociale ultramarine qui donne lieu à l'établissement de l'attestation de formation amiante SS4.
