@@ -391,7 +391,96 @@
             "el5": ""
           },
           "bailleurs": [
-
+            {
+              "title": "SHLMR",
+              "logo": "/static/uploads/shlmr.png",
+              "website": "",
+              "masquer": true,
+              "datas": {
+                "el0": "",
+                "el1": "",
+                "el2": "",
+                "el3": "",
+                "el4": "",
+                "el5": "",
+                "el6": "",
+                "el7": "",
+                "el8": "",
+                "el9": ""
+              }
+            },
+            {
+              "title": "SEMADER",
+              "logo": "",
+              "website": "",
+              "masquer": true,
+              "datas": {
+                "el0": "",
+                "el1": "",
+                "el2": "",
+                "el3": "",
+                "el4": "",
+                "el5": "",
+                "el6": "",
+                "el7": "",
+                "el8": "",
+                "el9": ""
+              }
+            },
+            {
+              "title": "SODIAC",
+              "logo": "",
+              "website": "",
+              "masquer": true,
+              "datas": {
+                "el0": "",
+                "el1": "",
+                "el2": "",
+                "el3": "",
+                "el4": "",
+                "el5": "",
+                "el6": "",
+                "el7": "",
+                "el8": "",
+                "el9": ""
+              }
+            },
+            {
+              "title": "SODEGIS",
+              "logo": "/static/uploads/sogedis.png",
+              "website": "",
+              "masquer": true,
+              "datas": {
+                "el0": "",
+                "el1": "",
+                "el2": "",
+                "el3": "",
+                "el4": "",
+                "el5": "",
+                "el6": "",
+                "el7": "",
+                "el8": "",
+                "el9": ""
+              }
+            },
+            {
+              "title": "SEMAC",
+              "logo": "",
+              "website": "",
+              "masquer": true,
+              "datas": {
+                "el0": "",
+                "el1": "",
+                "el2": "",
+                "el3": "",
+                "el4": "",
+                "el5": "",
+                "el6": "",
+                "el7": "",
+                "el8": "",
+                "el9": ""
+              }
+            }
           ]
         }
       ]
