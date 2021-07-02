@@ -1,6 +1,9 @@
 import Parser from "html-react-parser"
 
 const ListBloc = props => {
+    if( props.masquer ) {
+        return null
+    }
 
     return (
         <div className={"bg-light bg-opacity-50 shadow-large p-8 space-y-8"}>
