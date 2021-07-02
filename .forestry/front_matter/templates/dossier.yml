@@ -51,4 +51,5 @@ fields:
     display_utc: false
 pages:
 - content/threads/les-aides-au-logement-en-outre-mer.md
+- content/threads/numerisation.md
 - content/threads/plan-logement-outre-mer.md
