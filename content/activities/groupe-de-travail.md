@@ -8,7 +8,7 @@ cta:
   href: ''
   children: ''
   blank: false
-title: Groupe de travail
+title: Groupes de travail
 preview: ''
 seo:
   title: ''

@@ -27,5 +27,3 @@ seo:
   [Revoir l'audition](# "Revoir l'audition")
 * Audition de l'USHOM au Sénat sur la précarité énergétique.  
   [Revoir l'audition](# "Revoir l'audition")
-* Audition de l'USHOM à l'Assemblée Nationale sur le contentieux entre l'USHOM et l'USH le 21 avril 2021.  
-  [Revoir l'audition](# "Revoir l'audition")
