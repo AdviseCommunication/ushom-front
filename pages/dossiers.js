@@ -15,11 +15,11 @@ const Dossiers = ({posts}) => {
             <section>
                 <Banner title={text.threads.title} />
                 <Container css={"py-24"}>
-                    <div className={"flex flex-col space-y-16"}>
+                    <div className={"grid grid-flow-row auto-rows-fr gap-16"}>
                         {posts.map((post, i) => (
-                            <article key={i}>
+                            <article key={i} className={""}>
                                 <Link href={`/dossier/${post.slug}`}>
-                                    <a className={"flex flex-col md:flex-row w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
+                                    <a className={"h-full flex flex-col md:flex-row w-full bg-light bg-opacity-50 shadow-large transition transform hover:-translate-y-1 hover:bg-white"}>
                                         {post.banner &&
                                             <div className={"bg-gray relative pb-3/4 md:pb-0 md:w-96 flex-shrink-0"}>
                                                 <Rolling className={"text-white absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"} />
