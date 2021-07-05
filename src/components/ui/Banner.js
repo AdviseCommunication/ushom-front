@@ -64,13 +64,25 @@ const Banner = props => {
                         ].join(' ')}>
                             {props.nav.map((el,i) => (
                                 <li key={i} className={"group flex items-center text-xl lg:text-sm text-white font-medium"}>
-                                    <a
-                                        children={el.label}
-                                        href={el.url}
-                                        className={"flex-grow pr-6 lg:pr-2 transition transform group-hover:-translate-y-px group-hover:-translate-x-1 hover:opacity-75"}
-                                    />
+                                    {el.clickHandler ? (
+                                        <button
+                                            children={el.label}
+                                            onClick={() => el.clickHandler(i)}
+                                            className={[
+                                                "flex-grow pr-6 lg:pr-2 transition transform text-left",
+                                                "group-hover:-translate-y-px group-hover:-translate-x-1 hover:opacity-75 focus:outline-none",
+                                                (props.activeNav === i ? "underline-white-2 underline-offset-2" : "opacity-90"),
+                                            ].join(' ')}
+                                        />
+                                    ) : (
+                                        <a
+                                            children={el.label}
+                                            href={el.url}
+                                            className={"flex-grow pr-6 lg:pr-2 transition transform group-hover:-translate-y-px group-hover:-translate-x-1 hover:opacity-75"}
+                                        />
+                                    )}
                                     <svg className={"flex-shrink-0 fill-current w-4 lg:w-2 transition transform group-hover:translate-x-1 group-hover:-translate-y-px"} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                        <path d={(el.url.slice(0,1) === '#' ? "M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" : "M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z")} />
+                                        <path d={((el.url?.slice(0,1) === '#' || el.clickHandler) ? "M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" : "M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z")} />
                                     </svg>
                                 </li>
                             ))}
