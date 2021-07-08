@@ -18,7 +18,6 @@ const HabiterEnOm = () => {
                         .flat()
                         .sort((a,b) => a.name.localeCompare(b.name))
 
-
     const banner = {
         title: text.habitat.title,
         nav: landlords.map(land => {

@@ -1,5 +1,7 @@
 import Parser from "html-react-parser"
 
+const specialFields = [0, 5, 6, 11]
+
 const ListBloc = props => {
     if( props.masquer ) {
         return null
@@ -31,35 +33,35 @@ const ListBloc = props => {
                     </a>
                 }
                 <ul className={"w-full grid grid-cols-1 gap-6 md:grid-cols-2"}>
-                    {Object.entries(props.guide).map((elx,x) => {
-                        const isSpecial = Object.entries(props.guide).length > 8 && x === 4
-                        return (
-                            <li
+                    {Object.entries(props.guide).map((elx,x) => (
+                        <li
+                            className={[
+                                "flex flex-col",
+                                (specialFields.includes(x) ? "-mx-8 px-8 md:col-span-2" : null),
+                                ((specialFields.includes(x) && x !== 5) ? "uppercase" : null),
+                                ((specialFields.includes(x) && x !== 0 && x !== 6) ? "pt-6 border-black border-opacity-10 border-t" : null),
+                                ((x === 5 || x === 11) && props.logo ? "md:-ml-0 md:pl-0" : null),
+                            ].join(' ')}
+                            key={x}
+                        >
+                            <span className={"text-2xl"}>
+                                {props.datas[elx[0]] || (specialFields.includes(x) || "-")}
+                            </span>
+                            <span
                                 className={[
-                                    "flex flex-col",
-                                    (isSpecial ? "uppercase" : null),
-                                    (isSpecial || x === 9 ? "-mx-8 px-8 pt-6 md:col-span-2 border-gray border-t-2 border-black border-opacity-10 border-t" : null),
-                                    ((isSpecial || x === 9) && props.logo ? "md:-ml-0 md:pl-0" : null),
+                                    "font-medium md:pr-8 lg:pr-16 xl:pr-32",
+                                    (specialFields.includes(x) ? "underline-offset-1" : "text-primary"),
+                                    ((specialFields.includes(x) && x !== 5) ? "underline -mb-2" : null),
+                                    (x === 5 ? "text-xl -mb-4" : "md:text-sm"),
                                 ].join(' ')}
-                                key={x}
                             >
-                                <span className={"text-2xl"}>
-                                    {props.datas[elx[0]] || (!isSpecial && "-")}
-                                </span>
-                                <span
-                                    className={[
-                                        "font-medium md:text-sm md:pr-8 lg:pr-16 xl:pr-32",
-                                        (isSpecial ? "underline underline-offset-1 -mb-2" : "text-primary"),
-                                    ].join(' ')}
-                                >
-                                    {elx[1]}
-                                </span>
-                                {(x === 1 && props.datas.notes) &&
-                                    <span className={"text-xs"}>{Parser(props.datas.notes)}</span>
-                                }
-                            </li>
-                        )
-                    })}
+                                {elx[1]}
+                            </span>
+                            {(x === 1 && props.datas.notes) &&
+                                <span className={"text-xs"}>{Parser(props.datas.notes)}</span>
+                            }
+                        </li>
+                    ))}
                 </ul>
             </div>
         </div>

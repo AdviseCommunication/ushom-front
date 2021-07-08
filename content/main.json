@@ -62,19 +62,19 @@
       "el5": "Loyer moyen au m²"
     },
     "bailleurs": {
+      "el0_title": "au 1er janvier 2021",
       "el0": "Nombre de résidence ",
       "el1": "Nombre de logement ",
       "el2": "Capacité d’accueil maximale ",
       "el3": "Taux d’occupation du parc social ",
       "el4": "Nombre de logement construit",
+      "el4_title": "entre le 1er janvier 2020 et le 1er janvier 2021",
       "el5": "Nombre de logement PLS construit",
       "el6": "Nombre de logement LLS construit ",
       "el7": "Nombre de logement LLTS construit ",
       "el8": "Nombre de logement en accession sociale construit ",
-      "el9": "Nombre de logement en cours de construction ou planifié pour l’année 2021",
-      "el0_title": "au 1er janvier 2021",
-      "el4_title": "entre le 1er janvier 2020 et le 1er janvier 2021",
-      "el9_title": "entre le 1er janvier 2021 au 1er janvier 2022"
+      "el9_title": "entre le 1er janvier 2021 au 1er janvier 2022",
+      "el9": "Nombre de logement en cours de construction ou planifié pour l’année 2021"
     },
     "presentationTitle": "Présentation générale de l’habitat sur le territoire (au 1er janvier 2021)",
     "bailleursTitle": "L’action des bailleurs"
