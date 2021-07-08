@@ -16,7 +16,7 @@ const Title = ({ ...props }) => {
 
     return (
         <header className={props.css} style={props.style}>
-            <Level className={[computeTextColor(props.color) , computeSize, props.hnCss].join(' ')}>
+            <Level className={[computeTextColor(props.color), computeSize, props.hnCss].join(' ')}>
                 {props.children}
             </Level>
         </header>

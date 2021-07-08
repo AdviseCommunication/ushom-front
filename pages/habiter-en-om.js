@@ -1,14 +1,16 @@
 import text from "../content/main.json"
 import data from "../content/datas/landlords.json"
 
+import slugify from "../src/utils/slugify"
+import Parser from "html-react-parser"
+import {useState} from "react"
+
 import Layout from "../src/components/layout/Layout"
 import Banner from "../src/components/ui/Banner"
-import slugify from "../src/utils/slugify"
 import Container from "../src/components/ui/Container"
 import Title from "../src/components/ui/Title"
-import Parser from "html-react-parser"
 import ListBloc from "../src/components/ui/ListBloc"
-import {useState} from "react";
+import ListLessor from "../src/components/ui/ListLessor"
 
 const HabiterEnOm = () => {
     const [active, setActive] = useState(0)
@@ -38,7 +40,7 @@ const HabiterEnOm = () => {
                            title={text.habitat.presentationTitle}
                         />
                         {landlords[active].bailleurs.map((b,bx) => (
-                            <ListBloc
+                            <ListLessor
                                 key={bx}
                                 guide={text.habitat.bailleurs}
                                 {...b}
