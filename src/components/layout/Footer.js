@@ -4,6 +4,7 @@ import Container from "../ui/Container"
 import FooterNav from "./nav/FooterNav"
 import Link from "next/link"
 import Address from "../widgets/Address"
+import ScrollToTop from "../ui/ScrollToTop"
 
 const Footer = (props) => (
     <footer className={["relative py-8 bg-primary space-y-8 text-white", props.css].join(' ')}>
@@ -17,6 +18,7 @@ const Footer = (props) => (
             <Link href={"/"}>
                 <a className={"font-medium hover:underline"}>{data.app.description}</a>
             </Link>
+            <ScrollToTop />
         </Container>
     </footer>
 )

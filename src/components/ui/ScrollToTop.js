@@ -1,4 +1,3 @@
-import ArrowTop from "../../images/arrow-top.svg"
 import _ from "lodash"
 import {useEffect, useState} from "react"
 import PropTypes from "prop-types"
@@ -14,23 +13,27 @@ const ScrollToTop = (props) => {
     })
 
     return (
-        <ArrowTop
+        <button
             onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}
             className={[
-                "transform transition-all duration-150 ease-in cursor-pointer w-12 h-12 p-1 border-2 text-primary hover:text-black",
+                "right-8 flex items-center justify-center bg-white ring-2 ring-white transform transition-all duration-150 ease-in cursor-pointer w-10 h-10 p-1 border-2 text-primary border-primary hover:bg-primary hover:text-white",
                 (props.fixed ? "bottom-4 fixed" : "top-0 absolute"),
                 (isTop < 200 ? "opacity-0 translate-y-4" : null)
             ].join(' ')}
-        />
+        >
+            <svg fill={"currentColor"} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z" />
+            </svg>
+        </button>
     )
 }
 
 ScrollToTop.defaultProps = {
-    fixed: false
+    fixed: true,
 }
 
 ScrollToTop.propTypes = {
-    fixed: PropTypes.bool
+    fixed: PropTypes.bool,
 }
 
 export default ScrollToTop
