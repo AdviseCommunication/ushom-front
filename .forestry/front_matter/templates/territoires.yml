@@ -96,6 +96,11 @@ fields:
         type: field_group
         config: {}
         fields:
+        - name: au_1er_janvier_2021
+          type: text
+          config:
+            required: false
+          label: au 1er janvier 2021
         - name: el0
           type: text
           config:
