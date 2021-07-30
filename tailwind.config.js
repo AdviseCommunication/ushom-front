@@ -4,9 +4,9 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: [
-    './content/**/*.json',
+    './content/**/*.{json,md,mdx}',
     './pages/**/*.js',
-    './src/**/*.js',
+    './src/**/*.{js,svg}',
   ],
   theme: {
     screens: {
