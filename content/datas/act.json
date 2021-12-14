@@ -6,13 +6,10 @@
       "icon": "/static/images/001-chat.svg",
       "list": [
         {
-          "title": "Document stratégique"
+          "title": "-\tExpertise sur le logement social en Outre-mer lors de l’établissement des dispositifs législatifs, réglementaires et financiers "
         },
         {
-          "title": "Veille législative et réglementaire"
-        },
-        {
-          "title": "Expertise sur le logement social en Outre-mer"
+          "title": "-\tParticipation active dans le déploiement des politiques publiques de l’habitat sur nos territoires"
         }
       ]
     },
@@ -28,18 +25,6 @@
         },
         {
           "title": "Journée Pro"
-        }
-      ]
-    },
-    {
-      "title": "Représentation",
-      "icon": "/static/images/043-eye.svg",
-      "list": [
-        {
-          "title": "Groupe de travail en lien avec la thématique du logement social"
-        },
-        {
-          "title": "En lien continue avec les pouvoirs publics pour partager les préoccupations des acteurs locaux de l’habitat social"
         }
       ]
     },
