@@ -605,14 +605,14 @@
               }
             },
             {
-              "title": "SIC",
+              "title": "",
               "logo": "/static/uploads/sic.jpg",
-              "website": "",
+              "website": "https://www.sic.nc/accueil/",
               "masquer": false,
               "datas": {
                 "el0": "318",
                 "el1": "11 226",
-                "el2": "13 700 environ",
+                "el2": "43 700",
                 "el3": "87,97%",
                 "el4": "",
                 "el5": "82 (appelé LLT)",
