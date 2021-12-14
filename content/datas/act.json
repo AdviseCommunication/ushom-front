@@ -18,13 +18,10 @@
       "icon": "/static/images/076-megaphone.svg",
       "list": [
         {
-          "title": "Webinaire"
+          "title": "Accompagnement des organismes de logements sociaux dans leur montée en compétence "
         },
         {
-          "title": "Séminaire"
-        },
-        {
-          "title": "Journée Pro"
+          "title": "Organisation d’évènements professionnels (webinaire, séminaire, journées professionnelles)"
         }
       ]
     },
