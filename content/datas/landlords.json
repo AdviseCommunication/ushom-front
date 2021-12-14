@@ -5,6 +5,27 @@
       "name": "Bassin Atlantique",
       "items": [
         {
+          "name": "Saint-Pierre et Miquelon",
+          "content": "",
+          "map": "",
+          "presentation": {
+            "el0": "",
+            "el1": "",
+            "notes": "",
+            "el2": "",
+            "el3": "",
+            "el4": "",
+            "el5": ""
+          },
+          "bailleurs": [
+
+          ],
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
           "name": "Guyane",
           "content": "SPHLM, SEMSAMAR, SIMKO, SIGUY",
           "map": "/static/images/maps/guyane.svg",
