@@ -5,19 +5,16 @@ options:
   private: false
 cta:
   theme: ''
-  href: ''
+  href: https://ecco-dom.fr/
   children: Découvrir le programme
   blank: false
-title: ECCO Dom
+title: 'Programme ECCO DOM '
 preview: ''
 seo:
   title: ''
   description: ''
 
 ---
-**L'Union Sociale pour l'Habitat Outre-mer** (USHOM) et le **Centre Scientifique et Technique du Bâtiment** (CSTB) ont été lauréats de l'appel à programmes 2019 du ministère de la Transition écologique et solidaire dans le cadre du dispositif des Certificats d'économie d'énergie pour la période 2020-2022, avec leur programme « ECCO DOM ».
+**L’USHOM** a été lauréat de l’appel à programmes 2019 du ministère de la Transition écologique et solidaire dans le cadre du dispositif des Certificats d’Économies d’Énergie (CEE) pour la période 2020-2022 avec **son Programme ECCO DOM.**
 
-Le programme a pour objectif de contribuer à la réduction des dépenses énergétiques dans le secteur dans le secteur du bâtiment dans les Outre-mer. Il se fixe comme indicateur de réussite un nombre de logements accompagnés dans le parc social :
-
-* Instrumentalisation de 240 logements (dont 35 en instrumentation avancée) et développement du suivi « au compteur » pour 1 000 logements sociaux ultramarins ;
-* Accompagnement de 34 000 logements et 100 000 m² de bureaux par des opérations pédagogiques de sensibilisation et de formation à la réalisation d'économies d'énergie.
+Le programme ECCO DOM est un programme à destination des ménages et des collectivités des Départements et Régions d’Outre-mer pour contribuer à la réduction de leurs dépenses énergétiques.
