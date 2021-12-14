@@ -50,8 +50,6 @@ fields:
     time_format: HH:mm
     display_utc: false
 pages:
-- content/threads/amiante.md
-- content/threads/innovation.md
 - content/threads/les-aides-au-logement-en-outre-mer.md
 - content/threads/numerisation.md
 - content/threads/pacte-outre-mer.md
