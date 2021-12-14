@@ -18,7 +18,24 @@
             "el5": ""
           },
           "bailleurs": [
-
+            {
+              "title": "CISPM",
+              "logo": "/static/uploads/cispm.png",
+              "website": "http://cispm.unblog.fr/",
+              "masquer": false,
+              "datas": {
+                "el0": "3",
+                "el1": "48",
+                "el2": "N/A",
+                "el3": "100%",
+                "el5": "0",
+                "el6": "0",
+                "el7": "0",
+                "el8": "0",
+                "el9": "0",
+                "el4": ""
+              }
+            }
           ],
           "gps": {
             "x": 34,
