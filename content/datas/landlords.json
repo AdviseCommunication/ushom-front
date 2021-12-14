@@ -27,7 +27,7 @@
         },
         {
           "name": "Guyane",
-          "content": "SPHLM, SEMSAMAR, SIMKO, SIGUY",
+          "content": "SEMSAMAR, SIMKO, SIGUY",
           "map": "/static/images/maps/guyane.svg",
           "gps": {
             "x": 34,
