@@ -34,16 +34,16 @@
         ]
       },
       {
-        "label": "Dossiers thématiques",
-        "url": "/dossiers",
+        "label": "Archives",
+        "url": "/archives",
         "blank": false,
         "items": [
 
         ]
       },
       {
-        "label": "Archives",
-        "url": "/archives",
+        "label": "Presse",
+        "url": "/presse",
         "blank": false,
         "items": [
 
