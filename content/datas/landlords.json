@@ -508,12 +508,12 @@
               }
             },
             {
-              "title": "SODEGIS",
+              "title": "",
               "logo": "/static/uploads/sogedis.png",
-              "website": "",
+              "website": "https://www.sodegis.re/",
               "masquer": false,
               "datas": {
-                "el0": "128",
+                "el0": "123",
                 "el1": "4 287",
                 "el2": "10 650",
                 "el3": "98, 62%",
@@ -522,7 +522,7 @@
                 "el6": "20",
                 "el7": "151",
                 "el8": "0",
-                "el9": "donnée indisponible"
+                "el9": "N/A"
               }
             },
             {
