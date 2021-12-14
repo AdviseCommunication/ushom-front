@@ -135,13 +135,13 @@
           },
           "bailleurs": [
             {
-              "title": "SEMAG",
+              "title": "",
               "logo": "/static/uploads/semag.png",
               "website": "https://www.semag.fr/",
               "datas": {
                 "el0": "100",
-                "el1": "5383",
-                "el2": "16699",
+                "el1": "5 383",
+                "el2": "16 699",
                 "el3": "92%",
                 "el5": "0",
                 "el6": "214",
@@ -189,7 +189,7 @@
               }
             },
             {
-              "title": "SIKOA",
+              "title": "",
               "logo": "/static/uploads/capture-d-ecran-2021-12-15-0055543.png",
               "website": "https://www.sikoa.fr/",
               "masquer": false,
