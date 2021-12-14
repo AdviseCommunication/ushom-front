@@ -15,7 +15,7 @@ seo:
   description: ''
 
 ---
-L’USHOM, en partenariat avec le Ministère des Outre-mer et le Ministère de la Cohésion des Territoires dans le cadre du Plan recherche et développement amiante (PRDA), a réalisé un MOOC sur la prise en compte de l’amiante dans l’activité de la maitrise d’ouvrage sociale ultramarine.
+L’**USHOM**, en partenariat avec le Ministère des Outre-mer et le Ministère de la Cohésion des Territoires dans le cadre du Plan recherche et développement amiante (PRDA), a réalisé **un MOOC** sur la prise en compte de l’amiante dans l’activité de la **maitrise d’ouvrage sociale ultramarine.**
 
 Le MOOC Amiante est à destination de la maitrise d’ouvrage sociale des régions et département d’outre-mer qui offre un parcours formatif composé en deux axes :
 
