@@ -6,7 +6,7 @@
       "items": [
         {
           "name": "Saint-Pierre et Miquelon",
-          "content": "CISPM",
+          "content": "",
           "map": "/static/uploads/illustration-spm.png",
           "presentation": {
             "el0": "242 km²",
