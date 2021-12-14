@@ -50,9 +50,6 @@ fields:
     time_format: HH:mm
     display_utc: false
 pages:
-- content/threads/les-aides-au-logement-en-outre-mer.md
-- content/threads/numerisation.md
-- content/threads/pacte-outre-mer.md
 - content/threads/plan-logement-outre-mer.md
 - content/threads/renovation-urbaine.md
 - content/threads/solidarite-et-proximite.md
