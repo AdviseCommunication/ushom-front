@@ -587,20 +587,20 @@
               }
             },
             {
-              "title": "FSH",
-              "logo": "",
-              "website": "",
+              "title": "",
+              "logo": "/static/uploads/fch.png",
+              "website": "https://www.fsh.nc/",
               "masquer": false,
               "datas": {
                 "el0": "228",
                 "el1": "2 992",
-                "el2": "15 462 environ",
+                "el2": "15 462 ",
                 "el3": "92%",
                 "el4": "",
                 "el5": "84 (appelé LLT)",
-                "el6": "102 (appelé LLA équivalent à LLS et LLTS)",
+                "el6": "144 (appelé LLA équivalent à LLS et LLTS)",
                 "el7": "",
-                "el8": "21",
+                "el8": "",
                 "el9": "1 257"
               }
             },
