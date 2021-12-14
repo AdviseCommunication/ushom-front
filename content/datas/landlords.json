@@ -320,7 +320,7 @@
         },
         {
           "name": "Saint-Martin",
-          "content": "",
+          "content": "SEMSAMAR",
           "map": "/static/images/maps/st-martin.svg",
           "gps": {
             "x": null,
