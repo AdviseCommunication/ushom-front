@@ -63,7 +63,6 @@ fields:
     label: CTA
   label: Appel à l'action
 pages:
-- content/activities/auditions-realisees.md
 - content/activities/ecco-dom.md
 - content/activities/groupe-de-travail.md
 - content/activities/journee-professionnelle.md
