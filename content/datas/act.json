@@ -30,13 +30,13 @@
       "icon": "/static/images/006-trophy.svg",
       "list": [
         {
-          "title": "Programme ECCO DOM"
+          "title": "ECCO DOM : Programme d’accompagnement des résidents ultramarins dans la maitrise des charges énergétique"
         },
         {
-          "title": "MOOC sur la gestion du risque Amiante"
+          "title": "MOOC Amiante : formation sur la gestion du risque amiante "
         },
         {
-          "title": "Plateforme Collaborative"
+          "title": "HOM : aide à l’accès au logement des étudiants ultramarins en Hexagone"
         }
       ]
     }
