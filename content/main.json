@@ -52,12 +52,12 @@
   },
   "viewMore": "Lire plus",
   "habitat": {
-    "title": "Habitat social en Outre-mer",
+    "title": "Habitat social ultramarin",
     "presentation": {
       "el0": "Superficie",
       "el1": "Nombre d’habitant",
-      "el2": "Nombre de bailleurs sociaux présent sur le territoire",
-      "el3": "Nombre de logement social global",
+      "el2": "Nombre de bailleurs sociaux",
+      "el3": "Nombre de logements sociaux",
       "el4": "Nombre de logement social nécessitant une réhabilitation",
       "el5": "Loyer moyen au m²"
     },
@@ -76,7 +76,7 @@
       "el4_title": "entre le 1er janvier 2020 et le 1er janvier 2021",
       "el9_title": "entre le 1er janvier 2021 au 1er janvier 2022"
     },
-    "presentationTitle": "Présentation générale de l’habitat sur le territoire (au 1er janvier 2021)",
+    "presentationTitle": "Présentation générale de l’habitat social sur le territoire (au 1er janvier 2021)",
     "bailleursTitle": "L’action des bailleurs"
   },
   "activities": {
