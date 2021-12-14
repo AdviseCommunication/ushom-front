@@ -281,14 +281,14 @@
               }
             },
             {
-              "title": "OZANAM",
+              "title": "",
               "logo": "/static/uploads/ozanam.jpg",
-              "website": "",
+              "website": "https://www.ozanam-hlm.fr/",
               "masquer": false,
               "datas": {
                 "el0": "162",
                 "el1": "10 722",
-                "el2": "30 000 résidents environ",
+                "el2": "30 000 ",
                 "el3": "95 %",
                 "el4": "",
                 "el5": "0",
