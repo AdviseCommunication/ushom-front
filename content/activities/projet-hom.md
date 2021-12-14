@@ -4,10 +4,10 @@ options:
   cat: Appui professionnel
   private: false
 cta:
-  theme: []
-  href: ''
-  children: ''
-  blank: false
+  theme: ''
+  href: https://hebergement.outremersolidaires.gouv.fr/
+  children: Découvrez le projet HOM
+  blank: true
 title: Projet HOM
 preview: ''
 seo:
