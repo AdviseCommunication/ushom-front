@@ -569,21 +569,21 @@
           },
           "bailleurs": [
             {
-              "title": "SEMAGGLO",
+              "title": "",
               "logo": "/static/uploads/sem-agglo.jpg",
               "website": "",
-              "masquer": true,
+              "masquer": false,
               "datas": {
-                "el0": "",
-                "el1": "",
-                "el2": "",
-                "el3": "",
+                "el0": "59",
+                "el1": "2 042",
+                "el2": "N/A",
+                "el3": "96,3%",
                 "el4": "",
-                "el5": "",
-                "el6": "",
+                "el5": "68 (appelé LLT)",
+                "el6": "93 (appelé LLA regroupant les LLTS)",
                 "el7": "",
                 "el8": "",
-                "el9": ""
+                "el9": "216"
               }
             },
             {
