@@ -9,13 +9,13 @@
           "content": "CISPM",
           "map": "/static/uploads/illustration-spm.png",
           "presentation": {
-            "el0": "",
-            "el1": "",
+            "el0": "242 km²",
+            "el1": "5 800",
             "notes": "",
-            "el2": "",
-            "el3": "",
-            "el4": "",
-            "el5": ""
+            "el2": "1",
+            "el3": "48",
+            "el4": "N/A",
+            "el5": "4,5 €/m²"
           },
           "bailleurs": [
             {
