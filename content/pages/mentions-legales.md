@@ -8,7 +8,7 @@ description:
 
 Conformément aux dispositions de l’article 6 III 1° de la loi n°2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, nous vous informons que :
 
-* le présent site est un support de communication officiel de l’USHOM – l’Union Sociale pour l’Habitat Outre-mer, association immatriculée sous le numéro 422 713 560 00015 dont le siège social est situé à Société Martiniquaise d’HLM Zac de Chateauboeuf – Immeuble Cardinal B.P.597 – 92700 Fort de France (email : contact@ushom.org) ;
+* le présent site est un support de communication officiel de l’USHOM – l’Union Sociale pour l’Habitat Outre-mer, association immatriculée sous le numéro 422 713 560 00031 dont le siège social est situé à Société Martiniquaise d’HLM Zac de Chateauboeuf – Immeuble Cardinal B.P.597 – 92700 Fort de France (email : contact@ushom.org) ;
 * le directeur de la publication du site est Madame Sabrina Mathiot en qualité de Directrice ;
 * le prestataire assurant l’hébergement est la société ADVISE Communication, dont le siège est situé au Centre commercial 3 FONTAINES, 95000 Cergy et immatriculé sous le numéro SIRET 43365266600028
 
@@ -62,8 +62,7 @@ Toute représentation, modification, reproduction, dénaturation, totale ou part
 
 Les bases de données figurant, le cas échéant, sur le Site sont protégées par les dispositions de la loi du 1er juillet 1998 transposant dans le code de la propriété intellectuelle, la Directive européenne du 11 mars 1996 relative à la protection juridique des bases de données. A ce titre, l’USHOM interdit expressément toute réutilisation, reproduction ou extraction d’éléments de ces bases de données. La réutilisation, reproduction ou extraction non autorisée engage la responsabilité de l’utilisateur.
 
-L’USHOM se réserve la faculté de supprimer sans délais, et sans mise en demeure préalable, tout contenu : message, texte, image, graphique qui contreviendrait aux lois et règlements en vigueur et notamment les réglementations précisées ci-dessus.  
- 
+L’USHOM se réserve la faculté de supprimer sans délais, et sans mise en demeure préalable, tout contenu : message, texte, image, graphique qui contreviendrait aux lois et règlements en vigueur et notamment les réglementations précisées ci-dessus.
 
 **Gestion des identifiants et mot de passe**
 
