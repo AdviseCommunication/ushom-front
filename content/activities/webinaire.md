@@ -9,30 +9,18 @@ options:
   private: false
 
 ---
-**Webinaire du 26 février 2021**
-
-Webinaire du 26 février 2021 portant sur la réforme des attributions du logement social.
+**Webinaire du 26 février 2021 portant sur la réforme des attributions du logement social**
 
 * Consulter le programme de l'événement
-* Consulter le compte rendu
 
-**Webinaire du 7 avril 2021**
-
-Webinaire du 7 avril 2021 portant sur le financement du logement social en Martinique 
+**Webinaire du 7 avril 2021 portant sur le financement du logement social en Martinique**
 
 * Consulter le programme de l'événement
-* Consulter le compte rendu
 
-**Webinaire du 11 mai 2021**
-
-Webinaire du 11 mai 2021 portant sur le financement du logement social en Guadeloupe
+**Webinaire du 11 mai 2021 portant sur le financement du logement social en Guadeloupe**
 
 * Consulter le programme de l'événement
-* Consulter le compte rendu
 
-**Webinaire du 23 juin 2021**
-
-Webinaire du 23 juin 2021 portant sur le financement du logement social à la Réunion
+**Webinaire du 23 juin 2021** **portant sur le financement du logement social à La Réunion**
 
 * Consulter le programme de l'événement
-* Consulter le compte rendu
