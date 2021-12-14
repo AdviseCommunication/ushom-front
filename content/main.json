@@ -62,7 +62,7 @@
       "el5": "Loyer moyen au m²"
     },
     "bailleurs": {
-      "el0": "Nombre de résidence ",
+      "el0": "Informations générales au 1er janvier 2021",
       "el1": "Nombre de logement ",
       "el2": "Capacité d’accueil maximale ",
       "el3": "Taux d’occupation",
@@ -72,7 +72,7 @@
       "el7": "Logement LLTS",
       "el8": "Logement en accession sociale",
       "el9": "Tous logement confondu",
-      "el0_title": "Informations générales au 1er janvier 2021",
+      "el0_title": "Nombre de résidence",
       "el4_title": "Nombre de logement construit entre le 1er janvier et le 31 décembre 2020",
       "el9_title": "Nombre de logement planifié à la construction entre le 1er janvier et le 31 décembre 2020"
     },
