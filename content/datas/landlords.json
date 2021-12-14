@@ -211,7 +211,7 @@
         },
         {
           "name": "Martinique",
-          "content": "SMHLM, SIMAR, OAZANAM, SEMSAMAR",
+          "content": "SMHLM, SIMAR, OAZANAM, SEMSAMAR, SEMAG",
           "map": "/static/images/maps/martinique.svg",
           "gps": {
             "x": 31,
