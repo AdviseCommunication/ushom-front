@@ -49,6 +49,3 @@ fields:
     export_format: YYYY-MM-DDTHH:mm
     time_format: HH:mm
     display_utc: false
-pages:
-- content/threads/solidarite-et-proximite.md
-- content/threads/vieillissement.md
