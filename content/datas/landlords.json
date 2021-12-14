@@ -380,8 +380,8 @@
           },
           "bailleurs": [
             {
-              "title": "SIM",
-              "logo": "",
+              "title": "",
+              "logo": "/static/uploads/capture-d-ecran-2021-12-15-003653.png",
               "website": "",
               "masquer": true,
               "datas": {
