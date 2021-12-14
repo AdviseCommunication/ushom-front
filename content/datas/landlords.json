@@ -79,14 +79,14 @@
               }
             },
             {
-              "title": "SIMKO",
+              "title": "",
               "logo": "/static/uploads/simko.jpg",
-              "website": "",
+              "website": "http://simko.fr/",
               "masquer": false,
               "datas": {
                 "el0": "N/A",
                 "el1": "8 212",
-                "el2": "Données indisponibles",
+                "el2": "N/A",
                 "el3": "97,4 %",
                 "el4": "",
                 "el5": "0",
@@ -94,24 +94,6 @@
                 "el7": "0",
                 "el8": "35",
                 "el9": "896"
-              }
-            },
-            {
-              "title": "SIGUY",
-              "logo": "",
-              "website": "",
-              "masquer": true,
-              "datas": {
-                "el0": "",
-                "el1": "",
-                "el2": "",
-                "el3": "",
-                "el4": "",
-                "el5": "",
-                "el6": "",
-                "el7": "",
-                "el8": "",
-                "el9": ""
               }
             }
           ]
