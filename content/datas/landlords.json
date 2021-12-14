@@ -456,15 +456,15 @@
             {
               "title": "SHLMR",
               "logo": "/static/uploads/shlmr.png",
-              "website": "",
+              "website": "https://www.shlmr.fr/",
               "masquer": false,
               "datas": {
                 "el0": "487",
                 "el1": "26 889",
-                "el2": "84 461 environ",
+                "el2": "84 461",
                 "el3": "98,32%",
                 "el4": "",
-                "el5": "43 PLS + 27 PLI",
+                "el5": "43",
                 "el6": "258",
                 "el7": "102",
                 "el8": "29",
