@@ -644,20 +644,20 @@
           "bailleurs": [
             {
               "title": "OPH",
-              "logo": "",
+              "logo": "/static/uploads/oph.png",
               "website": "",
-              "masquer": true,
+              "masquer": false,
               "datas": {
-                "el0": "",
-                "el1": "",
-                "el2": "",
-                "el3": "",
-                "el4": "",
-                "el5": "",
-                "el6": "",
+                "el0": "114",
+                "el1": "3 744",
+                "el2": "N/A",
+                "el3": "100%",
+                "el4": "56",
+                "el5": "Nombre de logement réhabilités 54",
+                "el6": "Nombre de parcelles viabilisées 35",
                 "el7": "",
                 "el8": "",
-                "el9": ""
+                "el9": "744"
               }
             }
           ]
