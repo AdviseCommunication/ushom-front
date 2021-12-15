@@ -49,3 +49,5 @@ fields:
     export_format: YYYY-MM-DDTHH:mm
     time_format: HH:mm
     display_utc: false
+pages:
+- content/threads/l-ushom-organise-son-colloque-sur-le-theme-le-logement-social-ultramarin-au-centre-des-enjeux-economiques-sociaux-et-du-changement-climatique.md
