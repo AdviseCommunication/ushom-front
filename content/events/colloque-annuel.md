@@ -13,3 +13,5 @@ L’**USHOM**, en partenariat avec Interco’Outre-mer et l’ACCD’OM, a organ
 Ce temps fort de l’année 2021 a permis de faire émerger près de **62 propositions concrètes** fondées sur l’expérience collective pour définir ensemble le logement social ultramarin de demain.
 
 * [Consulter le programme ](/static/uploads/colloque-27-septembre-2021-programme.pdf "Consulter le programme")
+
+![](/static/uploads/photo-de-groupe.png)
