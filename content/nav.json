@@ -42,8 +42,8 @@
         ]
       },
       {
-        "label": "Presse",
-        "url": "/presse",
+        "label": "Actualités",
+        "url": "/actualités",
         "blank": false,
         "items": [
 
