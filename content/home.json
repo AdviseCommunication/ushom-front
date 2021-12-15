@@ -24,14 +24,14 @@
     "title": "En 2020, le logement social en Outre-mer c'est :",
     "items": [
       {
-        "content": "Un parc de plus de 160 300 logements sociaux",
-        "icon": "/static/images/086-home.svg",
-        "source": ""
-      },
-      {
         "content": "80 % de la population ultramarine éligible à un logement social dont 70 % à un logement très social ",
         "icon": "/static/images/020-users.svg",
         "source": "(source: Rapport de la cour des comptes, sept. 2020)"
+      },
+      {
+        "content": "Un parc de plus de 160 300 logements sociaux",
+        "icon": "/static/images/086-home.svg",
+        "source": ""
       },
       {
         "content": "Plus de 20 000 emplois qui bénéficient de l’économie du logement social en Outre-mer",
