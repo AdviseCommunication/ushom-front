@@ -1,5 +1,6 @@
 ---
-title: 'Les maires ultramarins signent une convention partenariale avec l''USHOM '
+title: '17.11.2021 - Les maires ultramarins signent une convention partenariale avec
+  l''USHOM '
 preview: ''
 seo:
   title: ''
