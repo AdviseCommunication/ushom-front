@@ -21,6 +21,6 @@ options:
 
 * [Consulter le programme de l'événement](/static/uploads/webinaire-financement-du-logement-social-guadeloupe-programme.pdf)
 
-**Webinaire du 23 juin 2021** **portant sur le financement du logement social à La Réunion**
+**Webinaire du 23 juin 2021 portant sur le financement du logement social à La Réunion**
 
 * [Consulter le programme de l'événement](/static/uploads/webinaire-financement-du-logement-social-la-reunion-programme.pdf)
