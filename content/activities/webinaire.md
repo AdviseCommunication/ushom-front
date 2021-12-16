@@ -11,7 +11,7 @@ options:
 ---
 **Webinaire du 26 février 2021 portant sur la réforme des attributions du logement social**
 
-* [Consulter le programme de l'événement](/static/uploads/webinaire-reforme-des-attributions-programme.pdf)
+* [Consulter le programme de l'événement](/static/uploads/site-webinaire-reforme-des-attributions-programme.pdf)
 
 **Webinaire du 7 avril 2021 portant sur le financement du logement social en Martinique**
 
