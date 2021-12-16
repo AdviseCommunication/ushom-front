@@ -11,7 +11,7 @@
       },
       {
         "label": "L'habitat social ultramarin",
-        "url": "/habitat-social-ultramarin",
+        "url": "/habiter-en-om",
         "blank": false,
         "items": [
 
@@ -28,14 +28,6 @@
       {
         "label": "Nos évènements",
         "url": "/evenements",
-        "blank": false,
-        "items": [
-
-        ]
-      },
-      {
-        "label": "Archives",
-        "url": "/archives",
         "blank": false,
         "items": [
 
