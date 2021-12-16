@@ -19,7 +19,7 @@ options:
 
 **Webinaire du 11 mai 2021 portant sur le financement du logement social en Guadeloupe**
 
-* [Consulter le programme de l'événement](/static/uploads/webinaire-financement-du-logement-social-guadeloupe-programme.pdf)
+* [Consulter le programme de l'événement](/static/uploads/site-guadeloupe-programme-heure-de-paris-webinaire-financement-du-logement-social.pdf)
 
 **Webinaire du 23 juin 2021 portant sur le financement du logement social à La Réunion**
 
