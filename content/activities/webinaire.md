@@ -15,7 +15,7 @@ options:
 
 **Webinaire du 7 avril 2021 portant sur le financement du logement social en Martinique**
 
-* [Consulter le programme de l'événement](/static/uploads/webinaire-financement-du-logement-social-martinique-programme.pdf)
+* [Consulter le programme de l'événement](/static/uploads/site-martinique-programme-heure-de-paris-webinaire-financement-du-logement-social.pdf)
 
 **Webinaire du 11 mai 2021 portant sur le financement du logement social en Guadeloupe**
 
