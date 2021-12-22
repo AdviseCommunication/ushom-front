@@ -223,6 +223,11 @@ fields:
       type: text
       config:
         required: false
+      label: Titre planifié (spécifique PF)
+    - name: z7
+      type: text
+      config:
+        required: false
       label: Nb en cours/planifié (spécifique PF)
     label: Libellés bailleurs
   label: Habiter en OM
