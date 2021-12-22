@@ -65,23 +65,6 @@ fields:
     - type: text
       name: source
       label: Source
-- type: field_group
-  name: territories
-  label: Territoires
-  fields:
-  - type: text
-    name: title
-    label: Titre
-- name: seo
-  type: field_group
-  config: {}
-  fields:
-  - name: seo
-    type: include
-    config: {}
-    template: seo
-    label: SEO
-  label: SEO
 - name: homeCta
   type: field_group
   label: CTA
@@ -93,6 +76,12 @@ fields:
     name: items
     label: Liens
     fields:
+    - name: libelle
+      type: text
+      config:
+        required: false
+      label: Libellé
+      description: Utile uniquement pour le back-office
     - type: field_group
       name: img
       label: Visuel
@@ -121,5 +110,24 @@ fields:
         label: theme
         hidden: true
         default: wide
+    config:
+      labelField: libelle
+- type: field_group
+  name: territories
+  label: Territoires
+  fields:
+  - type: text
+    name: title
+    label: Titre
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  label: SEO
 pages:
 - content/home.json
