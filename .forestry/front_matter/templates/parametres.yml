@@ -194,6 +194,36 @@ fields:
         required: false
       label: Nb en cours ou planifié
       default: Nombre de logement en cours de construction ou planifié
+    - name: z1
+      type: text
+      config:
+        required: false
+      label: Nb LLT (spécifique NC)
+    - name: z2
+      type: text
+      config:
+        required: false
+      label: Nb LLA (spécifique NC)
+    - name: z3
+      type: text
+      config:
+        required: false
+      label: Nb logement construit (spécifique PF)
+    - name: z4
+      type: text
+      config:
+        required: false
+      label: Nb parcelle viabilisée (spécifique PF)
+    - name: z5
+      type: text
+      config:
+        required: false
+      label: Nb logement réhabilité (spécifique PF)
+    - name: z6
+      type: text
+      config:
+        required: false
+      label: Nb en cours/planifié (spécifique PF)
     label: Libellés bailleurs
   label: Habiter en OM
 - type: field_group
