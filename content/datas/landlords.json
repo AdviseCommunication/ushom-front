@@ -40,7 +40,9 @@
           "gps": {
             "x": 34,
             "y": 39
-          }
+          },
+          "is_pf": false,
+          "is_nc": false
         },
         {
           "name": "Guyane",
@@ -114,7 +116,9 @@
                 "el9": "896"
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         },
         {
           "name": "Guadeloupe",
@@ -143,12 +147,12 @@
                 "el1": "5 383",
                 "el2": "16 699",
                 "el3": "92%",
-                "el4": "",
                 "el5": "0",
                 "el6": "214",
                 "el7": "29",
                 "el8": "0",
-                "el9": "420"
+                "el9": "420",
+                "el4": ""
               },
               "masquer": false
             },
@@ -224,7 +228,9 @@
                 "el9": "89"
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         },
         {
           "name": "Martinique",
@@ -316,7 +322,9 @@
                 "el9": ""
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         },
         {
           "name": "Saint-Martin",
@@ -354,7 +362,9 @@
                 "el9": ""
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         }
       ]
     },
@@ -397,7 +407,9 @@
                 "el9": ""
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         },
         {
           "name": "La Réunion",
@@ -543,7 +555,9 @@
                 "el9": ""
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": false
         }
       ]
     },
@@ -622,7 +636,9 @@
                 "el9": "105"
               }
             }
-          ]
+          ],
+          "is_pf": false,
+          "is_nc": true
         },
         {
           "name": "Polynésie Française",
@@ -660,7 +676,9 @@
                 "el9": "744"
               }
             }
-          ]
+          ],
+          "is_pf": true,
+          "is_nc": false
         }
       ]
     }
