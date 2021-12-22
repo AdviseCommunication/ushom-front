@@ -62,6 +62,29 @@ fields:
     template: cta
     label: CTA
   label: Appel à l'action
+- name: resources
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titre
+  - name: item
+    type: field_group
+    config: {}
+    fields:
+    - name: resources
+      type: include
+      config: {}
+      template: cta
+      label: Lien
+    label: Lien
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ressources
 pages:
 - content/activities/ecco-dom.md
 - content/activities/journee-professionnelle.md
