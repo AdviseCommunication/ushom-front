@@ -819,17 +819,17 @@
                 "el2": "N/A",
                 "el3": "100%",
                 "el4": "56",
-                "el5": "Nombre de logement réhabilités 54",
-                "el6": "Nombre de parcelles viabilisées 35",
+                "el5": "X",
+                "el6": "X",
                 "el7": "",
                 "el8": "",
-                "el9": "744",
+                "el9": "X",
                 "z1": "",
                 "z2": "",
-                "z3": "",
-                "z4": "",
-                "z5": "",
-                "z6": ""
+                "z3": "?",
+                "z4": "35",
+                "z5": "54",
+                "z6": "744"
               }
             }
           ],
