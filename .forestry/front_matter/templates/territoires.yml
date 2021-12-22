@@ -108,22 +108,22 @@ fields:
           type: text
           config:
             required: false
-          label: Nombre de résidences au 1er janvier 2021
+          label: Nombre de résidences
         - name: el1
           type: text
           config:
             required: false
-          label: Nombre de logements au 1er janvier 2021
+          label: Nombre de logements
         - name: el2
           type: text
           config:
             required: false
-          label: Capacité d’accueil maximale au 1er janvier 2021
+          label: Capacité d’accueil maximale
         - name: el3
           type: text
           config:
             required: false
-          label: Taux d’occupation du parc social au 1er janvier 2021
+          label: Taux d’occupation du parc social
         - name: el4
           type: text
           config:
@@ -134,32 +134,57 @@ fields:
           type: text
           config:
             required: false
-          label: Nombre de logements PLS construits entre le 1er janvier 2020 et le
-            1er janvier 2021
+          label: Logements PLS construits
         - name: el6
           type: text
           config:
             required: false
-          label: Nombre de logements LLS construits entre le 1er janvier 2020 et le
-            1er janvier 2021
+          label: Logements LLS construits
         - name: el7
           type: text
           config:
             required: false
-          label: Nombre de logements LLTS construits entre le 1er janvier 2020 et
-            le 1er janvier 2021
+          label: Logements LLTS construits
         - name: el8
           type: text
           config:
             required: false
-          label: Nombre de logements en accession sociale construits entre le 1er
-            janvier 2020 et le 1er janvier 2021
+          label: Logements en accession sociale construits
         - name: el9
           type: text
           config:
             required: false
-          label: Nombre de logements en cours de construction ou planifiés pour l’année
-            2021 (entre le 1er janvier 2021 au 1er janvier 2022)
+          label: Logements en cours de construction ou planifiés
+        - name: z1
+          type: text
+          config:
+            required: false
+          label: Logement LLT (spécifique NC)
+        - name: z2
+          type: text
+          config:
+            required: false
+          label: Logement LLA (spécifique NC)
+        - name: z3
+          type: text
+          config:
+            required: false
+          label: Logement construit (spécifique PF)
+        - name: z4
+          type: text
+          config:
+            required: false
+          label: Parcelle viabilisée (spécifique PF)
+        - name: z5
+          type: text
+          config:
+            required: false
+          label: Logement réhabilité (spécifique PF)
+        - name: z6
+          type: text
+          config:
+            required: false
+          label: Logement et parcelle planifiés (spécifique PF)
         label: Données
       config:
         min: 
