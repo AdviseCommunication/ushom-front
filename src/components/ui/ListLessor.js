@@ -2,10 +2,23 @@ import Parser from "html-react-parser"
 
 const specialFields = [0, 5, 6, 11]
 
-const ListBloc = props => {
+const ListLessor = props => {
     if( props.masquer ) {
         return null
     }
+
+    const all = Object.entries(props.guide)
+
+    const moveElement = (array, initialIndex, finalIndex) => {
+        array.splice(finalIndex,0,array.splice(initialIndex,1)[0])
+        return array
+    }
+
+    moveElement(all, 10, 0)
+    moveElement(all, 11, 5)
+    moveElement(all, 12, 11)
+    moveElement(all, 3, 2)
+    moveElement(all, 8, 7)
 
     return (
         <div className={"bg-light bg-opacity-50 shadow-large p-8 space-y-8"}>
@@ -33,16 +46,17 @@ const ListBloc = props => {
                     </a>
                 }
                 <ul className={"w-full grid grid-cols-1 gap-6 md:grid-cols-2"}>
-                    {Object.entries(props.guide).map((elx,x) => (
+                    {all.map((elx,x) => (
                         <li
                             className={[
                                 "flex flex-col",
-                                (specialFields.includes(x) ? "-mx-8 px-8 md:col-span-2" : null),
-                                ((specialFields.includes(x) && x !== 5) ? "uppercase" : null),
-                                ((specialFields.includes(x) && x !== 0 && x !== 6) ? "pt-6 border-black border-opacity-10 border-t" : null),
+                                (specialFields.includes(x) ? "uppercase -mx-8 px-8 md:col-span-2" : null),
+                                ((specialFields.includes(x) && x !== 0) ? "pt-6 border-black border-opacity-10 border-t" : null),
                                 ((x === 5 || x === 11) && props.logo ? "md:-ml-0 md:pl-0" : null),
+                                (x === 6 ? "hidden" : null),
                             ].join(' ')}
                             key={x}
+                            data-x={x}
                         >
                             <span className={"text-2xl"}>
                                 {props.datas[elx[0]] || (specialFields.includes(x) || "-")}
@@ -50,9 +64,7 @@ const ListBloc = props => {
                             <span
                                 className={[
                                     "font-medium md:pr-8 lg:pr-16 xl:pr-32",
-                                    (specialFields.includes(x) ? "underline-offset-1" : "text-primary"),
-                                    ((specialFields.includes(x) && x !== 5) ? "underline -mb-2" : null),
-                                    (x === 5 ? "text-xl -mb-4" : "md:text-sm"),
+                                    (specialFields.includes(x) ? "underline-offset-1 md:text-sm underline -mb-2" : "text-primary"),
                                 ].join(' ')}
                             >
                                 {elx[1]}
@@ -68,4 +80,4 @@ const ListBloc = props => {
     )
 }
 
-export default ListBloc
+export default ListLessor
