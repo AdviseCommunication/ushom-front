@@ -93,7 +93,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Ressources
 pages:
 - content/activities/ecco-dom.md
