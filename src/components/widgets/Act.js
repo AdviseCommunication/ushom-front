@@ -24,7 +24,14 @@ const Act = props => {
                     <Title css={"text-center"}>{Parser(data.title)}</Title>
                 </SlideDown>
                 <motion.ul
-                    className={"flex flex-col space-y-6 md:grid md:grid-cols-2 md:space-y-0 md:gap-6 2xl:grid-cols-4"}
+                    className={[
+                        "flex flex-col space-y-6 grid-cols-1 md:grid md:space-y-0 md:gap-6",
+                        (data.cols === 2 ? "md:grid-cols-2" : null),
+                        (data.cols === 3 ? "md:grid-cols-2 2xl:grid-cols-3" : null),
+                        (data.cols === 4 ? "md:grid-cols-2 2xl:grid-cols-4" : null),
+                        (data.cols === 5 ? "md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5" : null),
+                        (data.cols === 6 ? "md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-6" : null),
+                    ].join(' ')}
                     animate={inView ? "visible" : "hidden"}
                     variants={staggerBigChildrenVariants}
                     ref={ref}

@@ -15,6 +15,10 @@ const Organizational = () => {
         triggerOnce: true,
     })
 
+    if( data.hide === true ) {
+        return null
+    }
+
     return (
         <aside id={"organizational"} className={"py-24"}>
             <Container css={"space-y-16"}>
