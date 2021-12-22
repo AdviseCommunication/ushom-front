@@ -23,6 +23,14 @@ fields:
       name: content
       label: Sous-titre
       description: "<em>Exemple : SPHLM, SEMSAMAR, SIMKO, SIGUY</em>"
+    - name: is_pf
+      type: boolean
+      label: Polynésie
+      description: Activez s'il s'agit de la Polynésie
+    - name: is_nc
+      type: boolean
+      label: Nouvelle-Calédonie
+      description: Activez s'il s'agit de la Nouvelle-Calédonie
     - type: file
       name: map
       label: Carte SVG
