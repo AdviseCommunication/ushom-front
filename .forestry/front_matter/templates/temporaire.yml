@@ -1,0 +1,37 @@
+---
+label: Temporaire
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: items
+  label: items
+  fields:
+  - type: field_group
+    name: img
+    label: img
+    fields:
+    - type: file
+      name: src
+      label: src
+    - type: text
+      name: alt
+      label: alt
+  - type: field_group
+    name: cta
+    label: cta
+    fields:
+    - type: text
+      name: href
+      label: href
+    - type: text
+      name: children
+      label: children
+    - type: boolean
+      name: blank
+      label: blank
+    - type: text
+      name: theme
+      label: theme
