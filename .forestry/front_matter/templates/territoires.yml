@@ -121,6 +121,7 @@ fields:
           config:
             required: false
           label: Nombre de logements construits
+          hidden: true
         - name: el5
           type: text
           config:
