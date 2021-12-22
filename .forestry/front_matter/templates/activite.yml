@@ -70,16 +70,26 @@ fields:
     config:
       required: false
     label: Titre
-  - name: item
-    type: field_group
-    config: {}
-    fields:
-    - name: resources
-      type: include
-      config: {}
-      template: cta
-      label: Lien
-    label: Lien
+  - name: fichier/document
+    type: file
+    config:
+      maxSize: 64
+    label: Fichier/Document
+  - name: url
+    type: text
+    config:
+      required: false
+    label: OU lien
+  - name: children
+    type: text
+    config:
+      required: false
+    label: Libellé
+    description: Libellé de la ressource
+  - name: blank
+    type: boolean
+    label: Nouvel onglet ?
+    description: Ouvrir dans un nouvel onglet ?
   config:
     min: 
     max: 
