@@ -14,6 +14,8 @@ const Activites = ({posts, cats}) => {
     const orderedCats = cats ? cats.sort((a,b) => a.localeCompare(b)) : []
     const [current, setCurrent] = useState(0)
 
+    console.log(posts)
+
     return (
         <Layout>
             <Banner title={text.activities.title} />
@@ -28,6 +30,18 @@ const Activites = ({posts, cats}) => {
                                 <div className={"prose ul-sep-strong"}>
                                     <ReactMarkdown children={post.content} />
                                 </div>
+                                {post.resources?.map((el, x) => (
+                                    <div className={"prose ul-sep-strong"} key={x}>
+                                        <p><strong children={el.title} /></p>
+                                        <ul>
+                                            <li>
+                                                <a href={el.file || el.url} target={el.blank ? "_blank" : null} rel={el.blank ? "noopener noreferrer" : null}>
+                                                    {el.children}
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                ))}
                             </div>
                             {post.cta?.children &&
                                 <div className={"flex-shrink-0 lg:pl-16"}><LinkButton {...post.cta} /></div>

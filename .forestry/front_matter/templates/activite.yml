@@ -70,7 +70,7 @@ fields:
     config:
       required: false
     label: Titre
-  - name: fichier/document
+  - name: file
     type: file
     config:
       maxSize: 64

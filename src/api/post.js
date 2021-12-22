@@ -3,7 +3,7 @@ import { join } from 'path'
 import {getContentBySlug} from "./common"
 
 const postsDirectory = join(process.cwd(), 'content/activities')
-const postsFields = ['title', 'date', 'slug', 'options', 'cta', 'content']
+const postsFields = ['title', 'date', 'slug', 'options', 'cta', 'content', 'resources']
 
 export function getPostSlugs() {
     return fs.readdirSync(postsDirectory)
