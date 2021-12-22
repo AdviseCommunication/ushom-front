@@ -1,4 +1,4 @@
-import data from "../../../content/datas/home-cta.json"
+import source from "../../../content/home.json"
 
 import SlideDown from "../ui/animations/SlideDown"
 import Title from "../ui/Title"
@@ -10,6 +10,8 @@ import {motion} from "framer-motion"
 import {useInView} from "react-intersection-observer"
 
 const HomeCta = () => {
+    const data = source.homeCta || null
+
     const [ref, inView] = useInView({
         trackVisibility: true,
         delay: 500,
