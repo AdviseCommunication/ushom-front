@@ -42,6 +42,7 @@ const HabiterEnOm = () => {
                             <ListLessor
                                 key={bx}
                                 guide={text.habitat.bailleurs}
+                                specific={landlords[active].is_nc ? "nc" : landlords[active].is_pf ? "pf" : null}
                                 {...b}
                             />
                         ))}
