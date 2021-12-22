@@ -74,7 +74,14 @@
       "el9": "Tous logement confondu",
       "el0_title": "Informations générales au 1er janvier 2021",
       "el4_title": "Nombre de logement construit entre le 1er janvier et le 31 décembre 2020",
-      "el9_title": "Nombre de logement planifié à la construction entre le 1er janvier et le 31 décembre 2021"
+      "el9_title": "Nombre de logement planifié à la construction entre le 1er janvier et le 31 décembre 2021",
+      "z1": "Logement LLT",
+      "z2": "Logement LLA",
+      "z3": "Logement construit",
+      "z4": "Parcelle viabilisée",
+      "z5": "Logement réhabilité",
+      "z6": "Nombre de logement et de parcelle planifiés à la construction/viabilisation entre le 1er janvier et le 31 décembre 2021",
+      "z7": "Parcelle et logement confondu"
     },
     "presentationTitle": "Présentation générale de l’habitat social sur le territoire (au 1er janvier 2021)",
     "bailleursTitle": "L’action des bailleurs"
