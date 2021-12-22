@@ -68,6 +68,12 @@ sections:
 - type: document
   path: content/main.json
   label: Paramètres
+- type: heading
+  label: DEV
+- type: document
+  path: content/datas/home-cta.json
+  label: Temporaire
+  match: "**/*"
 upload_dir: public/static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
