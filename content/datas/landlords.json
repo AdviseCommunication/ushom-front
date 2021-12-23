@@ -460,8 +460,8 @@
           "content": "SIM",
           "map": "/static/images/maps/mayotte.svg",
           "gps": {
-            "x": 59,
-            "y": 62
+            "x": null,
+            "y": null
           },
           "presentation": {
             "el0": "376 km2",
