@@ -30,7 +30,7 @@ resources:
     des politiques de l'habitat en partenariat avec l'association des maires de la
     Martinique
   file: ''
-  url: ''
+  url: "/static/uploads/programme-seminaire-territorialisation-martinique-derniere-version.pdf"
   children: Consulter le programme
   blank: false
 - title: ''
