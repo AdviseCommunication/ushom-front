@@ -23,7 +23,7 @@ resources:
 - title: Séminaire du 08 juillet 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec la Collectivité Territoriale de Saint-Martin
   file: ''
-  url: ''
+  url: "/static/uploads/programme-seminaire-politique-habitat-saint-martin.pdf"
   children: Consulter le programme
   blank: false
 - title: ''
