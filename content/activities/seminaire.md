@@ -26,10 +26,12 @@ resources:
   url: "/static/uploads/programme-seminaire-politique-habitat-saint-martin.pdf"
   children: Consulter le programme
   blank: false
-- title: ''
+- title: Séminaire du 07 juillet septembre 2022 portant sur la territorialisation
+    des politiques de l'habitat en partenariat avec l'association des maires de la
+    Martinique
   file: ''
   url: ''
-  children: ''
+  children: Consulter le programme
   blank: false
 - title: ''
   file: ''
