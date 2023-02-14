@@ -1,5 +1,5 @@
 {
-  "title": "Organigramme",
+  "title": "La Direction de l'USHOM",
   "items": [
     {
       "title": "François Caillé",
@@ -10,12 +10,7 @@
       "title": "Sabrina Mathiot",
       "jobtitle": "Directrice de l'USHOM",
       "photo": "/static/uploads/dsc_6154-ca-passeport-format-numerique-1200x1600-px.jpg"
-    },
-    {
-      "title": "Arthur Parent",
-      "jobtitle": "Chef de projet",
-      "photo": "/static/uploads/arthur-parent.jpg"
     }
   ],
-  "hide": true
+  "hide": false
 }

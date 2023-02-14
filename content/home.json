@@ -21,7 +21,7 @@
     "theme": ""
   },
   "features": {
-    "title": "En 2020, le logement social en Outre-mer c'est :",
+    "title": "En 2022, le logement social en Outre-mer c'est :",
     "items": [
       {
         "content": "80 % de la population ultramarine éligible à un logement social dont 70 % à un logement très social ",
@@ -29,7 +29,7 @@
         "source": "(source: Rapport de la cour des comptes, sept. 2020)"
       },
       {
-        "content": "Un parc de plus de 160 300 logements sociaux",
+        "content": "Un parc de plus de 193 238 logements sociaux",
         "icon": "/static/images/086-home.svg",
         "source": ""
       },
@@ -41,7 +41,7 @@
     ]
   },
   "territories": {
-    "title": "Et aussi des rencontres régulières au plus près des territoires"
+    "title": "Et aussi des rencontres régulières au plus près des acteurs sur les territoires"
   },
   "seo": {
     "title": "Union Sociale pour l'Habitat Outre-Mer",
@@ -56,12 +56,12 @@
           "alt": ""
         },
         "cta": {
-          "href": "/",
-          "children": "Colloque annuel",
+          "href": "Evènements/",
+          "children": "Colloque du logement social ultramarin",
           "blank": false,
           "theme": "wide"
         },
-        "libelle": "Colloque annuel"
+        "libelle": "Colloque du logement social ultramarin"
       },
       {
         "img": {
@@ -69,12 +69,12 @@
           "alt": ""
         },
         "cta": {
-          "href": "/",
-          "children": "Dîners-Débats",
+          "href": "Activité/",
+          "children": "Séminaires - Webinaires",
           "blank": false,
           "theme": "wide"
         },
-        "libelle": "Dîners-Débats"
+        "libelle": "Séminaires - Webinaires"
       }
     ]
   }
