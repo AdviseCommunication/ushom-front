@@ -56,12 +56,12 @@
           "alt": ""
         },
         "cta": {
-          "href": "/",
-          "children": "Colloque annuel",
+          "href": "Evènement/",
+          "children": "Colloque du logement social en Outre-mer",
           "blank": false,
           "theme": "wide"
         },
-        "libelle": "Colloque annuel"
+        "libelle": "Colloque du logement social en Outre-mer"
       },
       {
         "img": {
