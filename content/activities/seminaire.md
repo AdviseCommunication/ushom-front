@@ -36,8 +36,8 @@ resources:
 - title: Séminaire du 27 juin 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec l'association des maires de la Réunion
   file: ''
-  url: ''
-  children: ''
+  url: "/static/uploads/programme-seminaire-territorialisation-reunion-vf.pdf"
+  children: Consulter le programme
   blank: false
 
 ---
