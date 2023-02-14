@@ -17,7 +17,7 @@ resources:
 - title: Séminaire du 15 septembre 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec l'association des maires de la Guadeloupe
   file: ''
-  url: ''
+  url: "/static/uploads/programme-seminaire-sur-la-territorialisation-des-politiques-de-l-habitat-en-guadeloupe.pdf"
   children: Consulter le programme
   blank: false
 - title: ''
