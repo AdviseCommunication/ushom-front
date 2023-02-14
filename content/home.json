@@ -69,12 +69,12 @@
           "alt": ""
         },
         "cta": {
-          "href": "/",
-          "children": "Dîners-Débats",
+          "href": "Activités/",
+          "children": "Séminaires et Webinaires",
           "blank": false,
           "theme": "wide"
         },
-        "libelle": "Dîners-Débats"
+        "libelle": "Séminaires et Webinaires"
       }
     ]
   }
