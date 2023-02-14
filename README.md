@@ -1,4 +1,4 @@
-# Next.js Tailwind starter
+# Next.js starter
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -29,3 +29,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deploy on Netlify
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a57795ac-d29b-4de4-89ff-40bbb319c15e/deploy-status)](https://app.netlify.com/sites/ushom/deploys)
+
