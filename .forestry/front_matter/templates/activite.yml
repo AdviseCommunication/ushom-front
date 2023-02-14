@@ -97,7 +97,6 @@ fields:
   label: Ressources
 pages:
 - content/activities/ecco-dom.md
-- content/activities/journee-professionnelle.md
 - content/activities/la-plateforme-collaborative.md
 - content/activities/mooc-amiante.md
 - content/activities/projet-hom.md
