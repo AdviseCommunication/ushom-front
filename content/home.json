@@ -48,7 +48,7 @@
     "description": "L'USHOM est une organisation professionnelle fédérant les organismes de logements sociaux des départements et régions d'Outre-mer y compris de la Polynésie-Française, de la Nouvelle-Calédonie, de Saint-Martin et de Saint-Pierre et Miquelon."
   },
   "homeCta": {
-    "title": "Organiser des temps d’échanges pour réunir l’ensemble des acteurs locaux",
+    "title": "Organiser des temps d’échanges pour réunir l’ensemble des acteurs concourant au développement du logement social en Outre-mer",
     "items": [
       {
         "img": {
@@ -56,7 +56,7 @@
           "alt": ""
         },
         "cta": {
-          "href": "Evènements/",
+          "href": "Evènements",
           "children": "Colloque du logement social en Outre-mer",
           "blank": false,
           "theme": "wide"
