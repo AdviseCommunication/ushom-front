@@ -25,4 +25,4 @@ A l’issue de cette demi-journée de travail riche, les propositions concrètes
 ![](/static/uploads/imgp7787.JPG)
 
 * [Consulter le programme ](/static/uploads/programme-colloque-26-09-2022.pdf)
-* [Consulter l'emag]()
+* [Consulter l'emag](https://issuu.com/oceindia/docs/omgn13)
