@@ -30,13 +30,13 @@ resources:
     de l'habitat en partenariat avec l'association des maires de la Martinique
   file: ''
   url: "/static/uploads/programme-seminaire-territorialisation-martinique-derniere-version.pdf"
-  children: Consulter le programme
-  blank: false
+  children: Consulter le programme de l'évènement
+  blank: true
 - title: Séminaire du 27 juin 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec l'association des maires de la Réunion
   file: ''
   url: "/static/uploads/programme-seminaire-territorialisation-reunion-vf.pdf"
-  children: Consulter le programme
-  blank: false
+  children: Consulter le programme de l'évènement
+  blank: true
 
 ---
