@@ -11,7 +11,7 @@ resources:
 - title: Webinaire du 20 juin 2022 portant sur le numérique au service du logement
     social
   file: "/static/uploads/programme-definitif-webinaire-le-numerique-au-service-du-logement-social.pdf"
-  children: Consulter le programme de l'événement
+  children: Consulter le programme de l'évènement
   blank: true
 
 ---
