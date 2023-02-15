@@ -1,5 +1,5 @@
 ---
-date: 2021-12-15T01:21
+date: 2021-09-26T01:21
 title: 2021.09.27 - L’USHOM organise son colloque sur le thème « Le logement social
   ultramarin au centre des enjeux économiques, sociaux et du changement climatique
   »
