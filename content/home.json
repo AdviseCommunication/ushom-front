@@ -69,7 +69,7 @@
           "alt": ""
         },
         "cta": {
-          "href": " Activités /",
+          "href": "https://ushom.netlify.app/activites",
           "children": "Séminaires et Webinaires",
           "blank": false,
           "theme": "wide"
