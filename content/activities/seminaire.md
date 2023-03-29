@@ -18,13 +18,13 @@ resources:
     de l'habitat en partenariat avec l'association des maires de la Guadeloupe
   file: ''
   url: "/static/uploads/programme-seminaire-sur-la-territorialisation-des-politiques-de-l-habitat-en-guadeloupe.pdf"
-  children: Consulter le programme de l'évènement
+  children: 'Consulter le programme de l''évènement '
   blank: true
 - title: Séminaire du 08 juillet 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec la Collectivité Territoriale de Saint-Martin
   file: ''
   url: "/static/uploads/programme-seminaire-politique-habitat-saint-martin.pdf"
-  children: Consulter le programme de l'évènement
+  children: 'Consulter le programme de l''évènement '
   blank: true
 - title: Séminaire du 07 juillet 2022 portant sur la territorialisation des politiques
     de l'habitat en partenariat avec l'association des maires de la Martinique

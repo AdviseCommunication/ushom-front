@@ -56,7 +56,7 @@
           "alt": ""
         },
         "cta": {
-          "href": "Évènements /",
+          "href": "https://ushom.netlify.app/evenements",
           "children": "Colloque du logement social en Outre-mer",
           "blank": false,
           "theme": "wide"
@@ -69,7 +69,7 @@
           "alt": ""
         },
         "cta": {
-          "href": " Activités /",
+          "href": "https://ushom.netlify.app/activites",
           "children": "Séminaires et Webinaires",
           "blank": false,
           "theme": "wide"
