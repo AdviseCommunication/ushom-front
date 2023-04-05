@@ -12,5 +12,6 @@
       "photo": "/static/uploads/dsc_6154-ca-passeport-format-numerique-1200x1600-px.jpg"
     }
   ],
-  "hide": false
+  "hide": false,
+  "_template": "organigramme"
 }

@@ -1,11 +1,9 @@
 @layer utilities {
-    @variants responsive {
-        .cursor-close {
-            cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOS43OTkiIGhlaWdodD0iMTkuNzk5IiB2aWV3Qm94PSIwIDAgMTkuNzk5IDE5Ljc5OSI+DQogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzI3LjAyOSAtMjI4LjI0MikiPg0KICAgIDxsaW5lIHkyPSIyMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTMyOS44NTcgMjMxLjA3KSByb3RhdGUoLTQ1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQogICAgPGxpbmUgeTI9IjIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzQ0IDIzMS4wNykgcm90YXRlKDQ1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQogIDwvZz4NCjwvc3ZnPg0K"), pointer;
-        }
+    .cursor-close {
+        cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOS43OTkiIGhlaWdodD0iMTkuNzk5IiB2aWV3Qm94PSIwIDAgMTkuNzk5IDE5Ljc5OSI+DQogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzI3LjAyOSAtMjI4LjI0MikiPg0KICAgIDxsaW5lIHkyPSIyMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTMyOS44NTcgMjMxLjA3KSByb3RhdGUoLTQ1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQogICAgPGxpbmUgeTI9IjIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzQ0IDIzMS4wNykgcm90YXRlKDQ1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI0Ii8+DQogIDwvZz4NCjwvc3ZnPg0K"), pointer;
+    }
 
-        .cursor-scroll {
-            cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTEgNmgtNGw1LTYgNSA2aC00djNoLTJ2LTN6bTIgOWgtMnYzaC00bDUgNiA1LTZoLTR2LTN6bTYtNGgtMTR2MmgxNHYtMnoiLz48L3N2Zz4="), pointer;
-        }
+    .cursor-scroll {
+        cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTEgNmgtNGw1LTYgNSA2aC00djNoLTJ2LTN6bTIgOWgtMnYzaC00bDUgNiA1LTZoLTR2LTN6bTYtNGgtMTR2MmgxNHYtMnoiLz48L3N2Zz4="), pointer;
     }
 }

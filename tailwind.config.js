@@ -3,7 +3,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [
+  content: [
     './content/**/*.{json,md,mdx}',
     './pages/**/*.js',
     './src/**/*.{js,svg}',

@@ -5,49 +5,37 @@
         "label": "Qui sommes-nous ?",
         "url": "/qui-sommes-nous",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "L'habitat social ultramarin",
         "url": "/habiter-en-om",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "Nos activités",
         "url": "/activites",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "Nos évènements",
         "url": "/evenements",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "Actualités",
         "url": "/dossiers",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "Contact",
         "url": "/contact",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       }
     ]
   },
@@ -57,25 +45,19 @@
         "label": "Contact",
         "url": "/contact",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "label": "Mentions légales",
         "url": "/mentions-legales",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "url": "/politique-confidentialite",
         "label": "Politique de confidentialité",
         "blank": false,
-        "items": [
-
-        ]
+        "items": []
       }
     ]
   },
@@ -86,18 +68,14 @@
         "label": "Facebook",
         "url": "https://www.facebook.com/",
         "blank": true,
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "icon": "/static/uploads/twitter.svg",
         "label": "Twitter",
         "url": "https://twitter.com/",
         "blank": true,
-        "items": [
-
-        ]
+        "items": []
       }
     ]
   },
@@ -107,5 +85,6 @@
     "children": "Espace Membres",
     "blank": true,
     "theme": "wide"
-  }
+  },
+  "_template": "menu"
 }

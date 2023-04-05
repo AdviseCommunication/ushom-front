@@ -41,5 +41,6 @@
       ]
     }
   ],
-  "cols": 3
+  "cols": 3,
+  "_template": "agir"
 }

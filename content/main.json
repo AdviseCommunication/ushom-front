@@ -91,5 +91,6 @@
   },
   "events": {
     "title": "Nos évènements"
-  }
+  },
+  "_template": "parametres"
 }

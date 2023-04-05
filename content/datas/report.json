@@ -11,5 +11,6 @@
     "children": "Télécharger",
     "blank": true,
     "theme": "primary"
-  }
+  },
+  "_template": "rapport_activite"
 }

@@ -6,13 +6,11 @@
 }
 
 @layer utilities {
-    @variants responsive {
-        .scroll-smooth {
-            scroll-behavior: smooth;
-        }
-        .shadow-r-screen {
-            box-shadow: 500px 0 0 0 currentColor, 1000px 0 0 0 currentColor, 1500px 0 0 0 currentColor, 2000px 0 0 0 currentColor;
-        }
+    .scroll-smooth {
+        scroll-behavior: smooth;
+    }
+    .shadow-r-screen {
+        box-shadow: 500px 0 0 0 currentColor, 1000px 0 0 0 currentColor, 1500px 0 0 0 currentColor, 2000px 0 0 0 currentColor;
     }
 }
 

@@ -1,18 +1,20 @@
 ---
-date: 2021-09-26T01:21
-title: 2021.09.27 - L’USHOM organise son colloque sur le thème « Le logement social
-  ultramarin au centre des enjeux économiques, sociaux et du changement climatique
-  »
+date: '2021-09-26T01:21'
+title: >-
+  2021.09.27 - L’USHOM organise son colloque sur le thème « Le logement social
+  ultramarin au centre des enjeux économiques, sociaux et du changement
+  climatique »
 preview: ''
-banner: "/static/uploads/photo-de-groupe.png"
+banner: /static/uploads/photo-de-groupe.png
 options:
   use_banner: false
   private: false
 seo:
   title: ''
   description: ''
-
+_template: dossier
 ---
+
 L’USHOM (Union Sociale pour l’Habitat Outre-Mer), en partenariat avec Interco’Outre-mer et l’ACCD’OM, a organisé le lundi 27 septembre 2021 au Palais du Luxembourg un colloque associant pour la première fois plus de dix territoires d’Outre-mer sous l’égide de Monsieur le Vice-Président du Sénat, Georges Patient, sur le thème « Le logement social ultramarin au centre des enjeux économiques, sociaux et du changement climatique ».
 
 Cet évènement a permis de réunir, le temps d’un après-midi, plus de 180 personnes - Parlementaires, élus, représentants de l’Etat central et déconcentré, bailleurs sociaux, acteurs du secteur, société civile - concourant au déploiement des politiques publiques de l’habitat ultramarin, qui ont tous pu s’exprimer pour faire émerger des propositions concrètes fondées sur l’expérience collective et définir ensemble le logement social ultramarin de demain.

@@ -1,17 +1,13 @@
 @layer utilities {
-    @variants responsive {
-        @variants hover, focus {
-            .grayscale {
-                filter: grayscale(1);
-            }
+    .grayscale {
+        filter: grayscale(1);
+    }
 
-            .filter-white {
-                filter: brightness(0) invert(1);
-            }
+    .filter-white {
+        filter: brightness(0) invert(1);
+    }
 
-            .filter-none {
-                filter: none;
-            }
-        }
+    .filter-none {
+        filter: none;
     }
 }

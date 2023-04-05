@@ -77,5 +77,6 @@
         "libelle": "Séminaires et Webinaires"
       }
     ]
-  }
+  },
+  "_template": "accueil"
 }

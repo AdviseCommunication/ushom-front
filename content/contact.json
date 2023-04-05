@@ -33,5 +33,6 @@
   "seo": {
     "title": "Contacter l'USHOM",
     "description": "Formulaire de contact USHOM"
-  }
+  },
+  "_template": "contact"
 }
